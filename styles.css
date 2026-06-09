@@ -181,3 +181,19 @@
 .year-note{
   color:var(--muted);
 }
+
+.previous-year-box{
+  border-left:4px solid #8c6f9f;
+  background:rgba(140,111,159,.06);
+}
+
+.year-note{
+  color:var(--muted);
+  font-weight:700;
+  margin-bottom:12px;
+}
+
+#previousYearText,
+#previousYearPeriod{
+  white-space:pre-line;
+}

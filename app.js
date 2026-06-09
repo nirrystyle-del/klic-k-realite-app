@@ -57,6 +57,9 @@
  const yearNumber = $("yearNumber");
  const yearSubtitle = $("yearSubtitle");
  const yearText = $("yearText");
+  const previousYearTitle = $("previousYearTitle");
+  const previousYearPeriod = $("previousYearPeriod");
+  const previousYearText = $("previousYearText");
 
  const guideInput = $("guideInput");
  const guideAnswer = $("guideAnswer");
@@ -365,6 +368,23 @@
  setText(yearNumber, forecast.yearEnergy);
  setText(yearSubtitle, `Osobní číslo roku ${forecast.yearEnergy}`);
  setText(yearText, yearly);
+
+    try {
+      const currentCalendarYear = new Date().getFullYear();
+      const previousCalendarYear = currentCalendarYear - 1;
+      const birthdayThisYear = getBirthdayDate(profile, currentCalendarYear);
+      const previousYearEnergy = calcYearEnergyFromProfile(profile, previousCalendarYear);
+      const previousYearly = getYearlyText(previousYearEnergy);
+
+      setText(previousYearTitle, `Předchozí osobní rok ${previousCalendarYear}, číslo ${previousYearEnergy}`);
+      setText(previousYearPeriod, `Tato energie dobíhá do vašich narozenin v roce ${currentCalendarYear}, tedy do ${formatCzechDate(birthdayThisYear)}.`);
+      setText(previousYearText, previousYearly);
+    } catch (e) {
+      console.warn("Previous year render failed", e);
+      setText(previousYearTitle, "Předchozí osobní rok");
+      setText(previousYearPeriod, "");
+      setText(previousYearText, "");
+    }
  }
 
  function isValidDate(day, month, year) {
