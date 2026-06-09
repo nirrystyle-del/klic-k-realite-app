@@ -1,11 +1,12 @@
-# Klíč k realitě - Mini App starter v16 profile fix
+# Klíč k realitě, Mini App starter v17 dash clean
 
 Oprava:
-- profil se ukládá nejdřív lokálně, takže se musí uložit i při problému se Supabase
-- po uložení profilu se automaticky aktivuje testovací přístup a otevře se Dnes
-- cache busting změněný na ?v=16
+- z denních výkladů jsou odstraněné dlouhé pomlčky
+- dlouhé pomlčky jsou nahrazené jemnější interpunkcí
+- obsah výkladů nebyl přepisován, šlo o technické vyčištění textu
+- cache busting změněný na ?v=17
+- zůstává oprava profilu z v16
 - zůstává 22 denních energií
-- zůstává struktura Dnes podle výkladu
 
 Файлы для загрузки в GitHub:
 - index.html
