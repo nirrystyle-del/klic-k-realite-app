@@ -496,25 +496,25 @@ window.FORECAST_TEXTS={
  },
  "9": {
  "1": {
- "intro": "Události v pozitivním projevu\nVám se dostane úspěchu v individuálních projektech a ve Vašem duchovním rozvoji. Také můžete odemknout své extrasenzitivní schopnosti a dosáhnout úspěchu v ezoterice. Ještě v tomto období je obzvláště důležité pomáhat starší generaci, svým rodičům 🙌\nUdálosti v negativním projevu\nHrozí psychologická nebo fyzická ztráta blízkých osob, dočasná izolace způsobená nemocemi. Může dojít k nezaměstnanosti, nedostatku komunikace a asociálnímu životnímu stylu. Mohou se zrušit jakékoli projekty směřující k partnerství. Je lepší pracovat na sobě, protože nikdo Vám nepomůže, není na koho se spolehnout ❌",
- "positive": "",
- "negative": "",
+ "intro": "",
+ "positive": "Vám se dostane úspěchu v individuálních projektech a ve Vašem duchovním rozvoji. Také můžete odemknout své extrasenzitivní schopnosti a dosáhnout úspěchu v ezoterice. Ještě v tomto období je obzvláště důležité pomáhat starší generaci, svým rodičům 🙌",
+ "negative": "Hrozí psychologická nebo fyzická ztráta blízkých osob, dočasná izolace způsobená nemocemi. Může dojít k nezaměstnanosti, nedostatku komunikace a asociálnímu životnímu stylu. Mohou se zrušit jakékoli projekty směřující k partnerství. Je lepší pracovat na sobě, protože nikdo Vám nepomůže, není na koho se spolehnout ❌",
  "finance": "Je to nejlepší čas začít pracovat na sobě, případně požádat vedení o individuální projekt 🔥\nTaké mějte na paměti: před zahájením jakékoli práce v tomto měsíci si to dobře rozmyslete.\nKromě toho není vhodné dávat nevyžádané rady. Buďte moudří a trpěliví. Vnímejte život jako příležitost, nikoli jako omezení 🙌\nA ano, pokud jste byli pochváleni, není důvod dívat se na ostatní shovívavě a domnívat se, že jste chytřejší 🙏",
  "relationships": "V tomto měsíci věnujte partnerovi zvýšenou důvěru, učte se s ním chápat se navzájem beze slov a být v harmonii, když jste o samotě 💑\nTaké se pravděpodobně objeví touha nastavit osobní hranice. Pokud zatím nejste ve vztahu, je to nejlepší období pro vychutnávání svobody a čas pro sebe. Věnujte tento čas naplnění svých přání, pracujte na svých komplexech a trávíte více času se svými přítelkyněmi 🙌",
  "health": "Je to nejlepší čas, abyste se věnovali svému zdraví! Proveďte kompletní kontrolu organismu a neodkládejte léčbu, pokud Vás něco trápí 🏥\nTaké není vhodné brát si vše příliš k srdci a vnímat bolest druhých jako svou vlastní. Věnujte čas péči o své vlasy, navštivte kosmetičku. A pokud jste šťastným rodičem, věnujte pozornost zdraví svých dětí, protože v tomto měsíci není vyloučeno, že onemocní 🙏"
  },
  "2": {
- "intro": "Události v pozitivním projevu\nPokud jste již dlouho chtěli vyzkoušet sebe v ezoterice, nyní je ten pravý čas. Vyzkoušejte se v nové oblasti a pocítíte, jak Vám to sedne.\nTaké Vás čeká úspěch v duchovním rozvoji, proto se pusťte do toho! A věnujte více času svým rodičům, to Vás velmi sblíží 🙌\nUdálosti v negativním projevu\nHrozí riziko zůstat bez práce, začít vést asociální životní styl a zkazit vztahy s blízkými. Pracovní záležitosti, projekty a partnerství se mohou rozpadnout. Také může přetrvávat pocit, že na koho se spolehnout není ❌",
- "positive": "",
- "negative": "",
+ "intro": "",
+ "positive": "Pokud jste již dlouho chtěli vyzkoušet sebe v ezoterice, nyní je ten pravý čas. Vyzkoušejte se v nové oblasti a pocítíte, jak Vám to sedne.\nTaké Vás čeká úspěch v duchovním rozvoji, proto se pusťte do toho! A věnujte více času svým rodičům, to Vás velmi sblíží 🙌",
+ "negative": "Hrozí riziko zůstat bez práce, začít vést asociální životní styl a zkazit vztahy s blízkými. Pracovní záležitosti, projekty a partnerství se mohou rozpadnout. Také může přetrvávat pocit, že na koho se spolehnout není ❌",
  "finance": "Nyní je nejvhodnější čas ukázat Váš profesionální přístup. Pokud pracujete na plný úvazek, požádejte svého nadřízeného, aby Vám přidělil individuální projekt nebo úkol, máte šanci se prosadit 🔥\nMějte také na paměti, že je třeba projevovat moudrost a trpělivost. Pokud Vás o radu nepožádají, nedávejte ji.\nA ano, pokud cítíte ve svém nitru nadměrnou pýchu, je třeba ji zkrotit. Domnívat se, že jste chytřejší než ostatní, pokud jste byli pochváleni, není správné 🙏",
  "relationships": "Pokud jste zatím sami, neuspěchejte to, vychutnávejte si svobodu a věnujte čas sobě. Zabývejte se sebepoznáním, naplňujte svá přání, trávíte více času s přáteli a komunikujte.\nA pokud jste ve vztahu, snažte se ještě více důvěřovat svému partnerovi a budovat harmonické vztahy 💑",
  "health": "Pokud se u někoho z Vašeho okolí stane nepříjemná situace, snažte se ji nebrat příliš osobně, jinak to může ovlivnit Vaše zdraví.\nVěnujte zvýšenou pozornost svému zdraví, bylo by skvělé, kdybyste absolvovali kompletní kontrolu organismu 🏥\nA pokud máte děti, dávejte pozor na jejich zdraví, neboť existuje pravděpodobnost, že v tomto měsíci mohou onemocnět 🙏"
  },
  "3": {
- "intro": "Události v pozitivním projevu\nPokud jste již dlouho chtěli spustit svůj projekt, podnik nebo se ponořit do duchovnosti, nyní je to ten pravý čas začít. Nebojte se ničeho a jednejte rozhodně!\nJeště v tomto měsíci se u Vás mohou projevit extrasenzitivní schopnosti. Pokud je budete rozvíjet, můžete dosáhnout úspěchu.\nNezapomínejte častěji navštěvovat starší příbuzné a rodiče. Pokud takovou možnost nemáte, alespoň se s nimi více spojte telefonicky 🙌\nUdálosti v negativním projevu\nExistuje pravděpodobnost, že Vás v tomto měsíci čeká řada nemocí, nezaměstnanost a nedostatek komunikace s lidmi. Mohou se také zrušit naplánované projekty a objevit se nedorozumění s blízkými osobami ❌",
- "positive": "",
- "negative": "",
+ "intro": "",
+ "positive": "Pokud jste již dlouho chtěli spustit svůj projekt, podnik nebo se ponořit do duchovnosti, nyní je to ten pravý čas začít. Nebojte se ničeho a jednejte rozhodně!\nJeště v tomto měsíci se u Vás mohou projevit extrasenzitivní schopnosti. Pokud je budete rozvíjet, můžete dosáhnout úspěchu.\nNezapomínejte častěji navštěvovat starší příbuzné a rodiče. Pokud takovou možnost nemáte, alespoň se s nimi více spojte telefonicky 🙌",
+ "negative": "Existuje pravděpodobnost, že Vás v tomto měsíci čeká řada nemocí, nezaměstnanost a nedostatek komunikace s lidmi. Mohou se také zrušit naplánované projekty a objevit se nedorozumění s blízkými osobami ❌",
  "finance": "Hlavní lekcí tohoto měsíce je nemyslet si, že jste chytřejší než ostatní.\nPokud jste zaměstnáni, požádejte svého nadřízeného o individuální úkol či projekt. Pokud jej úspěšně splníte, je pravděpodobné, že Vám to pomůže postoupit po kariérním žebříčku 🔥\nA ano, vnímejte život jako příležitost, nikoli jako omezení, takový přístup zajistí Váš nevyhnutelný růst 🙌",
  "relationships": "Naučte se budovat harmonické vztahy s partnerem: snažte se ho slyšet a naslouchat, přistupujte k němu s pochopením a důvěrou 🤗\nA pokud zatím nemáte partnera, užívejte si vše, co se ve Vašem životě děje.\nPlňte si svá přání, pracujte na svých slabostech a proměňte je v silné stránky 🙌",
  "health": "Pokud jste dosud nevěnovali dostatečnou pozornost svému zdraví, je čas to změnit. Navštivte nemocnici, nechte se vyšetřit a pokud Vás něco trápí, neodkládejte léčbu 🏥\nA pokud máte děti, věnujte jim rovněž zvýšenou péči, existuje riziko, že jejich imunitní systém oslabne a onemocní 🙏"
@@ -522,25 +522,25 @@ window.FORECAST_TEXTS={
  },
  "10": {
  "1": {
- "intro": "Události v pozitivním projevu 🙌\nVás čeká úspěch ve finanční oblasti: výhry, výhodné obchody, splacení dluhů, příliv peněz. Úspěch v obchodování, při získávání úvěrů, zisk, výhodný nákup a prodej. Časté stěhování, včetně zahraničních přesunů.\nUdálosti v negativním projevu\nOdliv peněz, velké finanční dluhy, ztráty, krádeže, „zamrzlé“ finance, krach podniku. Vše se zpomaluje, život jakoby se zastavoval.",
- "positive": "",
- "negative": "",
+ "intro": "",
+ "positive": "Vás čeká úspěch ve finanční oblasti: výhry, výhodné obchody, splacení dluhů, příliv peněz. Úspěch v obchodování, při získávání úvěrů, zisk, výhodný nákup a prodej. Časté stěhování, včetně zahraničních přesunů.",
+ "negative": "Odliv peněz, velké finanční dluhy, ztráty, krádeže, „zamrzlé“ finance, krach podniku. Vše se zpomaluje, život jakoby se zastavoval.",
  "finance": "Je na čase přehodnotit Váš rozvrh, měl by být co nejvíce flexibilní a přizpůsobený Vašim potřebám. Nejlepším řešením bude nečekaně si vzít dovolenou a svěřit všechny nedokončené záležitosti kolegovi.\nPamatujte, že nadměrná kontrola nezabrání chybám.\nToto je vhodné období požádat o zvýšení platu. Pokud podnikáte, zvažte spuštění nového projektu, úspěch je zaručen.",
  "relationships": "Bude se Vám chtít vznášet nad zemí, cítit lehkost a bezstarostnost, zapomenout na každodenní rutinu a jednoduše vyzařovat radost. Objeví se touha nečekaně odjet na daleké mořské pobřeží.\nVáš šarm může přilákat nová setkání a lehký flirt se může proměnit buď v úspěšný a pevný vztah, nebo v krátkodobý romantický pobyt.\nPokud již jste ve vztahu, tento měsíc se stanete inspirací a múzou pro svého partnera, čímž posunete Váš vztah na novou úroveň.\nZařiďte romantické večeře a vymýšlejte zajímavé nápady pro společné trávení času.",
  "health": "I těm nejšťastnějším se mohou vyskytnout zdravotní problémy.\nVěnujte pozornost sezónnosti: pokud je teplo, nesedejte dlouho před klimatizací, a pokud je chladno, oblékajte se tepleji, jinak by mohly vzniknout potíže s dýcháním.\nTaké se vyvarujte nadměrné konzumace nápojů, což by mohlo vést k zadržování tekutin a problémům s trávicím systémem.\nSnažte se nepřesedávat, abyste se vyhnuli vzniku křečových žil."
  },
  "2": {
- "intro": "Události v pozitivním projevu 🙌\nVše, co se týká financí, bude probíhat úspěšně. Existuje šance vyhrát peníze nebo cennosti, uzavřít výhodné obchody, získat splacení dluhů, zvýšit příjem atd.\nPokud jste již dlouho chtěli něco koupit nebo prodat, pusťte se do toho!\nTaké je pravděpodobné, že se uskuteční častá stěhování, včetně přesunů do zahraničí.\nUdálosti v negativním projevu\nVšechny procesy se mohou zastavit: ztráta peněz, dluhy, krach podniku.",
- "positive": "",
- "negative": "",
+ "intro": "",
+ "positive": "Vše, co se týká financí, bude probíhat úspěšně. Existuje šance vyhrát peníze nebo cennosti, uzavřít výhodné obchody, získat splacení dluhů, zvýšit příjem atd.\nPokud jste již dlouho chtěli něco koupit nebo prodat, pusťte se do toho!\nTaké je pravděpodobné, že se uskuteční častá stěhování, včetně přesunů do zahraničí.",
+ "negative": "Všechny procesy se mohou zastavit: ztráta peněz, dluhy, krach podniku.",
  "finance": "Je čas zamyslet se nad odpočinkem. Nejlepším řešením bude upravit Váš rozvrh a vzít si alespoň týden dovolené, to Vám dodá sílu pro důležité záležitosti.\nPokud pracujete na plný úvazek a toužíte po povýšení, nyní je vhodný čas to projednat se svým nadřízeným.\nPokud plánujete zahájit vlastní podnikání, udělejte první kroky.",
  "relationships": "Staňte se pro svého partnera opravdovou múzou a připravte příjemná překvapení.\nPokud jste sami, buďte otevřeni novým setkáním, která by mohla vést k vážnému vztahu.",
  "health": "Neexperimentujte s nápoji, abyste se vyhnuli problémům s trávicím traktem.\nVíce se hýbejte, oblékajte se podle počasí a vyhýbejte se dlouhému sezení na jednom místě."
  },
  "3": {
- "intro": "Události v pozitivním projevu 🙌\nMěsíc bude velmi úspěšný: pokud prodáváte nějaké zboží, čeká Vás úspěch v obchodě. Také je možnost něco vyhrát, zvýšit svůj příjem nebo výhodně něco koupit či prodat. Celkově bude dostatek pozitivních emocí. 🙌\nUdálosti v negativním projevu\nV tomto měsíci je riziko ztráty peněz, zadlužení nebo neúspěchu v podnikání.",
- "positive": "",
- "negative": "",
+ "intro": "",
+ "positive": "Měsíc bude velmi úspěšný: pokud prodáváte nějaké zboží, čeká Vás úspěch v obchodě. Také je možnost něco vyhrát, zvýšit svůj příjem nebo výhodně něco koupit či prodat. Celkově bude dostatek pozitivních emocí. 🙌",
+ "negative": "V tomto měsíci je riziko ztráty peněz, zadlužení nebo neúspěchu v podnikání.",
  "finance": "Přiznejte si, že jste už dlouho pořádně neodpočívala. Vezměte si týden volna, někam vyrazte nebo stravte čas o samotě. To Vás naplní energií a dodá sílu k dalším krokům.\nA ano, přehnaná kontrola nikam nevede. Jakmile si odpočinete, můžete uvažovat o spuštění vlastního podnikání nebo požádat v práci o vyšší pozici. 🙌",
  "relationships": "Lehkost, naplněnost a radost, to jsou stavy, které budete tento měsíc prožívat. 🤍\nPokud jste sama, očekávejte zajímavá seznámení, která mohou vést k něčemu velmi vážnému.\nA pokud jste ve vztahu, věnujte svému partnerovi maximum času a pozornosti. Uvidíte, že se váš vztah ještě více upevní. 💑",
  "health": "Oblékejte se podle počasí: pokud je chladno, noste teplé oblečení a nesedejte si pod klimatizaci, jinak můžete snadno onemocnět. 😔\nHýbejte se více: běhejte, choďte. Hlavně nesedejte na jednom místě, abyste si nezpůsobila křečové žíly. 🙌"
@@ -548,25 +548,25 @@ window.FORECAST_TEXTS={
  },
  "11": {
  "1": {
- "intro": "Události v pozitivním projevu 🙌✨:\nČekají Vás úspěchy v podnikání a kariéře. Zaznamenáte vítězství v jakékoli diskusi či konkurenčním boji. Výsledek překoná Vaše očekávání, vystoupíte na novou úroveň a obdržíte dokonce více, než bylo slíbeno.\n(Tento měsíc Vám přinese spoustu pozitivní energie a nové příležitosti.)\nMůžete se setkat s tajnými nepřáteli, vítězství bude na jejich straně. Pokud se vydáte do útoku, hrozí Vám porážka. Mohou nastat agrese a útlak ze strany ostatních, neúspěšné operace, lékařské chyby či dokonce zranění.",
- "positive": "",
- "negative": "",
+ "intro": "",
+ "positive": "Čekají Vás úspěchy v podnikání a kariéře. Zaznamenáte vítězství v jakékoli diskusi či konkurenčním boji. Výsledek překoná Vaše očekávání, vystoupíte na novou úroveň a obdržíte dokonce více, než bylo slíbeno.\n(Tento měsíc Vám přinese spoustu pozitivní energie a nové příležitosti.)",
+ "negative": "Můžete se setkat s tajnými nepřáteli, vítězství bude na jejich straně. Pokud se vydáte do útoku, hrozí Vám porážka. Mohou nastat agrese a útlak ze strany ostatních, neúspěšné operace, lékařské chyby či dokonce zranění.",
  "finance": "Tento měsíc můžete pracovat až do vyčerpání, objeví se ve Vás spousta energie a síly. Čeká Vás úspěch v kariéře a podnikání. Dosáhnete svých cílů, pokud budete vytrvalí, ale nezapomeňte na odpočinek.\nV tomto období je vhodné věnovat se charitě, čím více dáváte, tím více dostáváte.",
  "relationships": "V tomto měsíci se může projevit Vaše ego. Snažte se zbavit pýchy a netrpělivosti vůči ostatním. Nasměrujte svou energii k tvoření, nikoliv k ničení. Naučte se projevovat své emoce ekologickým způsobem, poté k Vám přijde stav harmonie.\nV tomto období můžete přinést mnoho užitku svému okolí. Jednejte!",
  "health": "Hrozí, že se můžete stát agresivními. Mohou nastat konflikty a útoky. Umějte ovládat své emoce. Věnujte se sportu, choďte na procházky, praktikujte tělesné a duchovní cvičení, abyste obnovili své síly. Porušení doporučení může vést ke zraněním, zlomeninám či otřesům.\nBuďte opatrní, neboť se můžete setkat s nepříjemnými lidmi, kteří se pokusí vyvést Vás z rovnováhy. V tomto měsíci je rovněž lepší neprovádět operace."
  },
  "2": {
- "intro": "Události v pozitivním projevu 🙌✨:\nVšechno, co očekáváte, se zdvojnásobí. Úspěch je zaručen. Pokud podnikáte, nyní je nejvhodnější čas k rozvoji a rozšiřování Vašeho podniku.\n(Naplňte své plány s odhodláním a optimismem.)\nMohou se objevit zlomyslní lidé, kteří Vám vkládají klacky do koleček. Jakmile zjistíte, kdo to je, nepokoušejte se o útok, jen si tím uškodíte.\nMůže také dojít k hádkám s okolím, lékařským chybám či neúspěšným operacím.\n(Buďte opatrní a zachovejte klid v konfliktních situacích.)",
- "positive": "",
- "negative": "",
+ "intro": "",
+ "positive": "Všechno, co očekáváte, se zdvojnásobí. Úspěch je zaručen. Pokud podnikáte, nyní je nejvhodnější čas k rozvoji a rozšiřování Vašeho podniku.\n(Naplňte své plány s odhodláním a optimismem.)",
+ "negative": "Mohou se objevit zlomyslní lidé, kteří Vám vkládají klacky do koleček. Jakmile zjistíte, kdo to je, nepokoušejte se o útok, jen si tím uškodíte.\nMůže také dojít k hádkám s okolím, lékařským chybám či neúspěšným operacím.\n(Buďte opatrní a zachovejte klid v konfliktních situacích.)",
  "finance": "Bude Vás provázet velká síla a energie na práci, avšak nepřetěžujte se. Věnujte také pozornost svým projektům a cílům, ale nezapomínejte na odpočinek.\n(Přemýšlejte o udržitelnosti svého tempa a pravidelně si dopřejte regeneraci.)",
  "relationships": "V tomto měsíci je nejdůležitější zbavit se pýchy, která by mohla zničit důležité vztahy.\nPokud můžete pomoci svému okolí, jednejte rozhodně.\n(Laskavost a otevřenost Vám pomohou vytvořit pevné a harmonické vztahy.)",
  "health": "Nasměrujte negativní emoce do sportu. Zařaďte do svého režimu duchovní praktiky, které Vám pomohou udržet rovnováhu a energii. Může dojít ke zraněním či zlomeninám, proto buďte pozorní a opatrní.\nJe vysoká pravděpodobnost, že se setkáte s provokacemi a konflikty, kterým je lepší se vyhýbat.\n(Pečujte o své tělo i duši a naslouchejte signálům svého organismu.)"
  },
  "3": {
- "intro": "Události v pozitivním projevu 🙌✨:\nČekají Vás úspěchy v podnikání, partnerství i kariéře. Vše půjde podle plánu a výsledky se nebudou zdržovat.\n(Tento měsíc Vám přinese stabilitu, růst a nová vítězství.)\nMůžete čelit konfliktům, agresi ze strany okolí, lékařským chybám a neúspěšným operacím.\n(Dávejte pozor na své vztahy a komunikaci, aby nedošlo ke zbytečným nedorozuměním.)",
- "positive": "",
- "negative": "",
+ "intro": "",
+ "positive": "Čekají Vás úspěchy v podnikání, partnerství i kariéře. Vše půjde podle plánu a výsledky se nebudou zdržovat.\n(Tento měsíc Vám přinese stabilitu, růst a nová vítězství.)",
+ "negative": "Můžete čelit konfliktům, agresi ze strany okolí, lékařským chybám a neúspěšným operacím.\n(Dávejte pozor na své vztahy a komunikaci, aby nedošlo ke zbytečným nedorozuměním.)",
  "finance": "Tento měsíc věnujte pozornost charitě. Pamatujte jednoduché pravidlo: čím více dáváte, tím více dostáváte. Dosáhnete svých cílů poměrně snadno, avšak nezapomeňte na odpočinek.\n(Udržujte rovnováhu mezi prací a volným časem a nezanedbávejte regeneraci.)",
  "relationships": "Může se objevit Vaše ego. Buďte trpěliví a nasměrujte svou energii na tvoření. Pokud pomůžete svému okolí, brzy se Vám to vrátí.\n(Sdílejte lásku a porozumění se svými blízkými a tvořte pozitivní vztahy.)",
  "health": "Naučte se ovládat své emoce. Nevybuchávejte na své blízké a buďte trpěliví. Věnujte se duchovním praktikám, například meditaci, které Vám pomohou cítit se naplněnými. Porušení doporučení může vést ke zraněním a otřesům.\n(Pravidelná meditace a duchovní cvičení Vám pomohou udržet vnitřní klid a sílu.)"
@@ -574,24 +574,24 @@ window.FORECAST_TEXTS={
  },
  "12": {
  "1": {
- "intro": "Události v pozitivním projevu 🙌✨:\nČeká Vás společenské uznání, rozšíření okruhu známých a podpora od cizích i blízkých osob. Můžete se těšit na tvůrčí vzlet, objevení sama/sama sebe a nalezení nové inspirace.\n(Tento měsíc Vám přináší příležitost zazářit a posunout se vpřed ve všech oblastech života.)\nMohou se objevit rozvody a deprese vyplývající z problémů ve vztazích, nedostatek vzájemného porozumění či veřejné odmítání. Může nastat situace, kdy se ocitnete buď v roli oběti, nebo obětujete sami sebe. Rovněž hrozí zrady ze strany blízkých, závažné nemoci, deprese a pocit prázdnoty.\n(Dávejte pozor na komplikované vztahy, dbejte na své emocionální zdraví a obklopte se lidmi, kteří Vás podporují.)",
- "positive": "",
- "negative": "",
+ "intro": "",
+ "positive": "Čeká Vás společenské uznání, rozšíření okruhu známých a podpora od cizích i blízkých osob. Můžete se těšit na tvůrčí vzlet, objevení sama/sama sebe a nalezení nové inspirace.\n(Tento měsíc Vám přináší příležitost zazářit a posunout se vpřed ve všech oblastech života.)",
+ "negative": "Mohou se objevit rozvody a deprese vyplývající z problémů ve vztazích, nedostatek vzájemného porozumění či veřejné odmítání. Může nastat situace, kdy se ocitnete buď v roli oběti, nebo obětujete sami sebe. Rovněž hrozí zrady ze strany blízkých, závažné nemoci, deprese a pocit prázdnoty.\n(Dávejte pozor na komplikované vztahy, dbejte na své emocionální zdraví a obklopte se lidmi, kteří Vás podporují.)",
  "finance": "Finance mohou přicházet prostřednictvím Vašich tvůrčích činností, nových pohledů na svět, upřímné oddanosti a služby ostatním. Tento měsíc máte možnost vytvořit něco nového, ať už jde o projekt, nový přístup, umělecké dílo či akci. Hlavní je, abyste neváhali a jednali.\n(Využijte svou kreativitu a energii k inovacím, které mohou přinést nejen radost, ale i finanční úspěch.)",
  "relationships": "Lidé ve Vašem okolí budou hledat pomoc, a Vy jim nebudete moci odmítnout. Nyní je důležité pomáhat a dávat, ale zároveň nezapomínat na sebe. Milujte sami sebe a naučte se nejprve věnovat svým vlastním potřebám, než začnete obdarovávat ostatní.\n(Dbejte na rovnováhu mezi pomocí druhým a péčí o sebe, to Vám zajistí vnitřní harmonii.)",
  "health": "Můžete se ocitnout ve stavu deprese, kdy budete mít chuť se uzavřít do sebe a uniknout od všeho. Aby se Vám ulevilo, věnujte se hlasovým a tělesným cvičením. Ranní zpěv, mantry, jóga a masáže Vám pomohou nastartovat den a obnovit vnitřní energii."
  },
  "2": {
- "intro": "Události v pozitivním projevu 🙌✨:\nMáte příležitost se seznámit s novými lidmi, navázat hodnotná spojení a získat podporu jak od blízkých, tak od cizích osob.\n(Tento měsíc rozšiřujete své obzory a budujete cenné vztahy, které mohou obohatit Váš život.)\nExistuje pravděpodobnost rozvodu, nedorozumění ve vztazích a zvýšeného stresu. Blízcí Vám mohou zradit a Vy můžete pocítit vnitřní prázdnotu.\n(Buďte opatrní při řešení konfliktů a snažte se najít vnitřní klid i v náročných situacích.)",
- "positive": "",
+ "intro": "",
+ "positive": "Máte příležitost se seznámit s novými lidmi, navázat hodnotná spojení a získat podporu jak od blízkých, tak od cizích osob.\n(Tento měsíc rozšiřujete své obzory a budujete cenné vztahy, které mohou obohatit Váš život.)\nExistuje pravděpodobnost rozvodu, nedorozumění ve vztazích a zvýšeného stresu. Blízcí Vám mohou zradit a Vy můžete pocítit vnitřní prázdnotu.\n(Buďte opatrní při řešení konfliktů a snažte se najít vnitřní klid i v náročných situacích.)",
  "negative": "",
  "finance": "Tento měsíc je měsícem nových začátků, máte možnost vytvořit něco významného pro svět. Hlavní je jednat a nepřestávat se snažit.\n(Investujte svou energii do projektů, které mají potenciál růstu a inovace.)",
  "relationships": "Pomáhejte ostatním, ale nezapomínejte ani na sebe. Milujte sebe a věnujte si dostatek zdrojů, abyste zůstali v rovnováze.\n(Když budete mít sami o sobě dostatek péče, budete schopni pomoci i ostatním naplno.)",
  "health": "Váš zdravotní stav se může zhoršit, můžete pocítit touhu se stáhnout do sebe a trávit čas osamoceně. Nezapomínejte, že jste zodpovědní za své zdraví, a proto věnujte čas duchovním praktikám, meditacím, sportu, józe či masážím.\n(Péče o tělo i duši je klíčová pro udržení celkové vitality a rovnováhy.)"
  },
  "3": {
- "intro": "Události v pozitivním projevu 🙌✨:\nPocítíte podporu od blízkých i od cizích osob. Bude to období, kdy objevíte sami sebe a objeví se nové perspektivy.\n(Tento měsíc Vám přinese vnitřní posílení a pocit naplnění, který ovlivní i Vaše další kroky.)\nExistuje riziko, že se Vaše vztahy s okolím či s milovanou osobou mohou zkomplikovat, což může vést k rozpadu vztahu. Blízcí Vám mohou zradit a vyvolat u Vás pocit prázdnoty.\n(Dbejte na komunikaci a budování důvěry, aby se předešlo nežádoucím konfliktům.)",
- "positive": "",
+ "intro": "",
+ "positive": "Pocítíte podporu od blízkých i od cizích osob. Bude to období, kdy objevíte sami sebe a objeví se nové perspektivy.\n(Tento měsíc Vám přinese vnitřní posílení a pocit naplnění, který ovlivní i Vaše další kroky.)\nExistuje riziko, že se Vaše vztahy s okolím či s milovanou osobou mohou zkomplikovat, což může vést k rozpadu vztahu. Blízcí Vám mohou zradit a vyvolat u Vás pocit prázdnoty.\n(Dbejte na komunikaci a budování důvěry, aby se předešlo nežádoucím konfliktům.)",
  "negative": "",
  "finance": "Věnujte se tvořivosti a nebojte se dávat ze sebe maximum, abyste dosáhli finančního úspěchu. Pokud máte v plánu nový projekt, neotálejte a jednejte.\n(Tato energie Vám umožní proměnit nápady ve skutečnost, která může přinést i finanční zisk.)",
  "relationships": "Vaši blízcí mohou potřebovat pomoc, nenechávejte je bez podpory. Současně je však důležité, abyste nezapomínali na sebe. Milujte sebe a věnujte si své zdroje jako první.\n(Péče o sebe je základem pro schopnost pomáhat ostatním, udržujte zdravou rovnováhu mezi dáváním a přijímáním.)",
@@ -600,25 +600,25 @@ window.FORECAST_TEXTS={
  },
  "13": {
  "1": {
- "intro": "Události v pozitivním projevu 🙌✨:\nTento měsíc budete přitahovat transformace a změny, které přijdou téměř tajemným způsobem. Staré způsoby se postupně ustoupí novým, progresivním formám. Nemějte obavy, vše se bude odehrávat hladce a v souladu s přírodou.\n(Připravte se na období osobního růstu a nových začátků, kdy se vše posune k lepšímu.)\nMůže dojít k úplnému zániku Vašich plánů a budete mít pocit, že se svět Vám vymyká spod kontroly.\n(Přestože se může zdát, že vše padá k smetí, je to zároveň příležitost ke znovuobjevení sebe sama.)",
- "positive": "",
- "negative": "",
+ "intro": "",
+ "positive": "Tento měsíc budete přitahovat transformace a změny, které přijdou téměř tajemným způsobem. Staré způsoby se postupně ustoupí novým, progresivním formám. Nemějte obavy, vše se bude odehrávat hladce a v souladu s přírodou.\n(Připravte se na období osobního růstu a nových začátků, kdy se vše posune k lepšímu.)",
+ "negative": "Může dojít k úplnému zániku Vašich plánů a budete mít pocit, že se svět Vám vymyká spod kontroly.\n(Přestože se může zdát, že vše padá k smetí, je to zároveň příležitost ke znovuobjevení sebe sama.)",
  "finance": "Dovolte si projevit se v oblasti, ke které máte skutečné nadání a kde leží Vaše duše. Nebojte se o sobě promluvit, otevřít podnikání či navázat partnerství.\n(Vaše kreativita a odhodlání Vám mohou otevřít nové finanční obzory.)",
  "relationships": "Vztahy vstoupí do nové fáze. Je to ideální doba pro upevnění stávajících svazků a rozšíření společenského okruhu. Pokud zatím nejste ve vztahu, je zde šance potkat Vašeho osudového partnera.\n(Otevřete své srdce novým možnostem a vztahy se mohou stát zdrojem velké radosti.)",
  "health": "Tento měsíc máte možnost zlepšit stav Vašeho zdraví. Doporučuje se provést kompletní zdravotní prohlídku, upravit stravování a dbát na pravidelný spánek. Pamatujte, že Vaše tělo je Vaším chrámem, když se o něj budete pečlivě starat, ono se Vám vrátí v podobě energie a vitality.\n(Věnujte čas péči o sebe, abyste si udrželi sílu pro další životní výzvy.)"
  },
  "2": {
- "intro": "Události v pozitivním projevu 🙌✨:\nMáte příležitost radikálně změnit Váš život. Následující období rozdělí Váš život na „před“ a „po“. Čeká Vás velký růst a hluboká transformace, kdy se události budou vyvíjet mystickým, avšak příznivým způsobem.\n(Připravte se na období intenzivních změn, které Vám otevřou nové obzory.)\nPokud se budete bránit změnám a budete žít s pocitem, že život je odkládán, tento měsíc Vám ukáže, kde je třeba se zbavit starého, byť bolestivě.\n(Někdy je nutné se rozloučit se starým, aby bylo místo pro nové, lepší možnosti.)",
- "positive": "",
- "negative": "",
+ "intro": "",
+ "positive": "Máte příležitost radikálně změnit Váš život. Následující období rozdělí Váš život na „před“ a „po“. Čeká Vás velký růst a hluboká transformace, kdy se události budou vyvíjet mystickým, avšak příznivým způsobem.\n(Připravte se na období intenzivních změn, které Vám otevřou nové obzory.)",
+ "negative": "Pokud se budete bránit změnám a budete žít s pocitem, že život je odkládán, tento měsíc Vám ukáže, kde je třeba se zbavit starého, byť bolestivě.\n(Někdy je nutné se rozloučit se starým, aby bylo místo pro nové, lepší možnosti.)",
  "finance": "Tento měsíc může přinést výrazný finanční příliv a růst bohatství. Zvyšte svou odbornost, investujte do vlastního rozvoje a nebojte se riskovat, to vše Vám přinese ještě větší výsledky.\n(Finanční úspěch přichází k těm, kteří se nebojí vyjít ze své komfortní zóny.)",
  "relationships": "Vyhněte se konfliktům a agresivitě. Vnesete do svých vztahů něco nového, to pomůže posílit Vaše svazky. Pokud zatím nejste ve vztahu, je tu šance na osudové setkání.\n(Klidná a otevřená komunikace Vám pomůže budovat pevné a harmonické vztahy.)",
  "health": "Můžete se dočkat pozitivních změn, například objevení dlouho očekávaného těhotenství, zlepšení zdravotního stavu nebo úspěšného odklonění od přebytečných kilogramů. Nezapomeňte však na rovnováhu mezi prací a odpočinkem, aby nedošlo k přetížení.\n(Péče o tělo a duši je klíčová, udržujte rovnováhu a naslouchejte svému organismu.)"
  },
  "3": {
- "intro": "Události v pozitivním projevu 🙌✨:\nTento měsíc Vám přinese nové možnosti, pokud se dokážete zbavit minulosti a otevřete se novým příležitostem. Nebojte se změn, aktivně je podpořte a začněte realizovat plány, které máte dlouho v hlavě.\n(Uvolněte se a nechte prostor pro nové začátky, které Vás mohou posunout vpřed.)\nMohou Vás potkat bolestivé změny, ztráty, stagnace, zdravotní problémy a nedostatek financí.",
- "positive": "",
- "negative": "",
+ "intro": "",
+ "positive": "Tento měsíc Vám přinese nové možnosti, pokud se dokážete zbavit minulosti a otevřete se novým příležitostem. Nebojte se změn, aktivně je podpořte a začněte realizovat plány, které máte dlouho v hlavě.\n(Uvolněte se a nechte prostor pro nové začátky, které Vás mohou posunout vpřed.)",
+ "negative": "Mohou Vás potkat bolestivé změny, ztráty, stagnace, zdravotní problémy a nedostatek financí.",
  "finance": "Odvažte se vstoupit do nového prostředí. Uvolněte si cestu k realizaci snů tím, že investujete větší částku do svého cíle. Přijímejte nabídky na partnerství a nové projekty, to Vám přinese finanční růst.\n(Investice do sebe a svých projektů se Vám mohou vrátit mnohonásobně.)",
  "relationships": "Otevřete se změnám a nepodléhejte emocím při rozhodování. Udržujte vše pod kontrolou a nechte své vztahy přirozeně růst. Pokud zatím nejste ve vztahu, je to ideální čas na změnu a možné setkání s osudovou osobou.\n(Vztahy se rozvíjejí, když jim věnujeme dostatek pozornosti a péče, otevřete své srdce novým možnostem.)",
  "health": "Dávejte pozor na své tělesné i duševní zdraví. Pravidelná preventivní vyšetření a dostatek odpočinku Vám pomohou předejít přetížení. Věnujte se tělesným i hlasovým cvičením, abyste udrželi rovnováhu mezi prací a regenerací.\n(Péče o Vaše zdraví je investicí do budoucnosti, naslouchejte signálům svého těla a nezanedbávejte odpočinek.)"
@@ -627,15 +627,15 @@ window.FORECAST_TEXTS={
  "14": {
  "1": {
  "intro": "",
- "positive": "🙌✨\nTento měsíc proběhne přesně tak, jak jste plánovali. Všechno se Vám podaří bez námahy. Čeká Vás harmonie, klid a duševní pohoda. Může se dokonce objevit něco navíc, co obohatí Váš život a přinese nové inspirace.\nMůže se Vám zdát, že něco chybí. Ať už se do Vašeho života dostane cokoli, vždy bude pocit, že mohlo být lépe. Učte se moudrosti a střídmosti, abyste dokázali překonat tyto drobné nedostatky.",
- "negative": "",
+ "positive": "Tento měsíc proběhne přesně tak, jak jste plánovali. Všechno se Vám podaří bez námahy. Čeká Vás harmonie, klid a duševní pohoda.",
+ "negative": "Může se dokonce objevit něco navíc, co obohatí Váš život a přinese nové inspirace.\nMůže se Vám zdát, že něco chybí. Ať už se do Vašeho života dostane cokoli, vždy bude pocit, že mohlo být lépe. Učte se moudrosti a střídmosti, abyste dokázali překonat tyto drobné nedostatky.",
  "finance": "Pracujte na překonání chamtivosti a fixace na materiální hodnoty. Jinak se nemusí objevit stabilní finanční tok, který by Vám zajistil pohodlí.",
  "relationships": "Učte se naslouchat a hledat kompromisy, a také být ochotni dělat ústupky ve vztazích. Nedovolte, aby Vás ovládaly emocionální výkyvy nebo agrese, jinak se můžete často setkat s konflikty, které Vám mohou ztížit radost ze společných chvil.",
  "health": "Navštivte lékaře a nechte se komplexně vyšetřit. Existuje riziko onemocnění, která se těžko diagnostikují, a proto je prevence klíčová."
  },
  "2": {
  "intro": "",
- "positive": "🙌✨\nPřed Vámi se otevřou nové cesty. Můžete získat vše, co si zasloužíte. Váš anděl strážný Vás bude zvlášť ochraňovat a posílat Vám pozitivní energii. Věřte, že tento měsíc přinese mnoho radostných překvapení, která obohatí Váš každodenní život.\nMůžete se nechat uvěznit minulostí a přemítat nad tím, co bylo. Nastal čas pustit vše, co Vám již neslouží, a otevřít se novým možnostem a pozitivním změnám.",
+ "positive": "Před Vámi se otevřou nové cesty. Můžete získat vše, co si zasloužíte. Váš anděl strážný Vás bude zvlášť ochraňovat a posílat Vám pozitivní energii. Věřte, že tento měsíc přinese mnoho radostných překvapení, která obohatí Váš každodenní život.\nMůžete se nechat uvěznit minulostí a přemítat nad tím, co bylo. Nastal čas pustit vše, co Vám již neslouží, a otevřít se novým možnostem a pozitivním změnám.",
  "negative": "",
  "finance": "Existuje šance na kariérní růst a mírné zvýšení příjmu, což by mělo podpořit Vaši finanční stabilitu.",
  "relationships": "Možná se Vám naskytne příležitost navázat nová přátelství, rozvinout dlouhodobé vztahy nebo dosáhnout plného porozumění se svým partnerem.",
@@ -643,7 +643,7 @@ window.FORECAST_TEXTS={
  },
  "3": {
  "intro": "",
- "positive": "🙌✨\nNehánějte se za penězi. Uvědomte si, jak je důležitá rovnováha mezi duchovním a materiálním životem. Přijměte všechny životní situace, a tím se Vám otevře zcela nová životní cesta, plná překvapení a nových začátků. Buďte otevřeni změnám a nechte svou intuici vést Vás k lepším zítřkům.\nMěsíc může být poznamenán konflikty, pokud nebudete schopni efektivně kontrolovat své emoce. Udržujte vnitřní klid a vyhýbejte se zbytečným hádkám.",
+ "positive": "Nehánějte se za penězi. Uvědomte si, jak je důležitá rovnováha mezi duchovním a materiálním životem. Přijměte všechny životní situace, a tím se Vám otevře zcela nová životní cesta, plná překvapení a nových začátků. Buďte otevřeni změnám a nechte svou intuici vést Vás k lepším zítřkům.\nMěsíc může být poznamenán konflikty, pokud nebudete schopni efektivně kontrolovat své emoce. Udržujte vnitřní klid a vyhýbejte se zbytečným hádkám.",
  "negative": "",
  "finance": "Čekejte na plynulý růst financí a stabilitu na pracovišti. Může se však jednat o období, kdy budete postupovat pomalu po kariérním žebříčku, trpělivost je zde klíčová.",
  "relationships": "Změňte svůj postoj k ostatním i k sobě k lepšímu. Možná potkáte svou pravou lásku, nebo pokud již jste ve vztahu, stane se on/ona ještě harmoničtější. Vztahy se mohou dále prohlubovat, pokud budete věnovat pozornost partnerovým potřebám.",
@@ -653,7 +653,7 @@ window.FORECAST_TEXTS={
  "15": {
  "1": {
  "intro": "",
- "positive": "🙌✨\nČeká Vás spousta darů od osudu. Například kvalitní vztahy, povýšení v práci, vyšší společenský status, sláva a finanční perspektivy. Tento měsíc bude navíc velmi výrazný a vášnivý i v osobním životě, připravte se na dny plné energie a radosti!",
+ "positive": "Čeká Vás spousta darů od osudu. Například kvalitní vztahy, povýšení v práci, vyšší společenský status, sláva a finanční perspektivy. Tento měsíc bude navíc velmi výrazný a vášnivý i v osobním životě, připravte se na dny plné energie a radosti!",
  "negative": "Můžete se setkat s komplikacemi, jako je milostný trojúhelník, nedostatek tepla ve vztazích, žárlivost, manipulace, pokušení a závislosti. Každá událost se může proměnit v zkoušku, proto je důležité odolávat pokušením a žít čestným životem.",
  "finance": "Nyní je ten správný okamžik, abyste ukázali, co ve Vás je. Úspěch v jakékoli oblasti, ať už jde o status, slávu nebo popularitu, je na Vaší straně. Nebojte se projevit své ambice!",
  "relationships": "Toto je teplé a romantické období ve Vašich vztazích. Pokud máte milovanou osobu, pečujte o ni a berte ohled na její přání. Vyhněte se hádkám a budujte harmonii, která posílí vzájemné pouto.",
@@ -661,7 +661,7 @@ window.FORECAST_TEXTS={
  },
  "2": {
  "intro": "",
- "positive": "🙌✨\nTento měsíc bude věnován duchovnímu rozvoji skrze práci na sobě. Překonáte své slabosti a pokušení, což Vám pomůže vystoupat na novou úroveň. Duchovní růst Vás posílí a otevře Vám cestu k novým možnostem.",
+ "positive": "Tento měsíc bude věnován duchovnímu rozvoji skrze práci na sobě. Překonáte své slabosti a pokušení, což Vám pomůže vystoupat na novou úroveň. Duchovní růst Vás posílí a otevře Vám cestu k novým možnostem.",
  "negative": "Je důležité si uvědomit nezbytnost duchovního růstu a aktivně na něm pracovat. I když se mohou objevit překážky, Vaše odhodlanost Vám pomůže je překonat.",
  "finance": "Skvělá doba pro větší nákupy a uzavírání důležitých obchodů. Peníze budou přicházet snadno, ale pamatujte, abyste nepodléhali pokušením a zůstali na správné cestě.",
  "relationships": "Těšit se můžete na hravou atmosféru ve vztazích, flirt a vášeň. Přesto buďte opatrní, aby nedošlo k nedostatku tepla nebo zbytečným pokušením, které by mohly narušit harmonii mezi Vámi a Vaším partnerem.",
@@ -669,7 +669,7 @@ window.FORECAST_TEXTS={
  },
  "3": {
  "intro": "",
- "positive": "🙌✨\nČeká Vás úspěch v podnikání, tvořivosti a vědecké činnosti. Měsíc bude příznivý pro zbavení se závislostí a intenzivní práci na sobě. Přijetím změn a seberozvojem se Vám otevřou nové cesty ke splnění Vašich snů.",
+ "positive": "Čeká Vás úspěch v podnikání, tvořivosti a vědecké činnosti. Měsíc bude příznivý pro zbavení se závislostí a intenzivní práci na sobě. Přijetím změn a seberozvojem se Vám otevřou nové cesty ke splnění Vašich snů.",
  "negative": "Tento měsíc může přinést zkoušky a problémy, včetně finančních potíží a skrytého nepřátelství. Buďte ostražití a připravení čelit výzvám, aniž byste nechali negativní energii ovlivnit Vaše rozhodování.",
  "finance": "Úspěch je možný, pokud budete pečlivě kontrolovat své finance a nenecháte se svést pokušením. V opačném případě by se mohly objevit problémy s půjčkami a úvěry. Důvěřujte svým schopnostem a jednejte s rozvahou.",
  "relationships": "Měsíc bude plný emocí a vášně. Můžete zažít intenzivní flirty, nové známosti a občas i milostné trojúhelníky. Snažte se však vyhýbat pokušením, která by mohla ohrozit Vaši stávající harmonii.",
@@ -679,15 +679,15 @@ window.FORECAST_TEXTS={
  "16": {
  "1": {
  "intro": "",
- "positive": "🙌✨\nTento měsíc je příznivý pro koupi nemovitosti nebo zahájení stavby. Také Vás může čekat štěstí v podnikatelských záležitostech, povýšení v kariéře, rozvoj podnikání, zničení iluzí, změna hodnot, růst ve spirituálním poznání sebe sama, stěhování, cestování, usmíření ve vztazích či obnovení starých spojenectví. Mějte otevřenou mysl a nechte se překvapit pozitivními změnami!\nMohou nastat ztráty peněz, zničení podnikání či kariéry, rozvod, rozchody a hádky. Mohou se také objevit neúspěšné operace, nehody či neočekávané negativní změny, na které nebudete mít vliv. Dojde k úplné obnově všeho, což může přinést určité emocionální zkoušky.",
- "negative": "",
+ "positive": "Tento měsíc je příznivý pro koupi nemovitosti nebo zahájení stavby. Také Vás může čekat štěstí v podnikatelských záležitostech, povýšení v kariéře, rozvoj podnikání, zničení iluzí, změna hodnot, růst ve spirituálním poznání sebe sama, stěhování, cestování, usmíření ve vztazích či obnovení starých spojenectví. Mějte otevřenou mysl a nechte se překvapit pozitivními změnami!\nMohou nastat ztráty peněz, zničení podnikání či kariéry, rozvod, rozchody a hádky.",
+ "negative": "Mohou se také objevit neúspěšné operace, nehody či neočekávané negativní změny, na které nebudete mít vliv. Dojde k úplné obnově všeho, což může přinést určité emocionální zkoušky.",
  "finance": "Je důležité přinést do svých projektů a práce něco nového. Stavte vše pečlivě „po kostičkách“, investujte do svého rozvoje a nedovolte, aby se vše rozpadlo. Pokud budete postupovat systematicky, vše se Vám vyvine velmi příznivě 🙏🏻",
  "relationships": "Pokud jste ve vztahu, snažte se ho nerozrušovat svými emocemi, jinak by mohly nastat nepříjemné následky. Nevzdávejte se na půli cesty a naučte se efektivně komunikovat se svým partnerem 🙌🏻\nPokud zatím nejste ve vztahu, věnujte pozornost těm, kdo Vám projevují zájem: komunikujte, choďte na rande a nechte věci přirozeně se rozvíjet.",
  "health": "Tento měsíc je ideální čas vyrazit do posilovny, podstoupit komplexní vyšetření a důkladně dbát na své zdraví. Snažte se omezit konzumaci sladkostí a buďte obzvláště opatrní na silnicích 🙏🏻"
  },
  "2": {
  "intro": "",
- "positive": "🙌✨\nTento měsíc je velmi vhodný pro koupi nemovitosti nebo zahájení stavby. Čeká Vás úspěch v podnikatelských záležitostech a kariérní růst, úspěšný rozvoj podnikání, osobní růst, duchovní rozvoj, cestování, stěhování a usmíření ve vztazích. Využijte tento čas k pozitivním změnám a novým začátkům!\nMohou nastat ztráty peněz, podnikání či kariéry, rozvod, rozchody a hádky. Navíc hrozí emocionální vyčerpání, neúspěšné operace, nehody a další negativní změny, které mohou být náročné na zvládnutí.",
+ "positive": "Tento měsíc je velmi vhodný pro koupi nemovitosti nebo zahájení stavby. Čeká Vás úspěch v podnikatelských záležitostech a kariérní růst, úspěšný rozvoj podnikání, osobní růst, duchovní rozvoj, cestování, stěhování a usmíření ve vztazích. Využijte tento čas k pozitivním změnám a novým začátkům!\nMohou nastat ztráty peněz, podnikání či kariéry, rozvod, rozchody a hádky. Navíc hrozí emocionální vyčerpání, neúspěšné operace, nehody a další negativní změny, které mohou být náročné na zvládnutí.",
  "negative": "",
  "finance": "Investujte peníze do svého rozvoje, vylepšujte a rozvíjejte své projekty a práci, to Vám pomůže vytvořit příznivé podmínky pro úspěch 🔥",
  "relationships": "Nedovolte, aby nadměrné projevování emocí narušilo Vaše vztahy. Učte se komunikovat se svým partnerem tak, aby Vaše pouto bylo stále silnější 🙏🏻",
@@ -695,8 +695,8 @@ window.FORECAST_TEXTS={
  },
  "3": {
  "intro": "",
- "positive": "🙌✨\nToto období je velmi vhodné pro koupi bytu či domu nebo zahájení jakékoli stavby. Navíc je příznivé pro dosažení úspěchu v kariéře, rozvoj podnikání, osobní i duchovní růst, cestování, stěhování a urovnání vztahů. Využijte energii tohoto období k posunu vpřed a ke splnění svých snů!\nMějte na paměti, že mohou nastat ztráty peněz, neúspěchy v podnikání či kariéře, rozvody, rozchody, konflikty a emocionální vyčerpání. Mohou se také objevit negativní změny, které bude těžké emocionálně zvládnout.",
- "negative": "",
+ "positive": "Toto období je velmi vhodné pro koupi bytu či domu nebo zahájení jakékoli stavby. Navíc je příznivé pro dosažení úspěchu v kariéře, rozvoj podnikání, osobní i duchovní růst, cestování, stěhování a urovnání vztahů. Využijte energii tohoto období k posunu vpřed a ke splnění svých snů!\nMějte na paměti, že mohou nastat ztráty peněz, neúspěchy v podnikání či kariéře, rozvody, rozchody, konflikty a emocionální vyčerpání.",
+ "negative": "Mohou se také objevit negativní změny, které bude těžké emocionálně zvládnout.",
  "finance": "Investujte peníze a čas do svého rozvoje, vylepšujte své projekty a práci a nedovolte jejich zničení, tím si otevřete cestu k očekávanému úspěchu.",
  "relationships": "Naučte se efektivně komunikovat se svou milovanou osobou, to je zárukou zdravých a harmonických vztahů 🙌🏻\nPokud zatím nejste ve vztahu, ale někdo projevuje zájem, buďte opatrní. Začněte nejprve jen komunikovat a nenechte se unést příliš ranými očekáváními.",
  "health": "Věnujte se pravidelnému sportu, podstupte kompletní zdravotní prohlídku a začněte aktivně posilovat své zdraví. Buďte také obzvláště opatrní na silnicích, hrozí riziko nehod."
@@ -705,15 +705,15 @@ window.FORECAST_TEXTS={
  "17": {
  "1": {
  "intro": "",
- "positive": "🙌✨\nV tomto měsíci Vám čeká úspěch ve Vaší oblíbené činnosti. A ještě, je to nádherné období pro Váš tvůrčí a duchovní rozvoj. Buďte pozornější ke všem znamením osudu a nápovědám Vesmíru. Mnohá Vaše přání se mohou velmi rychle splnit.\nMohou nastat zhroucení nadějí a plánů, stejně jako krize v tvorbě, v individuálním rozvoji, pesimistická nálada, nedostatek energie, lenost, apatie a ztráta vnitřních orientačních bodů: cílů a motivace.",
- "negative": "",
+ "positive": "V tomto měsíci Vám čeká úspěch ve Vaší oblíbené činnosti. A ještě, je to nádherné období pro Váš tvůrčí a duchovní rozvoj. Buďte pozornější ke všem znamením osudu a nápovědám Vesmíru. Mnohá Vaše přání se mohou velmi rychle splnit.",
+ "negative": "Mohou nastat zhroucení nadějí a plánů, stejně jako krize v tvorbě, v individuálním rozvoji, pesimistická nálada, nedostatek energie, lenost, apatie a ztráta vnitřních orientačních bodů: cílů a motivace.",
  "finance": "Je to nádherné období, abyste začal(a) vydělávat na své oblíbené činnosti. Koníček se může stát Vaší profesí, skrze kterou dosáhnete slávy.\nŠtěstí Vás bude doprovázet v podnikání, pokud se zaměříte na Vaše jedinečné netradiční nápady. Buďte odvážnější a projeďte se!",
  "relationships": "Toto období pro vztahy je časem naděje a radosti. Budujte pevnou důvěryhodnou vazbu se svým partnerem a přáteli. Určitě projeďte maximum pozornosti své druhé polovině. Trávíte více času spolu a uspořádejte si neobvyklá rande.\nPokud jste zatím sám/sama, jsou možná nová romantická seznámení.",
  "health": "V tomto měsíci Vám čeká zlepšení zdraví, stav radosti, zdrojovosti, spousta energie a inspirace. Zachovejte si pozitivní přístup a nepřetěžujte se.\nVěnujte čas meditacím a praxím, abyste byl(a) v klidném rozpoložení. A pokud máte sklony k alergiím, buďte obzvlášť opatrný/á."
  },
  "2": {
  "intro": "",
- "positive": "🙌✨\nPřišel čas zazářit a projevit se! Pokud jste dlouho snili o tom, dostat se na novou úroveň, nepromeškejte toto období!\nTento měsíc je nádherný pro jakékoli tvůrčí projevy. Pamatujte: štěstí je na Vaší straně.\nVěnujte čas své oblíbené činnosti: existuje velká pravděpodobnost, že pokud vynaložíte úsilí a využijete své kreativní vidění, Váš koníček se může proměnit v profesi. A pokud jste již profesionál/ka ve své oblasti, je čas jít do většího rozsahu.\nTaké je to nádherné období pro pořádání workshopů, akcí, veřejných vystoupení, kolaborací se hvězdami. Hlavní je, nepochybujte a věřte si!\nMůže dojít k blokování Vašeho tvůrčího potenciálu, neúspěchům v dosažení uznání, ztrátě inspirace, nedostatku podpory od přátel a blízkých.",
+ "positive": "Přišel čas zazářit a projevit se! Pokud jste dlouho snili o tom, dostat se na novou úroveň, nepromeškejte toto období!\nTento měsíc je nádherný pro jakékoli tvůrčí projevy. Pamatujte: štěstí je na Vaší straně.\nVěnujte čas své oblíbené činnosti: existuje velká pravděpodobnost, že pokud vynaložíte úsilí a využijete své kreativní vidění, Váš koníček se může proměnit v profesi. A pokud jste již profesionál/ka ve své oblasti, je čas jít do většího rozsahu.\nTaké je to nádherné období pro pořádání workshopů, akcí, veřejných vystoupení, kolaborací se hvězdami. Hlavní je, nepochybujte a věřte si!\nMůže dojít k blokování Vašeho tvůrčího potenciálu, neúspěchům v dosažení uznání, ztrátě inspirace, nedostatku podpory od přátel a blízkých.",
  "negative": "",
  "finance": "V tomto měsíci Vám čeká podpora a pomoc v různých formách. Například nečekané dary osudu, nové možnosti a perspektivy postupu po kariérním žebříčku. Vaše úsilí bude odměněno. Rozvíjejte své talenty, pracujte na sobě a promyslete, jak můžete zpeněžit své znalosti a koníčky.",
  "relationships": "Ve vztazích nastává období radosti a romantiky. Je důležité posilovat důvěryhodné vazby se svým partnerem, přáteli a blízkými.\nVěnujte více pozornosti své druhé polovině, trávte více času spolu a veďte upřímné rozhovory ze srdce. Pokud nejste ve vztahu, jsou možná nová romantická seznámení.",
@@ -721,7 +721,7 @@ window.FORECAST_TEXTS={
  },
  "3": {
  "intro": "",
- "positive": "🙌✨\nPro Vás je tento měsíc nádherný! Mohou se objevit štěstí, spousta úspěchů, splnění přání, úspěch ve Vaší tvůrčí realizaci, veřejná vystoupení. A ještě, vnitřní harmonie a prosperita.\nPlány se mohou rozpadnout, naděje se zhroutit, neúspěchy, to všechno se může objevit v tomto měsíci. Nebude podpory od přátel, tvůrčí inspirace, a místo toho se setkáte s podvodem, zradou, leností, apatií a nedostatkem energie.",
+ "positive": "Pro Vás je tento měsíc nádherný! Mohou se objevit štěstí, spousta úspěchů, splnění přání, úspěch ve Vaší tvůrčí realizaci, veřejná vystoupení. A ještě, vnitřní harmonie a prosperita.\nPlány se mohou rozpadnout, naděje se zhroutit, neúspěchy, to všechno se může objevit v tomto měsíci. Nebude podpory od přátel, tvůrčí inspirace, a místo toho se setkáte s podvodem, zradou, leností, apatií a nedostatkem energie.",
  "negative": "",
  "finance": "Je velmi důležitá čestnost nejen k ostatním, ale i k sobě samému. Arogantní chování, chladnost a odstup od ostatních, odmítání pomoci, to všechno může vést ke zhroucení. V žádném případě se nesmíte věnovat plagiátorství. Bylo by skvělé, kdybyste šli na tvůrčí kurzy.",
  "relationships": "V osobním životě mohou nastat nové vztahy, romantika. Toto je období plné naděje a radosti.\nPokud jste ve vztahu, důvěra mezi Vámi a Vaším partnerem poroste. Přemýšlejte, jak vztah obohatit: například můžete jet na výlet nebo jít na koncert.",
@@ -730,25 +730,25 @@ window.FORECAST_TEXTS={
  },
  "18": {
  "1": {
- "intro": "Události v pozitivním projevu 🙌✨:\nV tomto měsíci Vás mohou čekat nová setkání, založení rodiny, romantické vztahy a rande. Také Vás čekají dobré vztahy s rodiči a jejich podpora. Budete schopni si uvědomit své chyby, zbavit se iluzí a strachů. Mnoho Vašich myšlenek se promění ve skutečnost a sny Vám poskytnou mnoho důležitých vodítek. Tento proces Vám může otevřít nové obzory a dodat sílu do budoucích kroků.\nNejsou vyloučeny zrady těch nejbližších, konflikty s rodiči. Rovněž se mohou objevit pomluvy, intriky, klevety, podvody okolí a nebezpečí při cestování k vodě či v souvislosti se zvířaty. Tajemství, která byla dosud skrytá, se mohou odhalit a ve snech se Vám mohou zjevovat negativní obrazy. Buďte opatrní a všímejte si varovných signálů, abyste se vyhnuli zbytečným komplikacím.",
- "positive": "",
+ "intro": "",
+ "positive": "V tomto měsíci Vás mohou čekat nová setkání, založení rodiny, romantické vztahy a rande. Také Vás čekají dobré vztahy s rodiči a jejich podpora. Budete schopni si uvědomit své chyby, zbavit se iluzí a strachů. Mnoho Vašich myšlenek se promění ve skutečnost a sny Vám poskytnou mnoho důležitých vodítek. Tento proces Vám může otevřít nové obzory a dodat sílu do budoucích kroků.\nNejsou vyloučeny zrady těch nejbližších, konflikty s rodiči. Rovněž se mohou objevit pomluvy, intriky, klevety, podvody okolí a nebezpečí při cestování k vodě či v souvislosti se zvířaty. Tajemství, která byla dosud skrytá, se mohou odhalit a ve snech se Vám mohou zjevovat negativní obrazy. Buďte opatrní a všímejte si varovných signálů, abyste se vyhnuli zbytečným komplikacím.",
  "negative": "",
  "finance": "Odstraňte všechny přítomné strachy, neboť Vám mohou jen překážet. Směle kráčejte vstříc stanoveným cílům! Ponořte se do spirituality, esoteriky a věnujte se kreativitě. Vaše práce by Vám měla přinášet radost a uspokojení. Pokud však pracujete pouze z nátlaku, přehodnoťte své zaměření a hledejte cestu, která Vás bude skutečně naplňovat.",
  "relationships": "Neseďte doma, vydejte se na rande! Není vyloučeno setkání s dlouho očekávaným partnerem, což může vést k založení rodiny, kde budete žít pohodlně, prosperující a útulně. Tento měsíc může přinést pocit harmonického propojení, které obohatí Váš osobní život.",
  "health": "Toto je ideální doba, abyste se začali skutečně starat o své zdraví. Doporučujeme absolvovat kompletní kontrolu organismu a v případě jakýchkoli potíží se neváhejte obrátit na odborného lékaře. V tomto měsíci může dojít také k početí či narození dítěte. Rovněž je velmi důležité zbavit se negativních myšlenek a strachů a neskrývat se před ostatními lidmi. Vstupte do světa spirituality, která je zdrojem Vaší energie a zdraví."
  },
  "2": {
- "intro": "Události v pozitivním projevu 🙌✨:\nMůžete pocítit zvýšenou citlivost a emocionálnost, tyto vlastnosti Vám pomohou v kreativním vyjádření a podnítí vnitřní práci na sobě. Rozvíjejte pozitivní myšlení a vizualizujte si pouze příznivé okamžiky. Učte se důvěřovat lidem kolem Vás a nezavírejte se před novými kontakty. Seznamování a nové přátelské vztahy mohou přinést cenné zkušenosti. Může se také projevit Vaše touha po tajných znalostech a ve snech se Vám mohou objevit důležité nápovědy. Tato energie Vám může otevřít nové cesty a možnosti.\nMohou se objevit milostné a obchodní trojúhelníky, romány, podvody, nevěry, pokrytecké vztahy, iluze a nevysvětlitelné či nepromyšlené činy. Také se může zvýšit množství strachů, touha se uzavřít do sebe a vyhýbat se lidem, což povede k nervozitě a nejistotě ve vztazích. V tomto období je vhodné nečinit důležitá rozhodnutí, aby nedošlo k nevratným následkům. Doporučujeme být opatrní a zachovat chladnou hlavu.",
- "positive": "",
- "negative": "",
+ "intro": "",
+ "positive": "Můžete pocítit zvýšenou citlivost a emocionálnost, tyto vlastnosti Vám pomohou v kreativním vyjádření a podnítí vnitřní práci na sobě. Rozvíjejte pozitivní myšlení a vizualizujte si pouze příznivé okamžiky. Učte se důvěřovat lidem kolem Vás a nezavírejte se před novými kontakty. Seznamování a nové přátelské vztahy mohou přinést cenné zkušenosti.",
+ "negative": "Může se také projevit Vaše touha po tajných znalostech a ve snech se Vám mohou objevit důležité nápovědy. Tato energie Vám může otevřít nové cesty a možnosti.\nMohou se objevit milostné a obchodní trojúhelníky, romány, podvody, nevěry, pokrytecké vztahy, iluze a nevysvětlitelné či nepromyšlené činy. Také se může zvýšit množství strachů, touha se uzavřít do sebe a vyhýbat se lidem, což povede k nervozitě a nejistotě ve vztazích. V tomto období je vhodné nečinit důležitá rozhodnutí, aby nedošlo k nevratným následkům. Doporučujeme být opatrní a zachovat chladnou hlavu.",
  "finance": "Vedejte své podnikání legálně, dodržujte zákony a řádně hradťe daně! Nejsou vyloučeni tajní nepřátelé a skrytá nebezpečí, která mohou ohrozit Vaše finance. Sledujte svá slova i činy a pokuste se zbavit všech možných obav. Neklamejte sebe ani ostatní a držte se své pravé cesty, abyste dosáhli svých cílů. Vaše čestnost a integrita Vám pomohou překonat případné překážky.",
  "relationships": "Pokud jste zatím sami, vydejte se na rande, existuje šance, že potkáte svou druhou polovičku. Pokud již máte partnera, vydejte se společně na procházku, otevřeně si promluvte a nechte se unést romantikou večera. Váš společný čas může přinést novou sílu a radost do Vašeho vztahu.",
  "health": "Věnujte zvýšenou pozornost svému zdraví a doporučujeme Vám provést kompletní kontrolu organismu. Dbejte také na změny nálad, vyhýbejte se depresivním stavům a nadměrné nervozitě. Pokuste se zpestřit svůj život a načerpat novou energii, kterou můžete směřovat ke splnění svých cílů. Péče o zdraví je klíčová pro úspěch ve všech oblastech Vašeho života."
  },
  "3": {
- "intro": "Události v pozitivním projevu 🙌✨:\nMohou nastat vyjasnění vztahů s kolegy a odhalení nepřátel, což Vám umožní čelit komplikacím na pracovišti. Velmi vhodné je v tomto měsíci pracovat s psychologem, což Vám pomůže dosáhnout nové úrovně osobního rozvoje. Také se může objevit silná touha věnovat se činnostem, které přinášejí dobro a světlo, a tuto energii můžete nasměrovat na pomoc ostatním. Uvědomte si sílu svých myšlenek a naučte se je správně řídit. Neklamte sebe ani ostatní a otevřete se světu. Tento pozitivní přístup Vám může přinést nečekané příležitosti a nové začátky.\nMůžete se setkat s nepříznivými životními podmínkami, podvodnými schématy, intrikami či zradou, zejména ze strany žen. Může dojít ke utlumení Vaší intuice a nárůstu úzkosti. Také se mohou objevit zvláštní nabídky, které je třeba pečlivě zvážit. Buďte ostražití a naslouchejte svému vnitřnímu hlasu, aby Vás případné nástrahy neupoutaly.",
- "positive": "",
- "negative": "",
+ "intro": "",
+ "positive": "Mohou nastat vyjasnění vztahů s kolegy a odhalení nepřátel, což Vám umožní čelit komplikacím na pracovišti. Velmi vhodné je v tomto měsíci pracovat s psychologem, což Vám pomůže dosáhnout nové úrovně osobního rozvoje. Také se může objevit silná touha věnovat se činnostem, které přinášejí dobro a světlo, a tuto energii můžete nasměrovat na pomoc ostatním. Uvědomte si sílu svých myšlenek a naučte se je správně řídit. Neklamte sebe ani ostatní a otevřete se světu. Tento pozitivní přístup Vám může přinést nečekané příležitosti a nové začátky.",
+ "negative": "Můžete se setkat s nepříznivými životními podmínkami, podvodnými schématy, intrikami či zradou, zejména ze strany žen. Může dojít ke utlumení Vaší intuice a nárůstu úzkosti. Také se mohou objevit zvláštní nabídky, které je třeba pečlivě zvážit. Buďte ostražití a naslouchejte svému vnitřnímu hlasu, aby Vás případné nástrahy neupoutaly.",
  "finance": "Hlavní lekcí tohoto měsíce je, abyste ani na okamžik nepociťovali strach či se nechali klamat sami sebou. Mějte pouze pozitivní záměr a věnujte čas své kreativitě, která Vám pomůže načerpat novou energii, a energie jsou přece peníze! Neškodte ostatním, vyhýbejte se lžím a pastím a držte se svého jasně stanoveného plánu. Vaše pozitivní myšlení Vám pomůže udržet finanční stabilitu a dosáhnout úspěchu.",
  "relationships": "Učte se budovat harmonické vztahy se svým partnerem, snažte se ho nejen slyšet, ale i skutečně naslouchat, a vždy k němu přistupujte s pochopením a důvěrou. Pokud zatím partnera nemáte, užívejte si všech pozitivních aspektů, které se ve Vašem životě dějí, a naplňujte si svá přání. Pracujte na svých slabých stránkách a proměňte je v přednosti. Váš osobní růst je klíčem k harmonii ve vztazích.",
  "health": "Pokud trpíte strachy či fóbiemi, pokuste se jich zbavit, protože mohou negativně ovlivnit Vaše zdraví. Pokud máte děti, věnujte zvýšenou pozornost jejich zdravotnímu stavu. V tomto měsíci není vyloučeno ani početí dítěte (za předpokladu, že energie se vyvíjí pozitivně). Snažte se udržet klid, vyhýbejte se přetížení a nevyčerpávejte svůj organismus. Je velmi důležité rozvíjet pouze pozitivní myšlení. Péče o sebe a své blízké je nyní na prvním místě, proto věnujte zdraví patřičnou pozornost."
@@ -756,25 +756,25 @@ window.FORECAST_TEXTS={
  },
  "19": {
  "1": {
- "intro": "Události v pozitivním projevu 🙌✨:\nMožné je zlepšení vztahů s blízkými, formování rodinných tradic a častá rodinná setkání. Dále můžete zaznamenat úspěch v pracovním životě, rodinné harmonii, dosažení stanovených cílů, šťastné manželství, stabilitu a radost z výchovy dětí. Mohou se objevit nové nápady, příležitost k tvůrčímu sebevyjádření, společenské uznání, úspěch v podnikání a podpora od okolí. Tento měsíc je rovněž příležitostí k osobnímu růstu a obohacení Vašeho života o nové zážitky, které mohou inspirovat další směr Vašeho rozvoje.\nMohou nastat konflikty a nedorozumění s příbuznými, problémy s reputací, finanční obtíže a ztráty. Kromě toho hrozí emocionální vyhoření, neschopnost se realizovat, problémy v osobním životě a při výchově dětí, rozpad rodiny, rozvod či potíže s početím dětí. Je důležité být ostražitý, aby Vás negativní energie neovlivnila příliš silně a abyste si dokázali udržet nadhled i v náročnějších chvílích.",
- "positive": "",
- "negative": "",
+ "intro": "",
+ "positive": "Možné je zlepšení vztahů s blízkými, formování rodinných tradic a častá rodinná setkání. Dále můžete zaznamenat úspěch v pracovním životě, rodinné harmonii, dosažení stanovených cílů, šťastné manželství, stabilitu a radost z výchovy dětí.",
+ "negative": "Mohou se objevit nové nápady, příležitost k tvůrčímu sebevyjádření, společenské uznání, úspěch v podnikání a podpora od okolí. Tento měsíc je rovněž příležitostí k osobnímu růstu a obohacení Vašeho života o nové zážitky, které mohou inspirovat další směr Vašeho rozvoje.\nMohou nastat konflikty a nedorozumění s příbuznými, problémy s reputací, finanční obtíže a ztráty. Kromě toho hrozí emocionální vyhoření, neschopnost se realizovat, problémy v osobním životě a při výchově dětí, rozpad rodiny, rozvod či potíže s početím dětí. Je důležité být ostražitý, aby Vás negativní energie neovlivnila příliš silně a abyste si dokázali udržet nadhled i v náročnějších chvílích.",
  "finance": "Tento měsíc je ideální pro nové nápady, projekty, zakládání vlastního podnikání a uzavírání obchodních smluv. Energie bude proudit naplno, což může vést k překonání období stagnace. Pokud dojde k neúspěchu, nevzdávejte se, úspěch se brzy obrátí ve Váš prospěch. Hlavní je pracovat na svých emocích, vyjadřovat je vhodným způsobem a vyvarovat se impulzivních výbuchů, které by mohly narušit Váš další postup.",
  "relationships": "V tomto období může dojít k posílení vztahu s partnerem a přechodu na novou úroveň vzájemného porozumění. Nezavírejte se před komunikací s ostatními, navštěvujte rodinu a setkávejte se s přáteli, to Vám dodá další energii a pozitivní impulzy. Všechny příležitosti k setkání přijímejte s otevřeným srdcem a pokud jste dlouho uvažovali o rozšíření rodiny, nyní může nastat ten pravý okamžik pro přirozený rozvoj a posílení rodinných vazeb.",
  "health": "Dbejte na to, abyste se nepřehřívali na slunci a vyvarovali se úpalů a spálení. Sledujte své emocionální rozpoložení a předcházejte přetížení, to Vás ochrání před vyhořením a vyčerpáním organismu. Doporučuje se pravidelně věnovat pozornost vlastnímu zdraví a případně absolvovat preventivní prohlídku, abyste předešli nežádoucím komplikacím."
  },
  "2": {
- "intro": "Události v pozitivním projevu 🙌✨:\nMohou se projevit dobré vztahy s příbuznými, posílení rodinných vazeb, zavedení rodinných tradic a časté rodinné oslavy. Dále očekávejte úspěchy v kariéře, práci i osobním životě. Šťastné manželství, pevné rodinné pouto, narození dítěte a úspěšná výchova malého potomka jsou na obzoru. Kromě toho můžete obdržet inspiraci v podobě nových nápadů, možnost sebevyjádření prostřednictvím kreativity, dosažení cílů, společenské uznání a podporu v podnikání, což Vám dodá sebevědomí i energii.\nHrozí hádky a rozpory s blízkými, problémy s reputací, finanční těžkosti, ztráta podnikání a emocionální vyčerpání. Může dojít také k problémům s dětmi, roztržkám v rodině, rozvodu či komplikacím na dálku, stejně jako k obtížím s početím a výchovou dětí. Nedostatek jasných cílů a plánů může ztížit schopnost si život užívat, a proto je třeba věnovat zvýšenou pozornost udržení rovnováhy a zdravého přístupu ke všem životním oblastem.",
- "positive": "",
- "negative": "",
+ "intro": "",
+ "positive": "Mohou se projevit dobré vztahy s příbuznými, posílení rodinných vazeb, zavedení rodinných tradic a časté rodinné oslavy. Dále očekávejte úspěchy v kariéře, práci i osobním životě. Šťastné manželství, pevné rodinné pouto, narození dítěte a úspěšná výchova malého potomka jsou na obzoru. Kromě toho můžete obdržet inspiraci v podobě nových nápadů, možnost sebevyjádření prostřednictvím kreativity, dosažení cílů, společenské uznání a podporu v podnikání, což Vám dodá sebevědomí i energii.",
+ "negative": "Hrozí hádky a rozpory s blízkými, problémy s reputací, finanční těžkosti, ztráta podnikání a emocionální vyčerpání. Může dojít také k problémům s dětmi, roztržkám v rodině, rozvodu či komplikacím na dálku, stejně jako k obtížím s početím a výchovou dětí. Nedostatek jasných cílů a plánů může ztížit schopnost si život užívat, a proto je třeba věnovat zvýšenou pozornost udržení rovnováhy a zdravého přístupu ke všem životním oblastem.",
  "finance": "Rozjíždějte nové projekty, úspěch bude na Vaší straně. Uzavírejte výhodné smlouvy, implementujte nové myšlenky a směrujte se podle přání Vašich zákazníků či partnerů. Tento měsíc může být finančně velmi příznivý, pokud zůstanete otevření novým příležitostem a budete jednat s optimizmem. Nezapomeňte ovládat své emoce, vyhýbat se impulzivním rozhodnutím a zbytečné aroganci, což Vám pomůže udržet si kontrolu nad situací.",
  "relationships": "Neizolujte se od lidí, trávení času s rodinou a přáteli Vám dodá nezbytnou energii a povzbudí Váš duch. Věnujte zvláštní pozornost svému partnerovi, právě tento měsíc může přinést zlepšení vzájemných vztahů, případně vstup do manželství, početí nebo narození dítěte. Pokud jste zatím sami, může se objevit osudové setkání. Buďte otevření novým kontaktům a nebojte se investovat čas do budování kvalitních mezilidských vztahů.",
  "health": "Mějte na paměti, že dlouhodobý pobyt na slunci může být nebezpečný a může vést k popáleninám nebo tepelným úrazům. Vyhněte se nadměrnému pracovnímu nasazení a dbejte na své emocionální zdraví, abyste se vyhnuli vyhoření. Je důležité si pravidelně odpočinout a neustále dbát o harmonii mezi tělem a duší."
  },
  "3": {
- "intro": "Události v pozitivním projevu 🙌✨:\nTento měsíc je zaměřen na rozvoj inovativních myšlenek, tvůrčí sebevyjádření, dosažení stanovených cílů, společenské uznání, úspěch a podporu v podnikání i pracovním prostředí. Současně se očekává posílení rodinných vazeb, zlepšení vztahů se sourozenci či jinými blízkými, zavedení nových rodinných tradic a pořádání společných oslav. Můžete rovněž očekávat šťastné vztahy, případně uzavření manželství, vzájemnou podporu a možnost početí dítěte. Vaše snaha o harmonii a osobní růst se bude odrazem v pozitivních změnách ve všech oblastech života.\nPokud budete prožívat měsíc negativně, hrozí absence jasných plánů a cílů, neschopnost si život užívat, konflikty a nedorozumění s příbuznými, problémy s reputací, finanční komplikace, ztráty v podnikání a emocionální vyčerpání. Dále může dojít k narušení rodinných vztahů, rozvodu, problémům na dálku nebo obtížím s početím a výchovou dětí. Proto je klíčové udržovat pozitivní postoj a dovednost konstruktivně řešit případné problémy, abyste se vyhnuli nepříjemným následkům.",
- "positive": "",
- "negative": "",
+ "intro": "",
+ "positive": "Tento měsíc je zaměřen na rozvoj inovativních myšlenek, tvůrčí sebevyjádření, dosažení stanovených cílů, společenské uznání, úspěch a podporu v podnikání i pracovním prostředí. Současně se očekává posílení rodinných vazeb, zlepšení vztahů se sourozenci či jinými blízkými, zavedení nových rodinných tradic a pořádání společných oslav.",
+ "negative": "Můžete rovněž očekávat šťastné vztahy, případně uzavření manželství, vzájemnou podporu a možnost početí dítěte. Vaše snaha o harmonii a osobní růst se bude odrazem v pozitivních změnách ve všech oblastech života.\nPokud budete prožívat měsíc negativně, hrozí absence jasných plánů a cílů, neschopnost si život užívat, konflikty a nedorozumění s příbuznými, problémy s reputací, finanční komplikace, ztráty v podnikání a emocionální vyčerpání. Dále může dojít k narušení rodinných vztahů, rozvodu, problémům na dálku nebo obtížím s početím a výchovou dětí. Proto je klíčové udržovat pozitivní postoj a dovednost konstruktivně řešit případné problémy, abyste se vyhnuli nepříjemným následkům.",
  "finance": "Tento měsíc představuje příznivý čas pro obchodní jednání a postup ve Vaší kariéře. Nebojte se žádat o zvýšení platu či postupu, pokud cítíte, že Vaše úsilí zasluhuje uznání. Je čas implementovat Vaše inovativní nápady a neodkládat je na později. Pamatujte: síla a tvrdá práce překonají jakékoli překážky. Udržujte optimismus a bohatý vnitřní elán, který Vás bude motivovat ke splnění Vašich cílů, a zároveň kontrolujte své emoce, aby Vám nepřevzaly kontrolu.",
  "relationships": "Neuzavírejte se zcela do sebe ani do práce, nyní je ideální čas na setkání se svou druhou polovičkou. Pokud již máte partnera, věnujte mu více času, vyvarujte se tvrdých slov a hledejte kompromisy, které obohatí Váš vztah a posunou ho na novou úroveň. Navíc je tento měsíc vhodný pro společné cesty do slunečných zemí s rodinou nebo přáteli, takže se nebojte využít příležitostí, které Vám život nabízí.",
  "health": "Snažte se trávit více času v přírodě či na slunci, avšak vždy s patřičnou opatrností. Pamatujte, že slunce je mocnou silou, nehledejte v něm pouze zdroj tepla, ale buďte si vědomi rizik spojených s přehřátím či popáleninami. Rovněž se vyhýbejte přetěžování organismu prací, neboť Vaše zdraví je nejcennější aktivum, které máte. Doporučuje se pravidelně odpočívat a věnovat se aktivitám, jež napomáhají regeneraci těla i mysli."
@@ -782,25 +782,25 @@ window.FORECAST_TEXTS={
  },
  "20": {
  "1": {
- "intro": "Události v pozitivním projevu 🙌✨:\nČekají Vás události spojené s rodinou, jako jsou setkání, svatby, křtiny a narození dítěte. Možná obdržíte nečekanou pomoc, na kterou jste nepočítali, nebo naopak budete tou osobou, která někomu pomůže. Seznámení s novými lidmi slibují perspektivní možnosti a mohou otevřít dveře k novým příležitostem.\nMohou se objevit rodinné problémy, konflikty, nepříjemnosti a neshody. Hrozí také právní komplikace, pokuty, tresty, zpoždění a problémy s dodržením termínů, neplánované zkratky a nutnost spěchat. Kromě toho můžete pocítit touhu po větší svobodě, ovlivňování cizími názory, nedostatek soustředění, zásahy zvenčí, narušení plánů, tlak, nelaskavost či agresivitu v okolí.",
- "positive": "",
- "negative": "",
+ "intro": "",
+ "positive": "Čekají Vás události spojené s rodinou, jako jsou setkání, svatby, křtiny a narození dítěte. Možná obdržíte nečekanou pomoc, na kterou jste nepočítali, nebo naopak budete tou osobou, která někomu pomůže. Seznámení s novými lidmi slibují perspektivní možnosti a mohou otevřít dveře k novým příležitostem.",
+ "negative": "Mohou se objevit rodinné problémy, konflikty, nepříjemnosti a neshody. Hrozí také právní komplikace, pokuty, tresty, zpoždění a problémy s dodržením termínů, neplánované zkratky a nutnost spěchat. Kromě toho můžete pocítit touhu po větší svobodě, ovlivňování cizími názory, nedostatek soustředění, zásahy zvenčí, narušení plánů, tlak, nelaskavost či agresivitu v okolí.",
  "finance": "Čeká Vás přechod na další úroveň rozvoje, který může být spojen se změnou zaměstnání nebo oblasti činnosti. Velmi pravděpodobně se v tomto měsíci zúčastníte významného projektu, který posune Vaše profesní vyhlídky kupředu.",
  "relationships": "Vyvarujte se konfliktů s členy rodiny. Pokud hledáte partnera, setkání s ním nastane v okamžiku, kdy přijmete sami sebe a pochopíte, co Vám dříve bránilo ve vytváření vztahů. Tento vnitřní posun Vám pomůže posunout Vaše stávající vztahy na novou úroveň, kde dominuje vzájemné porozumění a podpora.",
  "health": "Pravidelné lékařské prohlídky Vám pomohou udržet celkový zdravotní stav a odhalit případné problémy v jejich rané fázi. Dbejte na své fyzické i emocionální zdraví, abyste mohli být stále ve své síle a plně si užívali krásy života."
  },
  "2": {
- "intro": "Události v pozitivním projevu 🙌✨:\nČeká Vás příjemné trávení času s matkou a dobré vztahy se ženami z Vašeho rodu, které Vám poskytnou potřebnou podporu. Budete mít štěstí v profesích spojených s krásou a zdravím. Je také možné početí a narození dětí, přičemž častěji se může jednat o dívky. Tato období Vám mohou přinést novou energii a inspiraci k dalšímu osobnímu růstu.\nMohou nastat napjaté vztahy s matkou či dalšími příbuznými. U žen v rodu se může projevit špatné zdraví nebo negativní postoj, což může způsobit narušení Vašich záležitostí. Mohou se objevit také zdravotní komplikace, kruhové fámy či lži ve skupině či rodině, a občasné výtky, které je však třeba umět odpustit a nechat za sebou.",
- "positive": "",
- "negative": "",
+ "intro": "",
+ "positive": "Čeká Vás příjemné trávení času s matkou a dobré vztahy se ženami z Vašeho rodu, které Vám poskytnou potřebnou podporu. Budete mít štěstí v profesích spojených s krásou a zdravím. Je také možné početí a narození dětí, přičemž častěji se může jednat o dívky. Tato období Vám mohou přinést novou energii a inspiraci k dalšímu osobnímu růstu.",
+ "negative": "Mohou nastat napjaté vztahy s matkou či dalšími příbuznými. U žen v rodu se může projevit špatné zdraví nebo negativní postoj, což může způsobit narušení Vašich záležitostí. Mohou se objevit také zdravotní komplikace, kruhové fámy či lži ve skupině či rodině, a občasné výtky, které je však třeba umět odpustit a nechat za sebou.",
  "finance": "V tomto měsíci zažijete vynikající vzájemné porozumění s obchodními partnery, kolegy i nadřízenými. Pocítíte podporu žen ve svých záležitostech, ať už to bude z řad Vašeho rodu, či od někoho, kdo má vyšší postavení (učitel, šéf, matka, babička apod.). Tato podpora Vám může pomoci realizovat Vaše projekty a nápady.",
  "relationships": "Doporučujeme zaměřit se na kvalitu vztahů se všemi, kdo Vás obklopují. Vaši blízcí Vám ukážou, na čem je třeba pracovat, což může vést k hlubším a pevnějším vztahům. Věnujte pozornost jemným signálům a snažte se společně budovat harmonické prostředí, kde se všichni cítí vyslyšeni a oceňováni.",
  "health": "Možná nastane těhotenství či narození dítěte, přičemž opět může převládat pravděpodobnost dívčího pohlaví. Zaměřte se na své ženské zdraví a také věnujte pozornost zdravotnímu stavu žen ve Vašem rodu, matky, babičky a další blízké. Pravidelná péče a preventivní prohlídky jsou nyní klíčové pro udržení dobrého zdraví."
  },
  "3": {
- "intro": "Události v pozitivním projevu 🙌✨:\nUvidíte, že Vaše vztahy s blízkými se prohloubí a stanou se vědomějšími. Snažte se trávit s nimi více času a udržovat kvalitní komunikaci. Pokud jste již delší dobu uvažovali o novém zaměření, nyní je ideální volbou oblast krásy nebo zdraví, tam Vás čekají významné úspěchy. Tento měsíc budete úspěšně vyjednávat, rozšiřovat pracovní možnosti a uzavírat záležitosti s pozitivním výsledkem, což Vám dodá sebevědomí a motivaci do další práce.\nMůže se objevit silná únava, nemoc nebo dokonce rozchod s blízkou osobou, což může vést k pocitu izolace. Mohou nastat také nečekané kontroly, výtky či problémy s řešením otázek spojených s úvěry. Kromě toho se mohou znovu objevit staré záležitosti, rodinné konflikty a dokonce i ztráta rodinného podniku, pokud se nebudete dostatečně chránit před negativními vlivy.",
- "positive": "",
- "negative": "",
+ "intro": "",
+ "positive": "Uvidíte, že Vaše vztahy s blízkými se prohloubí a stanou se vědomějšími. Snažte se trávit s nimi více času a udržovat kvalitní komunikaci. Pokud jste již delší dobu uvažovali o novém zaměření, nyní je ideální volbou oblast krásy nebo zdraví, tam Vás čekají významné úspěchy. Tento měsíc budete úspěšně vyjednávat, rozšiřovat pracovní možnosti a uzavírat záležitosti s pozitivním výsledkem, což Vám dodá sebevědomí a motivaci do další práce.",
+ "negative": "Může se objevit silná únava, nemoc nebo dokonce rozchod s blízkou osobou, což může vést k pocitu izolace. Mohou nastat také nečekané kontroly, výtky či problémy s řešením otázek spojených s úvěry. Kromě toho se mohou znovu objevit staré záležitosti, rodinné konflikty a dokonce i ztráta rodinného podniku, pokud se nebudete dostatečně chránit před negativními vlivy.",
  "finance": "Spolupráce s partnery, nadřízenými a kolegy bude plynulá a pozitivní. V obchodních záležitostech můžete očekávat pomoc od žen ve Vašem okolí. Doporučuji více naslouchat své intuici, která Vám pomůže při důležitých rozhodnutích a přispěje k Vašemu finančnímu úspěchu.",
  "relationships": "Pokud už delší dobu chcete pracovat na svých slabých stránkách, tento měsíc se Vám naskytne taková příležitost. Lidé ve Vašem okolí Vám mohou odrazit Vaše nedostatky, což Vám umožní zjistit, na čem je třeba zapracovat, abyste dosáhli harmonických a vyrovnaných vztahů.",
  "health": "Tento měsíc je příznivý pro početí a narození dítěte. Zároveň buďte obzvlášť pozorní vůči zdravotnímu stavu žen ve Vašem rodu, pečujte o jejich blaho a pohodu. Pravidelný odpočinek a prevence jsou nyní klíčové, abyste si udrželi zdraví a energii potřebnou pro každodenní život."
@@ -809,24 +809,24 @@ window.FORECAST_TEXTS={
  "21": {
  "1": {
  "intro": "",
- "positive": "🙌✨\nV tomto měsíci jsou možné cesty, služební cesty, stěhování, nová seznámení, neočekávané dárky, rozvoj vlastního projektu, růst a úspěch, početí a narození dítěte, pomoc od podnikavých žen, studium cizích jazyků, a také začátek vztahů s cizincem.\nMohou se objevit podvody a nemoci dětí, zhoršení vztahů s matkou a dalšími ženami, omezení, strachy, emocionální nestabilita, neúspěchy se služebními cestami a záležitostmi v zahraničí, chaos v podnikání, katastrofy a nehody na silnici.",
- "negative": "",
+ "positive": "V tomto měsíci jsou možné cesty, služební cesty, stěhování, nová seznámení, neočekávané dárky, rozvoj vlastního projektu, růst a úspěch, početí a narození dítěte, pomoc od podnikavých žen, studium cizích jazyků, a také začátek vztahů s cizincem.",
+ "negative": "Mohou se objevit podvody a nemoci dětí, zhoršení vztahů s matkou a dalšími ženami, omezení, strachy, emocionální nestabilita, neúspěchy se služebními cestami a záležitostmi v zahraničí, chaos v podnikání, katastrofy a nehody na silnici.",
  "finance": "V tomto měsíci vás čeká úspěch a hojnost. Je možné, že obdržíte výhodné nabídky, a proto byste je neměli propásnout. Je příznivé zakládat nové rozsáhlé projekty, pracovat se zahraničními partnery, vydávat se na služební cesty, zapojovat se do zahraničních projektů a spolupracovat s ženami.",
  "relationships": "Zástupci opačného pohlaví vám projeví větší pozornost a zájem. Rovněž je zde možnost seznámení s cizincem a obdržení drahých dárků.\nPamatujte: velmi důležitá je rovnováha mezi kariérou a rodinou.\nTaké se snažte vyhnout konfliktům s matkou a dalšími ženami.",
  "health": "V tomto měsíci je možná těhotenství, avšak u některých z vás se mohou objevit komplikace v gynekologii, problémy s početím či potraty. Může se rovněž projevit alergie."
  },
  "2": {
  "intro": "",
- "positive": "🙌✨\nV tomto měsíci se před vámi otevírají možnosti pro cestování, služební cesty, stěhování, nová seznámení, rozvoj projektů a dosažení úspěchu. Můžete rovněž počítat s podporou podnikavých žen, studiem cizích jazyků a začátkem vztahů s cizincem.\nMohou se vyskytnout komplikace s dětmi, zhoršení vztahů s matkou a dalšími ženami, vznik strachů a emocionální nestability, vnitřní i vnější omezení, a také neúspěchy se zahraničními projekty a cestami.",
- "negative": "",
+ "positive": "V tomto měsíci se před vámi otevírají možnosti pro cestování, služební cesty, stěhování, nová seznámení, rozvoj projektů a dosažení úspěchu.",
+ "negative": "Můžete rovněž počítat s podporou podnikavých žen, studiem cizích jazyků a začátkem vztahů s cizincem.\nMohou se vyskytnout komplikace s dětmi, zhoršení vztahů s matkou a dalšími ženami, vznik strachů a emocionální nestability, vnitřní i vnější omezení, a také neúspěchy se zahraničními projekty a cestami.",
  "finance": "Toto období je příznivé pro zahájení nového rozsáhlého projektu, práci s mezinárodními partnery, služební cesty, plnění zahraničních úkolů a spolupráci s ženami.\nJe také možné, že obdržíte výhodné nabídky a dojde k úspěšné spolupráci, proto tyto příležitosti nepropásněte.",
  "relationships": "Udržujte rovnováhu mezi kariérou a rodinou, aby nedošlo k jednostrannému posunu. Z příjemného hlediska se vám zaručeně zvýší pozornost a zájem ze strany opačného pohlaví, a dokonce je možné se seznámit s cizinci a obdržet cenné dárky.",
  "health": "Vysoká je pravděpodobnost početí či narození dítěte. Nicméně u některých z vás se mohou objevit problémy se ženským zdravím, například potíže s početím, mějte to na paměti.\nDále věnujte zvýšenou pozornost své stravě, protože existuje možnost vzniku alergie."
  },
  "3": {
  "intro": "",
- "positive": "🙌✨\nV tomto měsíci můžete cestovat, stěhovat se, studovat cizí jazyky, chodit na rande a zahajovat nové projekty společně se ženami.\nMohou nastat komplikace ve vztazích s dětmi, hádky s matkou a dalšími ženami, výbuchy emocí, stagnace v podnikání a projektech, vznik strachů, zrušení projektů s cizinci a neúspěšné cesty.",
- "negative": "",
+ "positive": "V tomto měsíci můžete cestovat, stěhovat se, studovat cizí jazyky, chodit na rande a zahajovat nové projekty společně se ženami.",
+ "negative": "Mohou nastat komplikace ve vztazích s dětmi, hádky s matkou a dalšími ženami, výbuchy emocí, stagnace v podnikání a projektech, vznik strachů, zrušení projektů s cizinci a neúspěšné cesty.",
  "finance": "Nebojte se pustit do tvorby rozsáhlého projektu a dobýt nové vrcholy. V tomto měsíci vám mohou být předloženy nabídky na spolupráci s mezinárodními projekty, nebo se můžete ocitnout na nečekaných služebních cestách.",
  "relationships": "Zástupci opačného pohlaví vás budou potěšovat svými dárky a pozorností. Existuje vysoká pravděpodobnost, že se seznámíte s cizincem.\nA ano, vždy mějte na paměti: rovnováha mezi kariérou a rodinou je nesmírně důležitá.",
  "health": "Věnujte maximální pozornost svému zdraví, jinak se může projevit alergie nebo nastat problémy s početím či narozením dětí."
@@ -835,15 +835,15 @@ window.FORECAST_TEXTS={
  "22": {
  "1": {
  "intro": "",
- "positive": "🙌✨\nČeká vás úspěch v podnikání, dobré příležitosti a perspektivy v různých oblastech. Také jsou možné cesty a setkání s užitečnými a potřebnými lidmi. (Tato příležitost vám může otevřít nové obzory a obohatit váš život.)\nMohou se vyskytnout omezení v pohybu, a to kvůli práci, nemocem, porušování zákonů nebo vlivu blízkých osob. Rovněž je možná nerozvážná chování, která mohou vést ke krachu. Mějte na paměti, že se mohou objevit i zdravotní komplikace, včetně problémů s reprodukčním systémem.",
- "negative": "",
+ "positive": "Čeká vás úspěch v podnikání, dobré příležitosti a perspektivy v různých oblastech. Také jsou možné cesty a setkání s užitečnými a potřebnými lidmi. (Tato příležitost vám může otevřít nové obzory a obohatit váš život.)",
+ "negative": "Mohou se vyskytnout omezení v pohybu, a to kvůli práci, nemocem, porušování zákonů nebo vlivu blízkých osob. Rovněž je možná nerozvážná chování, která mohou vést ke krachu. Mějte na paměti, že se mohou objevit i zdravotní komplikace, včetně problémů s reprodukčním systémem.",
  "finance": "Máte perspektivu začít nový podnikatelský záměr, ale k tomu je třeba projevovat aktivitu a usilovat o dosažení svých cílů. Zkuste něco nového a neobvyklého, ale vyhněte se neopodstatněným rizikům. Využijte své talenty a schopnost inspirovat ostatní. Mohlo by dojít k nečekanému finančnímu příjmu.",
  "relationships": "Projevte stabilitu ve vztazích, aniž byste ztratili jejich lehkost. Toto je vhodná doba pro upevnění spojení s partnerem a pro kvalitní komunikaci s rodinou. Pokud zatím nejste ve vztahu, je zde reálná šance, že potkáte svou druhou polovinu.",
  "health": "Buďte pozorní ke svému psychickému stavu a vyhněte se závislostem. Mějte na paměti, že mohou nastat komplikace s reprodukčním systémem, proto se snažte vést uvědomělý a zdravý životní styl."
  },
  "2": {
  "intro": "",
- "positive": "🙌✨\nTento měsíc může přinést úspěšný začátek nového projektu, setkání s přáteli, příjemné události a radost. Existuje možnost osvojit si novou práci nebo specializaci, což by mohlo obohatit váš profesní život.\nNekontrolované emoce, úzkost, problémy s dětmi, domácí potíže a konflikty mohou narušit vaše plány. Snažte se vyhnout nadměrnému napětí, aby se negativní vlivy neprojevily ve vašem každodenním životě.",
+ "positive": "Tento měsíc může přinést úspěšný začátek nového projektu, setkání s přáteli, příjemné události a radost. Existuje možnost osvojit si novou práci nebo specializaci, což by mohlo obohatit váš profesní život.\nNekontrolované emoce, úzkost, problémy s dětmi, domácí potíže a konflikty mohou narušit vaše plány. Snažte se vyhnout nadměrnému napětí, aby se negativní vlivy neprojevily ve vašem každodenním životě.",
  "negative": "",
  "finance": "Toto je ideální čas pro nové začátky a hledání nové práce. Odevzdejte to staré, abyste mohli volně postupovat kupředu. Stanovte si jasné cíle a nezapomínejte na odpovědnost nejen za své záležitosti, ale i za své partnery a spolupracovníky.",
  "relationships": "Pokud zatím nemáte milovanou osobu, vysoká je pravděpodobnost, že se s láskou setkáte na první pohled. V rodinném životě vás čekají příjemné události. Neomezujte svého partnera, poskytněte mu svobodu a respektujte jeho názory.",
@@ -851,8 +851,8 @@ window.FORECAST_TEXTS={
  },
  "3": {
  "intro": "",
- "positive": "🙌✨\nMěsíc aktivních začátků, práce, cesty, nová seznámení a úspěch vás čekají. Pocítíte svobodu a budete jednat odvážně. Je zde možnost, že se objeví pomoc od blízkých, a občas se může ve vaší domácnosti objevit i nový mazlíček, což přinese radost a pohodu.\nNeočekávané obtíže a zásadní změny v podnikání či osobních záležitostech jsou možné. Může dojít ke ztrátě peněz, ke konfliktům nebo dokonce k nešťastným událostem, proto buďte opatrní.",
- "negative": "",
+ "positive": "Měsíc aktivních začátků, práce, cesty, nová seznámení a úspěch vás čekají. Pocítíte svobodu a budete jednat odvážně. Je zde možnost, že se objeví pomoc od blízkých, a občas se může ve vaší domácnosti objevit i nový mazlíček, což přinese radost a pohodu.\nNeočekávané obtíže a zásadní změny v podnikání či osobních záležitostech jsou možné.",
+ "negative": "Může dojít ke ztrátě peněz, ke konfliktům nebo dokonce k nešťastným událostem, proto buďte opatrní.",
  "finance": "Začít nový podnikatelský záměr je reálné, avšak je důležité přistupovat k rozhodnutím disciplinovaně a vyhýbat se zbytečným rizikům. Postupujte s lehkostí, ale nezapomínejte činit správná rozhodnutí. Může dojít k nečekaným finančním příjmům, které obohatí vaše zdroje.",
  "relationships": "Toto je období změn a obnovy. Vztahy se mohou ukončit nebo naopak vystoupit na zcela novou úroveň. Neomezujte sebe ani svého partnera přehnaným kontrolováním, klíčová je vzájemná svoboda a respekt.",
  "health": "Pokud budete žít s pozitivním nastavením, pocítíte příliv energie a vitalitu. V opačném případě se můžete setkat s nervozitou a poklesem sil, proto věnujte zvláštní pozornost udržení dobrého zdravotního stavu."
