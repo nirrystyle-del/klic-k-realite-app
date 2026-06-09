@@ -1,7 +1,7 @@
 window.FORECAST_TEXTS = {
   daily: {
     default: {
-      text: "Toto je zatím testovací text. V další fázi zde bude skutečný výklad denní energie podle databáze Klíč k realitě.",
+      text: "Toto je zatím testovací text. V další fázi zde bude skutečný výklad denní energie podle systému Klíč k realitě.",
       task: "Všímejte si dnes hlavně svého vnitřního stavu a toho, kde jednáte ze zvyku."
     },
     1: { text: "Dnešek technicky ukazuje energii začátku, rozhodnutí a prvního kroku.", task: "Udělejte jeden konkrétní krok, který už dlouho odkládáte." },

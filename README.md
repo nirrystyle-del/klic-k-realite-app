@@ -1,13 +1,11 @@
-# Klíč k realitě - Mini App starter v3
+# Klíč k realitě - Mini App starter v4
 
-Nové ve v3:
-- obrazovka přístupu
-- testovací stav předplatného
-- chráněné sekce Dnes, Měsíc, Průvodce
-- záložka Přístup
-- nový soubor forecastTexts.js pro budoucí výklady
-
-Zatím bez skutečné platby. Tlačítko pouze aktivuje testovací přístup v localStorage.
+Nové ve v4:
+- odstraněná všechna viditelná zmínka o umělé inteligenci
+- sekce se jmenuje Průvodce
+- texty jsou formulované jako osobní rozbor a průvodce
+- zachovaná logika testovacího přístupu
+- zachovaný soubor forecastTexts.js pro budoucí výklady
 
 Nahrajte do GitHubu všech 5 souborů:
 - index.html
