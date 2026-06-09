@@ -154,3 +154,8 @@
 .recommendation-list li{
   margin-bottom:7px;
 }
+
+.warning-box{
+  border-left:4px solid #9f1d35;
+  background:rgba(159,29,53,.05);
+}

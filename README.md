@@ -1,12 +1,19 @@
-# Klíč k realitě, Mini App starter v17 dash clean
+# Klíč k realitě, Mini App starter v18 month year
 
-Oprava:
-- z denních výkladů jsou odstraněné dlouhé pomlčky
-- dlouhé pomlčky jsou nahrazené jemnější interpunkcí
-- obsah výkladů nebyl přepisován, šlo o technické vyčištění textu
-- cache busting změněný na ?v=17
-- zůstává oprava profilu z v16
-- zůstává 22 denních energií
+Nové ve v18:
+- přidané měsíční výklady z mesicni-prognoza
+- přidané roční výklady z cislo-roku-descriptions
+- Měsíc má vlastní strukturu:
+  - celkové téma
+  - pozitivní projev
+  - negativní projev
+  - finance
+  - vztahy
+  - zdraví
+- přidaná nová záložka Rok
+- dlouhé pomlčky jsou z textů vyčištěné
+- profil fix z v16 zůstává
+- denní výklady zůstávají
 
 Файлы для загрузки в GitHub:
 - index.html
