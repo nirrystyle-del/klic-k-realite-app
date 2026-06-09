@@ -1,20 +1,10 @@
-# Klíč k realitě - Mini App starter v14
+# Klíč k realitě - Mini App starter v14.1 repair
 
-Nové ve v14:
-- denní výklady jsou napojené na hotový soubor denni-predpoved
-- používá se všech 22 energií
-- každá energie používá variantu podle vzoru z generátoru: 1-6 se opakuje po 6
-- výpočet energie dne je přepsaný podle calculateForecast:
-  - reduceEnergy
-  - calcYearEnergy
-  - calcMonthEnergy
-  - calcDayEnergy
-- obrazovka Dnes zůstává ve formátu:
-  - Hlavní výklad dne
-  - Doporučení
-  - Oblast financí
-  - Oblast vztahů
-  - Oblast zdraví
+Oprava v14:
+- opravený app.js
+- Dnes a Měsíc se znovu otevírají
+- zůstává napojení všech 22 denních energií
+- zůstává výpočet podle calculateForecast
 - Supabase zůstává
 - bez viditelného zmínění umělé inteligence
 
