@@ -12,18 +12,23 @@
     <section class="hero">
       <div class="pill">KLIC K REALITE</div>
       <h1 id="screenTitle">Váš profil</h1>
-      <p id="screenSubtitle">Vyplňte své údaje. Tato verze testuje přístup a přípravu na předplatné.</p>
+      <p id="screenSubtitle">Vyplňte své údaje. Tato verze už připravuje propojení přístupu s Telegram účtem.</p>
     </section>
 
     <section id="accessScreen" class="card screen">
       <div class="lock-icon">✦</div>
       <h2>Přístup není aktivní</h2>
       <p>Toto je zatím testovací obrazovka předplatného. Později sem napojíme skutečnou platbu přes Telegram.</p>
-      <p class="hint">Pro testování tlačítko pouze aktivuje přístup v tomto prohlížeči.</p>
-      <button id="activateTestBtn" class="primary">Aktivovat testovací přístup</button>
+      <p class="hint">Pro testování tlačítko aktivuje přístup pouze v testovacím režimu.</p>
+      <button id="activateTestBtn" class="primary">Aktivovat testovací režim</button>
     </section>
 
     <section id="profileScreen" class="card screen active">
+      <div class="telegram-box">
+        <strong>Telegram účet:</strong>
+        <span id="telegramStatus">Kontroluji...</span>
+      </div>
+
       <label>Jméno</label>
       <input id="nameInput" type="text" placeholder="Vaše jméno" autocomplete="name">
 
@@ -65,9 +70,15 @@
     <section id="subscriptionScreen" class="card screen">
       <h2>Předplatné</h2>
       <p id="subscriptionStatus">Načítám stav přístupu...</p>
-      <button id="activateFromSubscriptionBtn" class="primary">Aktivovat testovací přístup</button>
-      <button id="resetAccessBtn" class="secondary">Vypnout testovací přístup</button>
-      <p class="hint">Později zde bude skutečné předplatné. Startovní cena může být například 240 Kč měsíčně.</p>
+
+      <div class="payment-placeholder">
+        <strong>Budoucí platba:</strong>
+        <span>měsíční přístup bude později ověřovaný podle Telegram ID.</span>
+      </div>
+
+      <button id="activateFromSubscriptionBtn" class="primary">Aktivovat testovací režim</button>
+      <button id="resetAccessBtn" class="secondary">Vypnout testovací režim</button>
+      <p class="hint">Startovní cena může být například 240 Kč měsíčně.</p>
     </section>
 
     <nav class="tabs">
