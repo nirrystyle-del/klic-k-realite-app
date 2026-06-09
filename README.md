@@ -1,12 +1,12 @@
-# Klíč k realitě, Mini App starter v21 month smart split
+# Klíč k realitě, Mini App starter v22 year format fix
 
-Oprava v21:
-- chytřejší rozdělení měsíčních textů
-- pozitivní a negativní projev se lépe oddělují i tam, kde v původním textu chybí nadpis negativního projevu
-- prázdné měsíční bloky se skrývají místo textu Bude doplněno podle výkladů
-- přidaný monthly_parser_report.csv s místy, kde ve zdrojových textech pořád chybí sekce
-- cache busting změněný na ?v=21
-- denní a roční výklady zůstávají
+Oprava v22:
+- roční výklad už není jeden slévací odstavec
+- odstraněn duplicitní nadpis VAŠE ČÍSLO ROKU, protože číslo je už nahoře v kruhu
+- body a DŮLEŽITÉ se zobrazují s normálními odřádkováními
+- dlouhé pomlčky zůstávají vyčištěné
+- měsíční a denní výklady zůstávají
+- cache busting změněný na ?v=22
 
 Файлы для загрузки в GitHub:
 - index.html
@@ -15,5 +15,3 @@ Oprava v21:
 - database.js
 - forecastTexts.js
 - README.md
-
-Soubor monthly_parser_report.csv je jen kontrolní report, do GitHubu ho nahrávat nemusíte.

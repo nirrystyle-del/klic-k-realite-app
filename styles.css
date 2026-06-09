@@ -159,3 +159,25 @@
   border-left:4px solid #9f1d35;
   background:rgba(159,29,53,.05);
 }
+
+#yearText,
+#monthText,
+#monthPositive,
+#monthNegative,
+#monthFinance,
+#monthRelationships,
+#monthHealth,
+#todayText,
+#todayFinance,
+#todayRelationships,
+#todayHealth{
+  white-space:pre-line;
+}
+
+#yearText{
+  line-height:1.58;
+}
+
+.year-note{
+  color:var(--muted);
+}
