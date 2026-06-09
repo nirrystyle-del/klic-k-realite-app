@@ -48,3 +48,21 @@
   font-size:15px;
   margin-top:-2px;
 }
+
+.tiny{
+  font-size:10px;
+  opacity:.55;
+}
+.hidden-client-note{
+  display:none;
+}
+.admin-panel{
+  opacity:.55;
+}
+.admin-panel:hover{
+  opacity:1;
+}
+.admin-panel .secondary{
+  font-size:13px;
+  padding:11px 14px;
+}

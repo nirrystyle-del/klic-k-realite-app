@@ -25,12 +25,12 @@
         <div class="price">240 Kč / 10 € měsíčně</div>
       </div>
       <button id="futurePaymentBtn" class="primary">Aktivovat přístup</button>
-      <button id="activateTestBtn" class="secondary admin-test">Zapnout interní testovací přístup</button>
+      <button id="activateTestBtn" class="secondary admin-test">Technicky aktivovat přístup</button>
     </section>
 
     <section id="profileScreen" class="card screen active">
-      <p id="telegramStatus" class="technical-note">Kontroluji Telegram účet...</p>
-      <p id="storageStatus" class="technical-note">Kontroluji režim ukládání...</p>
+      <p id="telegramStatus" class="technical-note tiny">Kontroluji Telegram účet...</p>
+      <p id="storageStatus" class="technical-note tiny hidden-client-note">Kontroluji režim ukládání...</p>
 
       <label>Jméno</label>
       <input id="nameInput" type="text" placeholder="Vaše jméno" autocomplete="name">
@@ -87,9 +87,9 @@
       <button id="futurePaymentFromSubscriptionBtn" class="primary">Aktivovat přístup</button>
 
       <div class="admin-panel">
-        <p class="technical-note">Interní testovací ovládání, později bude odstraněno.</p>
-        <button id="activateFromSubscriptionBtn" class="secondary">Zapnout testovací přístup</button>
-        <button id="resetAccessBtn" class="secondary">Vypnout testovací přístup</button>
+        <p class="technical-note">Technické nastavení pro vývoj.</p>
+        <button id="activateFromSubscriptionBtn" class="secondary">Aktivovat ručně</button>
+        <button id="resetAccessBtn" class="secondary">Deaktivovat ručně</button>
       </div>
     </section>
 
