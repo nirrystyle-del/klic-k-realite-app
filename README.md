@@ -1,12 +1,12 @@
-# Klíč k realitě, Mini App starter v31 year accordion
+# Klíč k realitě, Mini App starter v32 section accordion
 
-Nové ve v31:
-- roční sekce jsou ve skládacích kartách
-- Rok pro celou planetu je defaultně sbalený
-- Aktuální osobní rok je defaultně otevřený
-- Předchozí osobní rok je defaultně sbalený
-- přidaný soubor yearAccordion.js
-- cache busting změněný na ?v=31
+Nové ve v32:
+- sekce ve Dnes a Měsíc jsou skládací
+- hlavní výklad zůstává otevřený
+- doporučení, finance, vztahy a zdraví jsou defaultně sbalené
+- přidaný soubor sectionAccordion.js
+- roční akordeony z v31 zůstávají
+- cache busting změněný na ?v=32
 
 Файлы для загрузки в GitHub:
 - index.html
@@ -17,4 +17,5 @@ Nové ve v31:
 - previousYear.js
 - planetYear.js
 - yearAccordion.js
+- sectionAccordion.js
 - README.md
