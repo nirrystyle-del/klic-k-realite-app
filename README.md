@@ -1,11 +1,12 @@
-# Klíč k realitě, Mini App starter v29 previous year db fix
+# Klíč k realitě, Mini App starter v30 planet year
 
-Oprava v29:
-- previousYear.js už nečte jen emergency localStorage
-- nejdřív se snaží načíst profil přes KLIC_DATABASE.getProfile
-- potom zkouší několik lokálních uložišť
-- pokud profil nenajde, blok už nevypisuje třikrát Nejdříve vyplňte profil
-- cache busting změněný na ?v=29
+Nové ve v30:
+- do záložky Rok je přidaný blok Rok pro celou planetu
+- text je vytažený z PDF ze sekce Číslo roku pro celou planetu pro rok 2026
+- přidaný samostatný soubor planetYear.js
+- pro každoroční aktualizaci stačí změnit rok, subtitle a text v planetYear.js
+- stávající osobní rok a předchozí osobní rok zůstávají
+- cache busting změněný na ?v=30
 
 Файлы для загрузки в GitHub:
 - index.html
@@ -14,4 +15,5 @@ Oprava v29:
 - database.js
 - forecastTexts.js
 - previousYear.js
+- planetYear.js
 - README.md

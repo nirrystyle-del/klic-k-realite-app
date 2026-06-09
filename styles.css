@@ -198,3 +198,13 @@
 #previousYearPeriod{
   white-space:pre-line;
 }
+
+.planet-year-box{
+  border-left:4px solid var(--gold);
+  background:rgba(216,178,76,.08);
+}
+
+#planetYearText{
+  white-space:pre-line;
+  line-height:1.58;
+}
