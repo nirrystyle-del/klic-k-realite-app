@@ -1,12 +1,16 @@
-# Klíč k realitě - Mini App starter v5
+# Klíč k realitě - Mini App starter v6
 
-Nové ve v5:
-- aplikace čte Telegram uživatele, pokud je otevřená uvnitř Telegramu
-- profil a testovací přístup se ukládají pod samostatným klíčem podle Telegram ID
-- v profilu se ukazuje stav propojení s Telegram účtem
-- v předplatném se ukazuje, podle čeho se bude později ověřovat přístup
-- zachovaný testovací režim
+Nové ve v6:
+- Telegram ID se ukazuje jen malým technickým textem
+- datum narození se po uložení uzamkne
+- uživatel může požádat o úpravu data narození
+- změna data narození je v testovací verzi povolená maximálně jednou za 30 dní
+- jméno lze upravit bez omezení
+- zachovaný testovací režim přístupu
 - žádná viditelná zmínka o umělé inteligenci
+
+Poznámka:
+Toto je zatím klientská testovací logika. Ve skutečném produktu se omezení změny data narození musí ukládat na serveru/databázi, ne pouze v prohlížeči.
 
 Nahrajte do GitHubu všech 5 souborů:
 - index.html
@@ -14,9 +18,3 @@ Nahrajte do GitHubu všech 5 souborů:
 - app.js
 - forecastTexts.js
 - README.md
-
-Další fáze:
-- databáze uživatelů
-- skutečné ověření předplatného
-- platba přes Telegram
-- plné výklady

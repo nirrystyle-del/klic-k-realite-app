@@ -12,7 +12,7 @@
     <section class="hero">
       <div class="pill">KLIC K REALITE</div>
       <h1 id="screenTitle">Váš profil</h1>
-      <p id="screenSubtitle">Vyplňte své údaje. Tato verze už připravuje propojení přístupu s Telegram účtem.</p>
+      <p id="screenSubtitle">Vyplňte své údaje. Datum narození se po uložení uzamkne, aby byl výklad stabilní.</p>
     </section>
 
     <section id="accessScreen" class="card screen">
@@ -24,10 +24,7 @@
     </section>
 
     <section id="profileScreen" class="card screen active">
-      <div class="telegram-box">
-        <strong>Telegram účet:</strong>
-        <span id="telegramStatus">Kontroluji...</span>
-      </div>
+      <p id="telegramStatus" class="technical-note">Kontroluji Telegram účet...</p>
 
       <label>Jméno</label>
       <input id="nameInput" type="text" placeholder="Vaše jméno" autocomplete="name">
@@ -38,9 +35,11 @@
         <input id="monthInput" type="number" inputmode="numeric" min="1" max="12" placeholder="Měsíc">
         <input id="yearInput" type="number" inputmode="numeric" min="1900" max="2100" placeholder="Rok">
       </div>
-      <p class="hint">Příklad: 27 / 6 / 1997</p>
+
+      <p id="birthLockInfo" class="hint">Příklad: 27 / 6 / 1997</p>
 
       <button id="saveProfileBtn" class="primary">Uložit profil</button>
+      <button id="editBirthdateBtn" class="secondary hidden">Upravit datum narození</button>
       <p id="profileMessage" class="message"></p>
     </section>
 
@@ -73,7 +72,7 @@
 
       <div class="payment-placeholder">
         <strong>Budoucí platba:</strong>
-        <span>měsíční přístup bude později ověřovaný podle Telegram ID.</span>
+        <span>měsíční přístup bude později ověřovaný podle Telegram účtu.</span>
       </div>
 
       <button id="activateFromSubscriptionBtn" class="primary">Aktivovat testovací režim</button>
