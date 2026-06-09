@@ -208,3 +208,58 @@
   white-space:pre-line;
   line-height:1.58;
 }
+
+.accordion-card{
+  position:relative;
+  cursor:pointer;
+  transition:transform .18s ease, box-shadow .18s ease;
+}
+
+.accordion-card:hover{
+  transform:translateY(-1px);
+}
+
+.accordion-card::after{
+  content:"Rozbalit";
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  margin-top:14px;
+  padding:9px 14px;
+  border-radius:999px;
+  border:1px solid var(--line);
+  color:var(--accent);
+  font-weight:800;
+  font-size:14px;
+  letter-spacing:.02em;
+}
+
+.accordion-card.open::after{
+  content:"Sbalit";
+}
+
+.accordion-card .accordion-content{
+  overflow:hidden;
+  max-height:0;
+  opacity:0;
+  transition:max-height .28s ease, opacity .2s ease;
+}
+
+.accordion-card.open .accordion-content{
+  max-height:5000px;
+  opacity:1;
+}
+
+.accordion-card.open{
+  cursor:default;
+}
+
+.accordion-card h3{
+  cursor:pointer;
+}
+
+.year-accordion-hint{
+  color:var(--muted);
+  font-size:15px;
+  margin-top:6px;
+}

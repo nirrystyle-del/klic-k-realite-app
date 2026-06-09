@@ -1,12 +1,12 @@
-# Klíč k realitě, Mini App starter v30 planet year
+# Klíč k realitě, Mini App starter v31 year accordion
 
-Nové ve v30:
-- do záložky Rok je přidaný blok Rok pro celou planetu
-- text je vytažený z PDF ze sekce Číslo roku pro celou planetu pro rok 2026
-- přidaný samostatný soubor planetYear.js
-- pro každoroční aktualizaci stačí změnit rok, subtitle a text v planetYear.js
-- stávající osobní rok a předchozí osobní rok zůstávají
-- cache busting změněný na ?v=30
+Nové ve v31:
+- roční sekce jsou ve skládacích kartách
+- Rok pro celou planetu je defaultně sbalený
+- Aktuální osobní rok je defaultně otevřený
+- Předchozí osobní rok je defaultně sbalený
+- přidaný soubor yearAccordion.js
+- cache busting změněný na ?v=31
 
 Файлы для загрузки в GitHub:
 - index.html
@@ -16,4 +16,5 @@ Nové ve v30:
 - forecastTexts.js
 - previousYear.js
 - planetYear.js
+- yearAccordion.js
 - README.md
