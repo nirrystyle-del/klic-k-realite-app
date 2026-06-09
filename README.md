@@ -1,13 +1,12 @@
-# Klíč k realitě - Mini App starter v11
+# Klíč k realitě - Mini App starter v12
 
-Nové ve v11:
-- интерфейс очищен от слишком явных тестовых надписей
-- экран Přístup выглядит более клиентским
-- технические строки спрятаны или уменьшены
-- тестовые кнопки оставлены только как Technické nastavení
-- цена остаётся 240 Kč / 10 € měsíčně
-- Supabase сохраняется
-- без видимого упоминания umělé inteligence
+Nové ve v12:
+- přepracovaný ekran Dnes
+- přidaná struktura: téma dne, podpora, upozornění, malý krok dne
+- připraveno pro budoucí skutečné denní výklady
+- Supabase zůstává
+- cena zůstává 240 Kč / 10 € měsíčně
+- bez viditelného zmínění umělé inteligence
 
 Файлы для загрузки в GitHub:
 - index.html

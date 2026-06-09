@@ -66,3 +66,48 @@
   font-size:13px;
   padding:11px 14px;
 }
+
+.today-header{
+  display:flex;
+  gap:16px;
+  align-items:center;
+  margin-bottom:16px;
+}
+.today-header .energy-number{
+  margin:0;
+  flex:0 0 auto;
+}
+.today-theme{
+  margin:0;
+  color:var(--muted);
+  font-weight:700;
+}
+.insight-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:12px;
+  margin-top:16px;
+}
+.insight-card{
+  padding:15px;
+  border-radius:16px;
+  border:1px solid var(--line);
+  background:rgba(255,255,255,.42);
+  line-height:1.45;
+}
+.insight-card strong{
+  display:block;
+  margin-bottom:8px;
+  color:var(--accent);
+}
+.insight-card span{
+  color:var(--text);
+}
+@media(max-width:560px){
+  .today-header{
+    align-items:flex-start;
+  }
+  .insight-grid{
+    grid-template-columns:1fr;
+  }
+}
