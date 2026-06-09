@@ -1,20 +1,24 @@
-# Klíč k realitě - Mini App starter v6
+# Klíč k realitě - Mini App starter v7
 
-Nové ve v6:
-- Telegram ID se ukazuje jen malým technickým textem
-- datum narození se po uložení uzamkne
-- uživatel může požádat o úpravu data narození
-- změna data narození je v testovací verzi povolená maximálně jednou za 30 dní
-- jméno lze upravit bez omezení
-- zachovaný testovací režim přístupu
-- žádná viditelná zmínka o umělé inteligenci
+Nové ve v7:
+- přidaný soubor `database.js`
+- profil a přístup už jdou přes jednotnou vrstvu ukládání
+- zatím běží lokální testovací režim
+- v kódu je připravená struktura pro budoucí databázi
+- připravené budoucí tabulky users a subscriptions
+- v rozhraní se ukazuje režim ukládání
+- stále žádná viditelná zmínka o umělé inteligenci
 
-Poznámka:
-Toto je zatím klientská testovací logika. Ve skutečném produktu se omezení změny data narození musí ukládat na serveru/databázi, ne pouze v prohlížeči.
-
-Nahrajte do GitHubu všech 5 souborů:
+Nahrajte do GitHubu všech 6 souborů:
 - index.html
 - styles.css
 - app.js
+- database.js
 - forecastTexts.js
 - README.md
+
+Další fáze:
+- vytvořit Supabase projekt
+- vytvořit tabulky users a subscriptions
+- nahradit lokální ukládání skutečným ukládáním do databáze
+- potom připojit platbu přes Telegram

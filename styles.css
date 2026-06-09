@@ -14,6 +14,6 @@ input:disabled{opacity:.72;background:rgba(245,235,225,.75);cursor:not-allowed}
 .tabs{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-top:18px}.tabs button{border:1px solid var(--line);border-radius:999px;padding:11px 8px;background:rgba(255,255,255,.45);color:var(--text);cursor:pointer;font-size:14px}.tabs button.active{background:var(--accent);color:white;border-color:var(--accent)}
 .energy-number{width:86px;height:86px;border-radius:50%;display:grid;place-items:center;margin:0 auto 16px;background:var(--accent);color:#fff8f0;font-size:42px;font-weight:700}.energy-number.small{width:72px;height:72px;font-size:34px}
 .message{margin:12px 0 0;color:var(--muted)}.answer,.mini-task,.payment-placeholder{margin-top:16px;padding:16px;border-radius:16px;background:rgba(143,23,41,.06);color:var(--text);line-height:1.55;white-space:pre-wrap}
-.technical-note{margin:0 0 14px;text-align:center;color:rgba(90,36,48,.48);font-size:11px;line-height:1.35}
+.technical-note{margin:0 0 7px;text-align:center;color:rgba(90,36,48,.48);font-size:11px;line-height:1.35}
 .hidden{display:none!important}.lock-icon{width:72px;height:72px;display:grid;place-items:center;border-radius:50%;margin:0 auto 18px;background:rgba(216,178,76,.22);color:var(--accent);font-size:38px}
 @media(max-width:560px){.app{padding:22px 14px 28px}.card{padding:18px}.date-grid{grid-template-columns:1fr}.tabs{grid-template-columns:1fr 1fr}}

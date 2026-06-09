@@ -12,7 +12,7 @@
     <section class="hero">
       <div class="pill">KLIC K REALITE</div>
       <h1 id="screenTitle">Váš profil</h1>
-      <p id="screenSubtitle">Vyplňte své údaje. Datum narození se po uložení uzamkne, aby byl výklad stabilní.</p>
+      <p id="screenSubtitle">Vyplňte své údaje. Tato verze připravuje strukturu pro ukládání údajů do databáze.</p>
     </section>
 
     <section id="accessScreen" class="card screen">
@@ -25,6 +25,7 @@
 
     <section id="profileScreen" class="card screen active">
       <p id="telegramStatus" class="technical-note">Kontroluji Telegram účet...</p>
+      <p id="storageStatus" class="technical-note">Režim ukládání: testovací lokální režim</p>
 
       <label>Jméno</label>
       <input id="nameInput" type="text" placeholder="Vaše jméno" autocomplete="name">
@@ -72,7 +73,7 @@
 
       <div class="payment-placeholder">
         <strong>Budoucí platba:</strong>
-        <span>měsíční přístup bude později ověřovaný podle Telegram účtu.</span>
+        <span>měsíční přístup bude později ověřovaný podle Telegram účtu a uložený v databázi.</span>
       </div>
 
       <button id="activateFromSubscriptionBtn" class="primary">Aktivovat testovací režim</button>
@@ -90,6 +91,7 @@
   </main>
 
   <script src="./forecastTexts.js"></script>
+  <script src="./database.js"></script>
   <script src="./app.js"></script>
 </body>
 </html>
