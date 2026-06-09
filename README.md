@@ -1,22 +1,17 @@
-# Klíč k realitě - Mini App starter v2
+# Klíč k realitě - Mini App starter v3
 
-Toto je druhá technická verze Telegram Mini App.
+Nové ve v3:
+- obrazovka přístupu
+- testovací stav předplatného
+- chráněné sekce Dnes, Měsíc, Průvodce
+- záložka Přístup
+- nový soubor forecastTexts.js pro budoucí výklady
 
-## Co se změnilo ve v2
+Zatím bez skutečné platby. Tlačítko pouze aktivuje testovací přístup v localStorage.
 
-Datum narození už není jedno systémové pole typu date.
-
-Místo toho jsou 3 samostatná pole:
-
-- Den
-- Měsíc
-- Rok
-
-Důvod: na počítači se systémové date pole někdy chová nepohodlně a rok se špatně zadává. Na telefonu to většinou funguje dobře, ale pro klienty musí být pohodlné obojí.
-
-## Jak aktualizovat GitHub
-
-1. Otevřít repozitář `klic-k-realite-app`.
-2. Nahrát tyto 4 soubory.
-3. Potvrdit `Commit changes`.
-4. Vercel se aktualizuje automaticky.
+Nahrajte do GitHubu všech 5 souborů:
+- index.html
+- styles.css
+- app.js
+- forecastTexts.js
+- README.md

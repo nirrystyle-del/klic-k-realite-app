@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="cs">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Klíč k realitě</title>
-  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="./styles.css">
   <script src="https://telegram.org/js/telegram-web-app.js"></script>
 </head>
 <body>
@@ -12,18 +12,26 @@
     <section class="hero">
       <div class="pill">KLIC K REALITE</div>
       <h1 id="screenTitle">Váš profil</h1>
-      <p id="screenSubtitle">Vyplňte své údaje. Datum narození je rozdělené na den, měsíc a rok, aby šlo pohodlně zadat i na počítači.</p>
+      <p id="screenSubtitle">Vyplňte své údaje. Tato verze už testuje přístup a přípravu na předplatné.</p>
+    </section>
+
+    <section id="accessScreen" class="card screen">
+      <div class="lock-icon">✦</div>
+      <h2>Přístup není aktivní</h2>
+      <p>Toto je zatím testovací obrazovka předplatného. Později sem napojíme skutečnou platbu přes Telegram Stars.</p>
+      <p class="hint">Pro testování tlačítko pouze aktivuje přístup v tomto prohlížeči.</p>
+      <button id="activateTestBtn" class="primary">Aktivovat testovací přístup</button>
     </section>
 
     <section id="profileScreen" class="card screen active">
       <label>Jméno</label>
-      <input id="nameInput" type="text" placeholder="Vaše jméno" autocomplete="name" />
+      <input id="nameInput" type="text" placeholder="Vaše jméno" autocomplete="name">
 
       <label>Datum narození</label>
       <div class="date-grid">
-        <input id="dayInput" type="number" inputmode="numeric" min="1" max="31" placeholder="Den" />
-        <input id="monthInput" type="number" inputmode="numeric" min="1" max="12" placeholder="Měsíc" />
-        <input id="yearInput" type="number" inputmode="numeric" min="1900" max="2100" placeholder="Rok" />
+        <input id="dayInput" type="number" inputmode="numeric" min="1" max="31" placeholder="Den">
+        <input id="monthInput" type="number" inputmode="numeric" min="1" max="12" placeholder="Měsíc">
+        <input id="yearInput" type="number" inputmode="numeric" min="1900" max="2100" placeholder="Rok">
       </div>
       <p class="hint">Příklad: 27 / 6 / 1997</p>
 
@@ -35,6 +43,7 @@
       <div class="energy-number" id="todayNumber">?</div>
       <h2>Dnešní energie</h2>
       <p id="todayText">Nejdříve vyplňte profil.</p>
+      <div class="mini-task"><strong>Úkol dne:</strong> <span id="todayTask">Bude doplněno podle databáze.</span></div>
       <button class="primary" data-tab="guide">Rozebrat dnešní den s průvodcem</button>
     </section>
 
@@ -42,14 +51,23 @@
       <div class="energy-number small" id="monthNumber">?</div>
       <h2>Téma měsíce</h2>
       <p id="monthText">Nejdříve vyplňte profil.</p>
+      <div class="mini-task"><strong>Úkol měsíce:</strong> <span id="monthTask">Bude doplněno podle databáze.</span></div>
     </section>
 
     <section id="guideScreen" class="card screen">
       <h2>AI průvodce</h2>
-      <p class="hint">Toto je zatím testovací technická verze. Později bude odpověď napojená na plnou databázi výkladů a OpenAI.</p>
+      <p class="hint">Zatím testovací verze. Později bude odpověď napojená na OpenAI a databázi výkladů.</p>
       <textarea id="guideInput" placeholder="Napište, co dnes řešíte..."></textarea>
       <button id="guideBtn" class="primary">Zeptat se průvodce</button>
       <div id="guideAnswer" class="answer"></div>
+    </section>
+
+    <section id="subscriptionScreen" class="card screen">
+      <h2>Předplatné</h2>
+      <p id="subscriptionStatus">Načítám stav přístupu...</p>
+      <button id="activateFromSubscriptionBtn" class="primary">Aktivovat testovací přístup</button>
+      <button id="resetAccessBtn" class="secondary">Vypnout testovací přístup</button>
+      <p class="hint">Později zde bude skutečné předplatné. Startovní cena může být například 240 Kč měsíčně.</p>
     </section>
 
     <nav class="tabs">
@@ -57,9 +75,11 @@
       <button data-tab="month">Měsíc</button>
       <button data-tab="guide">Průvodce</button>
       <button data-tab="profile" class="active">Profil</button>
+      <button data-tab="subscription">Přístup</button>
     </nav>
   </main>
 
+  <script src="./forecastTexts.js"></script>
   <script src="./app.js"></script>
 </body>
 </html>

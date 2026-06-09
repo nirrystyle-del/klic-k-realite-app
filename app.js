@@ -1,182 +1,28 @@
-const tg = window.Telegram?.WebApp;
-if (tg) {
-  tg.ready();
-  tg.expand();
-}
-
-const screens = {
-  profile: document.getElementById("profileScreen"),
-  today: document.getElementById("todayScreen"),
-  month: document.getElementById("monthScreen"),
-  guide: document.getElementById("guideScreen"),
-};
-
-const title = document.getElementById("screenTitle");
-const subtitle = document.getElementById("screenSubtitle");
-
-const nameInput = document.getElementById("nameInput");
-const dayInput = document.getElementById("dayInput");
-const monthInput = document.getElementById("monthInput");
-const yearInput = document.getElementById("yearInput");
-const profileMessage = document.getElementById("profileMessage");
-
-const todayNumber = document.getElementById("todayNumber");
-const todayText = document.getElementById("todayText");
-const monthNumber = document.getElementById("monthNumber");
-const monthText = document.getElementById("monthText");
-
-const guideInput = document.getElementById("guideInput");
-const guideAnswer = document.getElementById("guideAnswer");
-
-const STORAGE_KEY = "klic_k_realite_profile_v2";
-
-function reduceTo22(n) {
-  let value = Math.abs(Number(n) || 0);
-  while (value > 22) {
-    value = String(value).split("").reduce((sum, d) => sum + Number(d), 0);
-  }
-  return value || 22;
-}
-
-function readProfile() {
-  try {
-    return JSON.parse(localStorage.getItem(STORAGE_KEY)) || null;
-  } catch {
-    return null;
-  }
-}
-
-function saveProfile(profile) {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(profile));
-}
-
-function isValidDate(day, month, year) {
-  const d = Number(day);
-  const m = Number(month);
-  const y = Number(year);
-  if (!d || !m || !y) return false;
-  if (y < 1900 || y > 2100) return false;
-  const date = new Date(y, m - 1, d);
-  return date.getFullYear() === y && date.getMonth() === m - 1 && date.getDate() === d;
-}
-
-function calculateForecast(profile) {
-  const now = new Date();
-  const day = now.getDate();
-  const month = now.getMonth() + 1;
-  const year = now.getFullYear();
-
-  const personalBase = Number(profile.day) + Number(profile.month) + Number(profile.year);
-  const todayEnergy = reduceTo22(personalBase + day + month + year);
-  const monthEnergy = reduceTo22(personalBase + month + year);
-
-  return { todayEnergy, monthEnergy };
-}
-
-function renderForecast() {
-  const profile = readProfile();
-
-  if (!profile) {
-    todayNumber.textContent = "?";
-    todayText.textContent = "Nejdříve vyplňte profil. Potom se zde zobrazí technický test denní energie.";
-    monthNumber.textContent = "?";
-    monthText.textContent = "Nejdříve vyplňte profil.";
-    return;
-  }
-
-  const forecast = calculateForecast(profile);
-
-  todayNumber.textContent = forecast.todayEnergy;
-  todayText.textContent =
-    `Dobrý den, ${profile.name || "krásná duše"}. Toto je zatím testovací výpočet pro ověření aplikace. ` +
-    `Dnešní energie vyšla jako ${forecast.todayEnergy}. V další verzi sem vložíme skutečné výklady podle databáze.`;
-
-  monthNumber.textContent = forecast.monthEnergy;
-  monthText.textContent =
-    `Téma měsíce je zatím technicky označené energií ${forecast.monthEnergy}. ` +
-    `Později se sem doplní plný měsíční text, doporučení a úkoly měsíce.`;
-}
-
-function showScreen(tab) {
-  Object.entries(screens).forEach(([key, el]) => {
-    el.classList.toggle("active", key === tab);
-  });
-
-  document.querySelectorAll("[data-tab]").forEach((btn) => {
-    btn.classList.toggle("active", btn.dataset.tab === tab);
-  });
-
-  const labels = {
-    profile: ["Váš profil", "Vyplňte své údaje. Datum narození je rozdělené na den, měsíc a rok, aby šlo pohodlně zadat i na počítači."],
-    today: ["Dnešní energie", "První technická verze osobního denního průvodce."],
-    month: ["Téma měsíce", "Měsíční směr, doporučení a úkoly budou doplněny v další fázi."],
-    guide: ["AI průvodce", "Zatím testovací průvodce bez napojení na skutečnou AI databázi."],
-  };
-
-  title.textContent = labels[tab][0];
-  subtitle.textContent = labels[tab][1];
-}
-
-document.querySelectorAll("[data-tab]").forEach((btn) => {
-  btn.addEventListener("click", () => showScreen(btn.dataset.tab));
-});
-
-document.getElementById("saveProfileBtn").addEventListener("click", () => {
-  const profile = {
-    name: nameInput.value.trim(),
-    day: dayInput.value.trim(),
-    month: monthInput.value.trim(),
-    year: yearInput.value.trim(),
-    telegramUser: tg?.initDataUnsafe?.user || null,
-    savedAt: new Date().toISOString(),
-  };
-
-  if (!profile.name) {
-    profileMessage.textContent = "Prosím, vyplňte jméno.";
-    return;
-  }
-
-  if (!isValidDate(profile.day, profile.month, profile.year)) {
-    profileMessage.textContent = "Prosím, zadejte správné datum narození.";
-    return;
-  }
-
-  saveProfile(profile);
-  profileMessage.textContent = "Profil uložen. Můžete přejít na dnešní energii.";
-  renderForecast();
-  showScreen("today");
-});
-
-document.getElementById("guideBtn").addEventListener("click", () => {
-  const text = guideInput.value.trim();
-  const profile = readProfile();
-
-  if (!profile) {
-    guideAnswer.textContent = "Nejdříve si prosím uložte profil.";
-    return;
-  }
-
-  if (!text) {
-    guideAnswer.textContent = "Napište, co dnes řešíte.";
-    return;
-  }
-
-  const forecast = calculateForecast(profile);
-  guideAnswer.textContent =
-    `Testovací odpověď průvodce:\n\n` +
-    `Dnes pracujeme s energií ${forecast.todayEnergy}. To, co popisujete, bude později rozebráno v souvislosti s vaším osobním nastavením, měsícem a aktuální energií dne. ` +
-    `V další verzi zde bude skutečná AI odpověď podle databáze Klíč k realitě.`;
-});
-
-const saved = readProfile();
-if (saved) {
-  nameInput.value = saved.name || "";
-  dayInput.value = saved.day || "";
-  monthInput.value = saved.month || "";
-  yearInput.value = saved.year || "";
-  renderForecast();
-  showScreen("today");
-} else {
-  renderForecast();
-  showScreen("profile");
-}
+const tg=window.Telegram?.WebApp;if(tg){tg.ready();tg.expand()}
+const screens={access:document.getElementById("accessScreen"),profile:document.getElementById("profileScreen"),today:document.getElementById("todayScreen"),month:document.getElementById("monthScreen"),guide:document.getElementById("guideScreen"),subscription:document.getElementById("subscriptionScreen")};
+const title=document.getElementById("screenTitle"),subtitle=document.getElementById("screenSubtitle");
+const nameInput=document.getElementById("nameInput"),dayInput=document.getElementById("dayInput"),monthInput=document.getElementById("monthInput"),yearInput=document.getElementById("yearInput"),profileMessage=document.getElementById("profileMessage");
+const todayNumber=document.getElementById("todayNumber"),todayText=document.getElementById("todayText"),todayTask=document.getElementById("todayTask"),monthNumber=document.getElementById("monthNumber"),monthText=document.getElementById("monthText"),monthTask=document.getElementById("monthTask");
+const guideInput=document.getElementById("guideInput"),guideAnswer=document.getElementById("guideAnswer"),subscriptionStatus=document.getElementById("subscriptionStatus");
+const PROFILE_KEY="klic_k_realite_profile_v3",ACCESS_KEY="klic_k_realite_test_access_v3";
+function hasActiveAccess(){return localStorage.getItem(ACCESS_KEY)==="active"}
+function setActiveAccess(value){value?localStorage.setItem(ACCESS_KEY,"active"):localStorage.removeItem(ACCESS_KEY);renderSubscription()}
+function renderSubscription(){subscriptionStatus.textContent=hasActiveAccess()?"Testovací přístup je aktivní. Později se zde bude ověřovat skutečná platba.":"Testovací přístup není aktivní. Bez přístupu jsou denní výklady, měsíc a průvodce zamčené."}
+function reduceTo22(n){let v=Math.abs(Number(n)||0);while(v>22){v=String(v).split("").reduce((s,d)=>s+Number(d),0)}return v||22}
+function readProfile(){try{return JSON.parse(localStorage.getItem(PROFILE_KEY))||null}catch{return null}}
+function saveProfile(p){localStorage.setItem(PROFILE_KEY,JSON.stringify(p))}
+function isValidDate(day,month,year){const d=Number(day),m=Number(month),y=Number(year);if(!d||!m||!y)return false;if(y<1900||y>2100)return false;const date=new Date(y,m-1,d);return date.getFullYear()===y&&date.getMonth()===m-1&&date.getDate()===d}
+function calculateForecast(p){const now=new Date(),day=now.getDate(),month=now.getMonth()+1,year=now.getFullYear();const base=Number(p.day)+Number(p.month)+Number(p.year);return{todayEnergy:reduceTo22(base+day+month+year),monthEnergy:reduceTo22(base+month+year)}}
+function getDailyText(e){const db=window.FORECAST_TEXTS?.daily||{};return db[e]||db.default}
+function getMonthlyText(e){const db=window.FORECAST_TEXTS?.monthly||{};return db[e]||db.default}
+function renderForecast(){const p=readProfile();if(!p){todayNumber.textContent="?";todayText.textContent="Nejdříve vyplňte profil. Potom se zde zobrazí denní energie.";todayTask.textContent="Nejdříve vyplňte profil.";monthNumber.textContent="?";monthText.textContent="Nejdříve vyplňte profil.";monthTask.textContent="Nejdříve vyplňte profil.";return}
+const f=calculateForecast(p),daily=getDailyText(f.todayEnergy),monthly=getMonthlyText(f.monthEnergy);todayNumber.textContent=f.todayEnergy;todayText.textContent=`Dobrý den, ${p.name||"krásná duše"}. ${daily.text} Energie dne: ${f.todayEnergy}.`;todayTask.textContent=daily.task;monthNumber.textContent=f.monthEnergy;monthText.textContent=`${monthly.text} Energie měsíce: ${f.monthEnergy}.`;monthTask.textContent=monthly.task}
+function protectedTab(tab){return["today","month","guide"].includes(tab)}
+function showScreen(tab){if(protectedTab(tab)&&!hasActiveAccess())tab="access";Object.entries(screens).forEach(([k,el])=>el.classList.toggle("active",k===tab));document.querySelectorAll("[data-tab]").forEach(btn=>btn.classList.toggle("active",btn.dataset.tab===tab));const labels={access:["Přístup","Tato část připravuje logiku předplatného."],profile:["Váš profil","Vyplňte své údaje. Datum narození je rozdělené na den, měsíc a rok."],today:["Dnešní energie","Denní průvodce podle osobního výpočtu."],month:["Téma měsíce","Měsíční směr, doporučení a úkoly."],guide:["AI průvodce","Prostor pro budoucí AI rozbor dne a vašeho stavu."],subscription:["Předplatné","Zde bude později skutečná správa přístupu a plateb."]};title.textContent=labels[tab][0];subtitle.textContent=labels[tab][1]}
+document.querySelectorAll("[data-tab]").forEach(btn=>btn.addEventListener("click",()=>showScreen(btn.dataset.tab)));
+document.getElementById("saveProfileBtn").addEventListener("click",()=>{const p={name:nameInput.value.trim(),day:dayInput.value.trim(),month:monthInput.value.trim(),year:yearInput.value.trim(),telegramUser:tg?.initDataUnsafe?.user||null,savedAt:new Date().toISOString()};if(!p.name){profileMessage.textContent="Prosím, vyplňte jméno.";return}if(!isValidDate(p.day,p.month,p.year)){profileMessage.textContent="Prosím, zadejte správné datum narození.";return}saveProfile(p);profileMessage.textContent="Profil uložen.";renderForecast();showScreen(hasActiveAccess()?"today":"access")});
+document.getElementById("activateTestBtn").addEventListener("click",()=>{setActiveAccess(true);showScreen("today")});
+document.getElementById("activateFromSubscriptionBtn").addEventListener("click",()=>{setActiveAccess(true);showScreen("today")});
+document.getElementById("resetAccessBtn").addEventListener("click",()=>{setActiveAccess(false);showScreen("access")});
+document.getElementById("guideBtn").addEventListener("click",()=>{const text=guideInput.value.trim(),p=readProfile();if(!p){guideAnswer.textContent="Nejdříve si prosím uložte profil.";return}if(!hasActiveAccess()){guideAnswer.textContent="Pro průvodce je potřeba aktivní přístup.";return}if(!text){guideAnswer.textContent="Napište, co dnes řešíte.";return}const f=calculateForecast(p);guideAnswer.textContent=`Testovací odpověď průvodce:\n\nDnes pracujeme s energií ${f.todayEnergy}. V další verzi zde bude skutečná AI odpověď podle databáze Klíč k realitě.`});
+const saved=readProfile();if(saved){nameInput.value=saved.name||"";dayInput.value=saved.day||"";monthInput.value=saved.month||"";yearInput.value=saved.year||""}renderForecast();renderSubscription();if(!saved)showScreen("profile");else if(!hasActiveAccess())showScreen("access");else showScreen("today");
