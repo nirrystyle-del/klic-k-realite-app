@@ -18,9 +18,14 @@
     <section id="accessScreen" class="card screen">
       <div class="lock-icon">✦</div>
       <h2>Přístup není aktivní</h2>
-      <p>Toto je zatím testovací obrazovka předplatného. Později sem napojíme skutečnou platbu přes Telegram.</p>
-      <p class="hint">Pro testování tlačítko aktivuje přístup v testovacím režimu.</p>
-      <button id="activateTestBtn" class="primary">Aktivovat testovací režim</button>
+      <p>Pro zobrazení denní energie, tématu měsíce a osobního průvodce je potřeba aktivní přístup.</p>
+      <div class="access-card">
+        <strong>Měsíční přístup</strong>
+        <span>Osobní denní vedení, měsíční téma a prostor pro hlubší rozbor aktuálního stavu.</span>
+        <div class="price">240 Kč / měsíc</div>
+      </div>
+      <button id="futurePaymentBtn" class="primary">Aktivovat přístup</button>
+      <button id="activateTestBtn" class="secondary admin-test">Zapnout interní testovací přístup</button>
     </section>
 
     <section id="profileScreen" class="card screen active">
@@ -68,12 +73,24 @@
     </section>
 
     <section id="subscriptionScreen" class="card screen">
-      <h2>Předplatné</h2>
+      <h2>Přístup</h2>
+      <div id="subscriptionBadge" class="status-badge">Načítám...</div>
       <p id="subscriptionStatus">Načítám stav přístupu...</p>
-      <div class="payment-placeholder"><strong>Budoucí platba:</strong> <span>měsíční přístup bude ověřovaný podle Telegram účtu a databáze.</span></div>
-      <button id="activateFromSubscriptionBtn" class="primary">Aktivovat testovací režim</button>
-      <button id="resetAccessBtn" class="secondary">Vypnout testovací režim</button>
-      <p class="hint">Startovní cena může být například 240 Kč měsíčně.</p>
+      <p id="subscriptionExpires" class="hint"></p>
+
+      <div class="access-card">
+        <strong>Klíč k realitě</strong>
+        <span>Měsíční osobní průvodce pro práci s energií dne, tématem měsíce a vnitřním nastavením.</span>
+        <div class="price">240 Kč / měsíc</div>
+      </div>
+
+      <button id="futurePaymentFromSubscriptionBtn" class="primary">Aktivovat přístup</button>
+
+      <div class="admin-panel">
+        <p class="technical-note">Interní testovací ovládání, později bude odstraněno.</p>
+        <button id="activateFromSubscriptionBtn" class="secondary">Zapnout testovací přístup</button>
+        <button id="resetAccessBtn" class="secondary">Vypnout testovací přístup</button>
+      </div>
     </section>
 
     <nav class="tabs">

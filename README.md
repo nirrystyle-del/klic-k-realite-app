@@ -1,13 +1,15 @@
-# Klíč k realitě - Mini App starter v8
+# Klíč k realitě - Mini App starter v9
 
-Nové ve v8:
-- připojení k Supabase přes REST API
-- profil se ukládá do tabulky users
-- testovací přístup se ukládá do tabulky subscriptions
-- pokud databáze neodpoví, aplikace použije záložní lokální režim
-- žádná viditelná zmínka o umělé inteligenci
+Nové ve v9:
+- экран доступа выглядит ближе к платному продукту
+- статус доступа: aktivní / neaktivní
+- добавлена цена 240 Kč / měsíc
+- добавлена будущая кнопка оплаты
+- тестовые кнопки оставлены отдельно как interní testovací ovládání
+- сохранение профиля и тестового доступа остаётся через Supabase
+- без видимого упоминания umělé inteligence
 
-Nahrajte do GitHubu všech 6 souborů:
+Файлы для загрузки в GitHub:
 - index.html
 - styles.css
 - app.js
