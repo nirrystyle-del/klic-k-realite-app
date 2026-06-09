@@ -1,11 +1,16 @@
-# Klíč k realitě - Mini App starter v12
+# Klíč k realitě - Mini App starter v13
 
-Nové ve v12:
-- přepracovaný ekran Dnes
-- přidaná struktura: téma dne, podpora, upozornění, malý krok dne
-- připraveno pro budoucí skutečné denní výklady
-- Supabase zůstává
-- cena zůstává 240 Kč / 10 € měsíčně
+Nové ve v13:
+- экран Dnes переделан под реальный формат годовой прогностики
+- вместо блоков “podporuje / pozor” теперь структура:
+  - Hlavní výklad dne
+  - Doporučení
+  - Oblast financí
+  - Oblast vztahů
+  - Oblast zdraví
+- подготовлено под готовые тексты Jestliže 1-22
+- добавлен symbol dne
+- Supabase сохраняется
 - bez viditelného zmínění umělé inteligence
 
 Файлы для загрузки в GitHub:

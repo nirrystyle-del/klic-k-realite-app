@@ -111,3 +111,46 @@
     grid-template-columns:1fr;
   }
 }
+
+.daily-section{
+  margin-top:16px;
+  padding:16px;
+  border-radius:16px;
+  border:1px solid var(--line);
+  background:rgba(255,255,255,.42);
+  line-height:1.55;
+}
+.daily-section h3{
+  margin:0 0 10px;
+  color:var(--accent);
+  text-transform:uppercase;
+  letter-spacing:.06em;
+  font-size:16px;
+}
+.daily-section p{
+  margin-bottom:0;
+}
+.main-reading{
+  background:rgba(255,255,255,.30);
+}
+.recommendation-box{
+  border-left:4px solid var(--gold);
+}
+.finance-box{
+  border-left:4px solid #d8b24c;
+}
+.relationship-box{
+  border-left:4px solid #b96382;
+  background:rgba(185,99,130,.07);
+}
+.health-box{
+  border-left:4px solid #6b9b78;
+  background:rgba(107,155,120,.08);
+}
+.recommendation-list{
+  margin:0;
+  padding-left:18px;
+}
+.recommendation-list li{
+  margin-bottom:7px;
+}
