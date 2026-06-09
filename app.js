@@ -1,20 +1,182 @@
 const tg = window.Telegram?.WebApp;
-if (tg) { tg.ready(); tg.expand(); }
-const state = { screen: 'home', user: tg?.initDataUnsafe?.user || null, profile: loadProfile(), aiAnswer: '' };
-function loadProfile(){try{return JSON.parse(localStorage.getItem('klic_profile'))||{}}catch{return {}}}
-function saveProfile(profile){localStorage.setItem('klic_profile',JSON.stringify(profile));state.profile=profile}
-function getFirstName(){return state.profile.name || state.user?.first_name || ''}
-function calculateEnergy(date=new Date()){const sum=String(date.getDate()).split('').reduce((a,n)=>a+Number(n),0)+date.getMonth()+1;return ((sum-1)%22)+1}
-function calculateMonthEnergy(date=new Date()){const sum=date.getMonth()+1+date.getFullYear();return ((String(sum).split('').reduce((a,n)=>a+Number(n),0)-1)%22)+1}
-function placeholderForecast(energy){return `Dnes se aktivuje energie ${energy}. Toto je zatim technicky text pro prvni verzi aplikace. V dalsim kroku sem vlozime skutecnou databazi prognoz.`}
-function nav(active){const items=[['home','Dnes'],['month','Mesic'],['guide','Pruvodce'],['profile','Profil']];return `<div class="nav">${items.map(([k,l])=>`<button class="${active===k?'active':''}" onclick="go('${k}')">${l}</button>`).join('')}</div>`}
-function render(){const root=document.getElementById('app');const todayEnergy=calculateEnergy();const monthEnergy=calculateMonthEnergy();const name=getFirstName();
-if(state.screen==='profile'||!state.profile.birthDate){root.innerHTML=`<section class="header"><div class="badge">Klic k realite</div><h1>Vas profil</h1><p>Vyplnte datum narozeni. V dalsi verzi se udaje ulozi do databaze podle Telegram uctu.</p></section><section class="card"><div class="form-row"><label>Jmeno</label><input id="profileName" type="text" value="${escapeHtml(name)}" placeholder="Vase jmeno" /></div><div class="form-row"><label>Datum narozeni</label><input id="birthDate" type="date" value="${state.profile.birthDate||''}" /></div><button class="primary-btn" onclick="saveProfileFromForm()">Ulozit profil</button><p class="notice">Toto je prvni technicky каркас. Pozdeji se profil bude ukladat na server.</p></section>${nav('profile')}`;return}
-if(state.screen==='month'){root.innerHTML=`<section class="header"><div class="badge">Mesicni vedeni</div><h1>Tema mesice</h1><p>${name?`${escapeHtml(name)}, `:''}tady bude mesicni vrstva vaseho osobniho pruvodce.</p></section><section class="card"><h2>Energie mesice: ${monthEnergy}</h2><p>${placeholderForecast(monthEnergy)}</p></section><section class="card"><h2>Ukol mesice</h2><p>Zatim ukazka: kazdy vecer si napiste, kde jste dnes jednala vedomeji a kde vas jeste vedla automaticka reakce.</p></section>${nav('month')}`;return}
-if(state.screen==='guide'){root.innerHTML=`<section class="header"><div class="badge">AI pruvodce</div><h1>Probrat dnesni den</h1><p>Napiste, co dnes resite. Zatim je zde technicka ukazka odpovedi bez OpenAI.</p></section><section class="card"><div class="form-row"><label>Vas dotaz nebo stav</label><textarea id="guideQuestion" placeholder="Napriklad: Dnes se citim tezce a nevim proc..."></textarea></div><button class="primary-btn" onclick="generateGuideAnswer()">Rozebrat den</button></section>${state.aiAnswer?`<section class="card"><h2>Odpoved pruvodce</h2><div class="answer">${escapeHtml(state.aiAnswer)}</div></section>`:''}${nav('guide')}`;return}
-root.innerHTML=`<section class="header"><div class="badge">Klic k realite</div><h1>Dnesni energie</h1><p>${name?`${escapeHtml(name)}, `:''}tady zacina vas osobni numerologicky pruvodce.</p></section><section class="card"><h2>Energie dne: ${todayEnergy}</h2><p>${placeholderForecast(todayEnergy)}</p></section><section class="mini-grid"><div class="small-card"><strong>Doporuceni dne</strong><span>Zpomalit, pozorovat stav a udelat jeden vedomy krok.</span></div><div class="small-card"><strong>Na co si dat pozor</strong><span>Nereagovat automaticky a nevytvaret tlak tam, kde je potreba klid.</span></div></section><section class="card"><h2>Dalsi krok</h2><p>Vyberte jednu situaci dne, kde chcete energii prevest do plusu, a proberte ji s pruvodcem.</p><button class="secondary-btn" onclick="go('guide')">Probrat dnesni den</button></section>${nav('home')}`}
-function saveProfileFromForm(){const name=document.getElementById('profileName').value.trim();const birthDate=document.getElementById('birthDate').value;if(!birthDate){alert('Prosim, vyplnte datum narozeni.');return}saveProfile({name,birthDate});go('home')}
-function generateGuideAnswer(){const q=document.getElementById('guideQuestion').value.trim();if(!q){alert('Prosim, napiste svuj dotaz nebo stav.');return}const energy=calculateEnergy();state.aiAnswer=`Dnes se u vas otevira energie ${energy}.\n\n1. Co se muze aktivovat:\nMuze se ukazovat tema, ktere souvisi s vasim aktualnim vnitrnim nastavenim.\n\n2. Proc to muzete prozivat:\nVase otazka: "${q}" ukazuje, ze den nemusi byt jen o udalostech, ale i o tom, jak na ne reagujete.\n\n3. Jak to prevest do plusu:\nZkuste dnes nedelat zavery z tlaku. Nejdřív pojmenujte stav, potom udelejte jeden klidny krok.\n\n4. Dalsi krok:\nNapiste si jednu vetu: Co mi dnesni situace ukazuje o mem vztahu k sobe?`;render()}
-function go(screen){state.screen=screen;render()}
-function escapeHtml(v){return String(v).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#039;')}
-window.go=go;window.saveProfileFromForm=saveProfileFromForm;window.generateGuideAnswer=generateGuideAnswer;render();
+if (tg) {
+  tg.ready();
+  tg.expand();
+}
+
+const screens = {
+  profile: document.getElementById("profileScreen"),
+  today: document.getElementById("todayScreen"),
+  month: document.getElementById("monthScreen"),
+  guide: document.getElementById("guideScreen"),
+};
+
+const title = document.getElementById("screenTitle");
+const subtitle = document.getElementById("screenSubtitle");
+
+const nameInput = document.getElementById("nameInput");
+const dayInput = document.getElementById("dayInput");
+const monthInput = document.getElementById("monthInput");
+const yearInput = document.getElementById("yearInput");
+const profileMessage = document.getElementById("profileMessage");
+
+const todayNumber = document.getElementById("todayNumber");
+const todayText = document.getElementById("todayText");
+const monthNumber = document.getElementById("monthNumber");
+const monthText = document.getElementById("monthText");
+
+const guideInput = document.getElementById("guideInput");
+const guideAnswer = document.getElementById("guideAnswer");
+
+const STORAGE_KEY = "klic_k_realite_profile_v2";
+
+function reduceTo22(n) {
+  let value = Math.abs(Number(n) || 0);
+  while (value > 22) {
+    value = String(value).split("").reduce((sum, d) => sum + Number(d), 0);
+  }
+  return value || 22;
+}
+
+function readProfile() {
+  try {
+    return JSON.parse(localStorage.getItem(STORAGE_KEY)) || null;
+  } catch {
+    return null;
+  }
+}
+
+function saveProfile(profile) {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(profile));
+}
+
+function isValidDate(day, month, year) {
+  const d = Number(day);
+  const m = Number(month);
+  const y = Number(year);
+  if (!d || !m || !y) return false;
+  if (y < 1900 || y > 2100) return false;
+  const date = new Date(y, m - 1, d);
+  return date.getFullYear() === y && date.getMonth() === m - 1 && date.getDate() === d;
+}
+
+function calculateForecast(profile) {
+  const now = new Date();
+  const day = now.getDate();
+  const month = now.getMonth() + 1;
+  const year = now.getFullYear();
+
+  const personalBase = Number(profile.day) + Number(profile.month) + Number(profile.year);
+  const todayEnergy = reduceTo22(personalBase + day + month + year);
+  const monthEnergy = reduceTo22(personalBase + month + year);
+
+  return { todayEnergy, monthEnergy };
+}
+
+function renderForecast() {
+  const profile = readProfile();
+
+  if (!profile) {
+    todayNumber.textContent = "?";
+    todayText.textContent = "Nejdříve vyplňte profil. Potom se zde zobrazí technický test denní energie.";
+    monthNumber.textContent = "?";
+    monthText.textContent = "Nejdříve vyplňte profil.";
+    return;
+  }
+
+  const forecast = calculateForecast(profile);
+
+  todayNumber.textContent = forecast.todayEnergy;
+  todayText.textContent =
+    `Dobrý den, ${profile.name || "krásná duše"}. Toto je zatím testovací výpočet pro ověření aplikace. ` +
+    `Dnešní energie vyšla jako ${forecast.todayEnergy}. V další verzi sem vložíme skutečné výklady podle databáze.`;
+
+  monthNumber.textContent = forecast.monthEnergy;
+  monthText.textContent =
+    `Téma měsíce je zatím technicky označené energií ${forecast.monthEnergy}. ` +
+    `Později se sem doplní plný měsíční text, doporučení a úkoly měsíce.`;
+}
+
+function showScreen(tab) {
+  Object.entries(screens).forEach(([key, el]) => {
+    el.classList.toggle("active", key === tab);
+  });
+
+  document.querySelectorAll("[data-tab]").forEach((btn) => {
+    btn.classList.toggle("active", btn.dataset.tab === tab);
+  });
+
+  const labels = {
+    profile: ["Váš profil", "Vyplňte své údaje. Datum narození je rozdělené na den, měsíc a rok, aby šlo pohodlně zadat i na počítači."],
+    today: ["Dnešní energie", "První technická verze osobního denního průvodce."],
+    month: ["Téma měsíce", "Měsíční směr, doporučení a úkoly budou doplněny v další fázi."],
+    guide: ["AI průvodce", "Zatím testovací průvodce bez napojení na skutečnou AI databázi."],
+  };
+
+  title.textContent = labels[tab][0];
+  subtitle.textContent = labels[tab][1];
+}
+
+document.querySelectorAll("[data-tab]").forEach((btn) => {
+  btn.addEventListener("click", () => showScreen(btn.dataset.tab));
+});
+
+document.getElementById("saveProfileBtn").addEventListener("click", () => {
+  const profile = {
+    name: nameInput.value.trim(),
+    day: dayInput.value.trim(),
+    month: monthInput.value.trim(),
+    year: yearInput.value.trim(),
+    telegramUser: tg?.initDataUnsafe?.user || null,
+    savedAt: new Date().toISOString(),
+  };
+
+  if (!profile.name) {
+    profileMessage.textContent = "Prosím, vyplňte jméno.";
+    return;
+  }
+
+  if (!isValidDate(profile.day, profile.month, profile.year)) {
+    profileMessage.textContent = "Prosím, zadejte správné datum narození.";
+    return;
+  }
+
+  saveProfile(profile);
+  profileMessage.textContent = "Profil uložen. Můžete přejít na dnešní energii.";
+  renderForecast();
+  showScreen("today");
+});
+
+document.getElementById("guideBtn").addEventListener("click", () => {
+  const text = guideInput.value.trim();
+  const profile = readProfile();
+
+  if (!profile) {
+    guideAnswer.textContent = "Nejdříve si prosím uložte profil.";
+    return;
+  }
+
+  if (!text) {
+    guideAnswer.textContent = "Napište, co dnes řešíte.";
+    return;
+  }
+
+  const forecast = calculateForecast(profile);
+  guideAnswer.textContent =
+    `Testovací odpověď průvodce:\n\n` +
+    `Dnes pracujeme s energií ${forecast.todayEnergy}. To, co popisujete, bude později rozebráno v souvislosti s vaším osobním nastavením, měsícem a aktuální energií dne. ` +
+    `V další verzi zde bude skutečná AI odpověď podle databáze Klíč k realitě.`;
+});
+
+const saved = readProfile();
+if (saved) {
+  nameInput.value = saved.name || "";
+  dayInput.value = saved.day || "";
+  monthInput.value = saved.month || "";
+  yearInput.value = saved.year || "";
+  renderForecast();
+  showScreen("today");
+} else {
+  renderForecast();
+  showScreen("profile");
+}

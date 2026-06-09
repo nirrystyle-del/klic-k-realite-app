@@ -1,20 +1,65 @@
 <!doctype html>
 <html lang="cs">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Klic k realite</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Klíč k realitě</title>
   <link rel="stylesheet" href="./styles.css" />
   <script src="https://telegram.org/js/telegram-web-app.js"></script>
 </head>
 <body>
-  <main id="app" class="app-shell">
-    <section class="card center">
-      <div class="badge">Klic k realite</div>
-      <h1>Nacitam aplikaci...</h1>
-      <p>Pokud se stranka nenacte, otevrite ji prosim z Telegramu.</p>
+  <main class="app">
+    <section class="hero">
+      <div class="pill">KLIC K REALITE</div>
+      <h1 id="screenTitle">Váš profil</h1>
+      <p id="screenSubtitle">Vyplňte své údaje. Datum narození je rozdělené na den, měsíc a rok, aby šlo pohodlně zadat i na počítači.</p>
     </section>
+
+    <section id="profileScreen" class="card screen active">
+      <label>Jméno</label>
+      <input id="nameInput" type="text" placeholder="Vaše jméno" autocomplete="name" />
+
+      <label>Datum narození</label>
+      <div class="date-grid">
+        <input id="dayInput" type="number" inputmode="numeric" min="1" max="31" placeholder="Den" />
+        <input id="monthInput" type="number" inputmode="numeric" min="1" max="12" placeholder="Měsíc" />
+        <input id="yearInput" type="number" inputmode="numeric" min="1900" max="2100" placeholder="Rok" />
+      </div>
+      <p class="hint">Příklad: 27 / 6 / 1997</p>
+
+      <button id="saveProfileBtn" class="primary">Uložit profil</button>
+      <p id="profileMessage" class="message"></p>
+    </section>
+
+    <section id="todayScreen" class="card screen">
+      <div class="energy-number" id="todayNumber">?</div>
+      <h2>Dnešní energie</h2>
+      <p id="todayText">Nejdříve vyplňte profil.</p>
+      <button class="primary" data-tab="guide">Rozebrat dnešní den s průvodcem</button>
+    </section>
+
+    <section id="monthScreen" class="card screen">
+      <div class="energy-number small" id="monthNumber">?</div>
+      <h2>Téma měsíce</h2>
+      <p id="monthText">Nejdříve vyplňte profil.</p>
+    </section>
+
+    <section id="guideScreen" class="card screen">
+      <h2>AI průvodce</h2>
+      <p class="hint">Toto je zatím testovací technická verze. Později bude odpověď napojená na plnou databázi výkladů a OpenAI.</p>
+      <textarea id="guideInput" placeholder="Napište, co dnes řešíte..."></textarea>
+      <button id="guideBtn" class="primary">Zeptat se průvodce</button>
+      <div id="guideAnswer" class="answer"></div>
+    </section>
+
+    <nav class="tabs">
+      <button data-tab="today">Dnes</button>
+      <button data-tab="month">Měsíc</button>
+      <button data-tab="guide">Průvodce</button>
+      <button data-tab="profile" class="active">Profil</button>
+    </nav>
   </main>
+
   <script src="./app.js"></script>
 </body>
 </html>
