@@ -1,12 +1,12 @@
-# Klíč k realitě - Mini App starter v14.1 repair
+# Klíč k realitě - Mini App starter v15 safe repair
 
-Oprava v14:
-- opravený app.js
-- Dnes a Měsíc se znovu otevírají
-- zůstává napojení všech 22 denních energií
-- zůstává výpočet podle calculateForecast
-- Supabase zůstává
-- bez viditelného zmínění umělé inteligence
+Bezpečná oprava po rozbité v14:
+- základ je vrácený na funkční v13
+- zůstává nová databáze 22 denních energií z v14
+- opravený výpočet podle calculateForecast
+- přidané cache busting ?v=15 pro styles, forecastTexts, database a app
+- profil se má dát uložit i pokud Supabase dočasně selže
+- Dnes a Měsíc se mají znovu otevírat
 
 Файлы для загрузки в GitHub:
 - index.html
