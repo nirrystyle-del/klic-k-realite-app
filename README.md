@@ -1,19 +1,11 @@
-# Klíč k realitě, Mini App starter v18 month year
+# Klíč k realitě, Mini App starter v19 month year fix
 
-Nové ve v18:
-- přidané měsíční výklady z mesicni-prognoza
-- přidané roční výklady z cislo-roku-descriptions
-- Měsíc má vlastní strukturu:
-  - celkové téma
-  - pozitivní projev
-  - negativní projev
-  - finance
-  - vztahy
-  - zdraví
-- přidaná nová záložka Rok
-- dlouhé pomlčky jsou z textů vyčištěné
-- profil fix z v16 zůstává
-- denní výklady zůstávají
+Oprava v19:
+- opravený HTML ekran Měsíc, теперь есть реальные поля для месячных текстов
+- opravený ekran Rok
+- полностью перезаписан app.js под текущий HTML
+- cache busting změněný na ?v=19
+- denní výklady, profil fix a dlouhé pomlčky zůstávají
 
 Файлы для загрузки в GitHub:
 - index.html
