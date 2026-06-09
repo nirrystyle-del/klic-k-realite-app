@@ -1,12 +1,13 @@
-# Klíč k realitě, Mini App starter v32 section accordion
+# Klíč k realitě, Mini App starter v33 month calendar
 
-Nové ve v32:
-- sekce ve Dnes a Měsíc jsou skládací
-- hlavní výklad zůstává otevřený
-- doporučení, finance, vztahy a zdraví jsou defaultně sbalené
-- přidaný soubor sectionAccordion.js
-- roční akordeony z v31 zůstávají
-- cache busting změněný na ?v=32
+Nové ve v33:
+- na záložce Dnes je nahoře přidaný kalendář aktuálního měsíce
+- kalendář ukazuje energii měsíce
+- každý den ukazuje číslo dne, energii a symbol
+- dnešní den je zvýrazněný
+- pod kalendářem zůstává výklad dne
+- přidaný soubor monthlyCalendar.js
+- cache busting změněný na ?v=33
 
 Файлы для загрузки в GitHub:
 - index.html
@@ -18,4 +19,5 @@ Nové ve v32:
 - planetYear.js
 - yearAccordion.js
 - sectionAccordion.js
+- monthlyCalendar.js
 - README.md

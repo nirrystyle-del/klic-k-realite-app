@@ -1,8 +1,29 @@
 <!doctype html>
 <html lang="cs">
-<head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"> <title>Klíč k realitě</title> <link rel="stylesheet" href="./styles.css?v=32"> <script src="https://telegram.org/js/telegram-web-app.js"></script>
+<head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"> <title>Klíč k realitě</title> <link rel="stylesheet" href="./styles.css?v=33"> <script src="https://telegram.org/js/telegram-web-app.js"></script>
 </head>
-<body> <main class="app"> <section class="hero"> <div class="pill">KLIC K REALITE</div> <h1 id="screenTitle">Váš profil</h1> <p id="screenSubtitle">Vyplňte své údaje. Tato verze už testuje ukládání profilu do databáze.</p> </section> <section id="accessScreen" class="card screen"> <div class="lock-icon">✦</div> <h2>Přístup není aktivní</h2> <p>Pro zobrazení denní energie, tématu měsíce a osobního průvodce je potřeba aktivní přístup.</p> <div class="access-card"> <strong>Měsíční přístup</strong> <span>Osobní denní vedení, měsíční téma a prostor pro hlubší rozbor aktuálního stavu.</span> <div class="price">240 Kč / 10 € měsíčně</div> </div> <button id="futurePaymentBtn" class="primary">Aktivovat přístup</button> <button id="activateTestBtn" class="secondary admin-test">Technicky aktivovat přístup</button> </section> <section id="profileScreen" class="card screen active"> <p id="telegramStatus" class="technical-note tiny">Kontroluji Telegram účet...</p> <p id="storageStatus" class="technical-note tiny hidden-client-note">Kontroluji režim ukládání...</p> <label>Jméno</label> <input id="nameInput" type="text" placeholder="Vaše jméno" autocomplete="name"> <label>Datum narození</label> <div class="date-grid"> <input id="dayInput" type="number" inputmode="numeric" min="1" max="31" placeholder="Den"> <input id="monthInput" type="number" inputmode="numeric" min="1" max="12" placeholder="Měsíc"> <input id="yearInput" type="number" inputmode="numeric" min="1900" max="2100" placeholder="Rok"> </div> <p id="birthLockInfo" class="hint">Příklad: 27 / 6 / 1997</p> <button id="saveProfileBtn" class="primary">Uložit profil</button> <button id="editBirthdateBtn" class="secondary hidden">Upravit datum narození</button> <p id="profileMessage" class="message"></p> </section> <section id="todayScreen" class="card screen"> <div class="today-header"> <div class="energy-number" id="todayNumber">?</div> <div> <h2>Dnešní energie</h2> <p id="todaySymbol" class="today-theme">Nejdříve vyplňte profil.</p> </div> </div> <div class="daily-section main-reading"> <h3>Hlavní výklad dne</h3> <p id="todayText">Nejdříve vyplňte profil.</p> </div> <div class="daily-section recommendation-box"> <h3>Doporučení</h3> <div id="todayRecommendations">Bude doplněno podle výkladů.</div> </div> <div class="daily-section finance-box"> <h3>Oblast financí</h3> <p id="todayFinance">Bude doplněno podle výkladů.</p> </div> <div class="daily-section relationship-box"> <h3>Oblast vztahů</h3> <p id="todayRelationships">Bude doplněno podle výkladů.</p> </div> <div class="daily-section health-box"> <h3>Oblast zdraví</h3> <p id="todayHealth">Bude doplněno podle výkladů.</p> </div> <button class="primary" data-tab="guide">Rozebrat dnešní den s průvodcem</button> </section>
+<body> <main class="app"> <section class="hero"> <div class="pill">KLIC K REALITE</div> <h1 id="screenTitle">Váš profil</h1> <p id="screenSubtitle">Vyplňte své údaje. Tato verze už testuje ukládání profilu do databáze.</p> </section> <section id="accessScreen" class="card screen"> <div class="lock-icon">✦</div> <h2>Přístup není aktivní</h2> <p>Pro zobrazení denní energie, tématu měsíce a osobního průvodce je potřeba aktivní přístup.</p> <div class="access-card"> <strong>Měsíční přístup</strong> <span>Osobní denní vedení, měsíční téma a prostor pro hlubší rozbor aktuálního stavu.</span> <div class="price">240 Kč / 10 € měsíčně</div> </div> <button id="futurePaymentBtn" class="primary">Aktivovat přístup</button> <button id="activateTestBtn" class="secondary admin-test">Technicky aktivovat přístup</button> </section> <section id="profileScreen" class="card screen active"> <p id="telegramStatus" class="technical-note tiny">Kontroluji Telegram účet...</p> <p id="storageStatus" class="technical-note tiny hidden-client-note">Kontroluji režim ukládání...</p> <label>Jméno</label> <input id="nameInput" type="text" placeholder="Vaše jméno" autocomplete="name"> <label>Datum narození</label> <div class="date-grid"> <input id="dayInput" type="number" inputmode="numeric" min="1" max="31" placeholder="Den"> <input id="monthInput" type="number" inputmode="numeric" min="1" max="12" placeholder="Měsíc"> <input id="yearInput" type="number" inputmode="numeric" min="1900" max="2100" placeholder="Rok"> </div> <p id="birthLockInfo" class="hint">Příklad: 27 / 6 / 1997</p> <button id="saveProfileBtn" class="primary">Uložit profil</button> <button id="editBirthdateBtn" class="secondary hidden">Upravit datum narození</button> <p id="profileMessage" class="message"></p> </section> <section id="todayScreen" class="card screen"> <div class="today-header"> <div class="energy-number" id="todayNumber">?</div> <div> <h2>Dnešní energie</h2> <p id="todaySymbol" class="today-theme">Nejdříve vyplňte profil.</p> </div> </div>
+      <div id="monthCalendarBlock" class="calendar-card">
+        <div class="calendar-top">
+          <div>
+            <h3 id="calendarTitle">Kalendář měsíce</h3>
+            <p id="calendarSubtitle">Energie jednotlivých dnů</p>
+          </div>
+          <div id="calendarMonthEnergy" class="calendar-month-energy">?</div>
+        </div>
+        <div id="calendarGrid" class="calendar-grid"></div>
+        <div class="calendar-legend">
+          <span>✨ nové začátky</span>
+          <span>💞 vztahy</span>
+          <span>💰 finance</span>
+          <span>➕ zdraví</span>
+          <span>🔥 síla</span>
+          <span>🌙 intuice</span>
+          <span>🚗 pohyb</span>
+          <span>📚 učení</span>
+        </div>
+      </div>
+ <div class="daily-section main-reading"> <h3>Hlavní výklad dne</h3> <p id="todayText">Nejdříve vyplňte profil.</p> </div> <div class="daily-section recommendation-box"> <h3>Doporučení</h3> <div id="todayRecommendations">Bude doplněno podle výkladů.</div> </div> <div class="daily-section finance-box"> <h3>Oblast financí</h3> <p id="todayFinance">Bude doplněno podle výkladů.</p> </div> <div class="daily-section relationship-box"> <h3>Oblast vztahů</h3> <p id="todayRelationships">Bude doplněno podle výkladů.</p> </div> <div class="daily-section health-box"> <h3>Oblast zdraví</h3> <p id="todayHealth">Bude doplněno podle výkladů.</p> </div> <button class="primary" data-tab="guide">Rozebrat dnešní den s průvodcem</button> </section>
  <section id="monthScreen" class="card screen">
  <div class="today-header">
  <div class="energy-number" id="monthNumber">?</div>
@@ -69,10 +90,11 @@
         <p id="previousYearText">Nejdříve vyplňte profil.</p>
       </div>
  </section> <section id="guideScreen" class="card screen"> <h2>Průvodce</h2> <p class="hint">Zatím testovací verze. Později zde bude osobní rozbor podle vašich údajů, energie dne a tématu měsíce.</p> <textarea id="guideInput" placeholder="Napište, co dnes řešíte..."></textarea> <button id="guideBtn" class="primary">Zeptat se průvodce</button> <div id="guideAnswer" class="answer"></div> </section> <section id="subscriptionScreen" class="card screen"> <h2>Přístup</h2> <div id="subscriptionBadge" class="status-badge">Načítám...</div> <p id="subscriptionStatus">Načítám stav přístupu...</p> <p id="subscriptionExpires" class="hint"></p> <div class="access-card"> <strong>Klíč k realitě</strong> <span>Měsíční osobní průvodce pro práci s energií dne, tématem měsíce a vnitřním nastavením.</span> <div class="price">240 Kč / 10 € měsíčně</div> </div> <button id="futurePaymentFromSubscriptionBtn" class="primary">Aktivovat přístup</button> <div class="admin-panel"> <p class="technical-note">Technické nastavení pro vývoj.</p> <button id="activateFromSubscriptionBtn" class="secondary">Aktivovat ručně</button> <button id="resetAccessBtn" class="secondary">Deaktivovat ručně</button> </div> </section> <nav class="tabs"> <button data-tab="today">Dnes</button> <button data-tab="month">Měsíc</button>
- <button data-tab="year">Rok</button> <button data-tab="guide">Průvodce</button> <button data-tab="profile" class="active">Profil</button> <button data-tab="subscription">Přístup</button> </nav> </main> <script src="./forecastTexts.js?v=32"></script> <script src="./database.js?v=32"></script> <script src="./app.js?v=32"></script>
-  <script src="./previousYear.js?v=32"></script>
-  <script src="./planetYear.js?v=32"></script>
-  <script src="./yearAccordion.js?v=32"></script>
-  <script src="./sectionAccordion.js?v=32"></script>
+ <button data-tab="year">Rok</button> <button data-tab="guide">Průvodce</button> <button data-tab="profile" class="active">Profil</button> <button data-tab="subscription">Přístup</button> </nav> </main> <script src="./forecastTexts.js?v=33"></script> <script src="./database.js?v=33"></script> <script src="./app.js?v=33"></script>
+  <script src="./previousYear.js?v=33"></script>
+  <script src="./planetYear.js?v=33"></script>
+  <script src="./yearAccordion.js?v=33"></script>
+  <script src="./sectionAccordion.js?v=33"></script>
+  <script src="./monthlyCalendar.js?v=33"></script>
 </body>
 </html>
