@@ -1,12 +1,9 @@
-# Klíč k realitě, Mini App starter v23 year periods
+# Klíč k realitě, Mini App starter v24 rollback
 
-Nové ve v23:
-- záložka Rok ukazuje aktuální osobní rok i předchozí osobní rok
-- přidáno vysvětlení, že energie nového roku začíná od 1. ledna, ale naplno vstupuje v den narozenin
-- předchozí rok dobíhá do narozenin v aktuálním roce
-- výklad aktuálního i předchozího roku se bere z hotových ročních textů
-- denní a měsíční výklady zůstávají
-- cache busting změněný na ?v=23
+Bezpečný návrat na poslední stabilní verzi:
+- základ je vrácený na v22
+- Dnes, Měsíc, Rok, Profil a Přístup mají fungovat stejně jako před v23
+- cache busting změněný na ?v=24, aby Telegram nenačítal rozbitou v23
 
 Файлы для загрузки в GitHub:
 - index.html
