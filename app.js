@@ -57,10 +57,6 @@
  const yearNumber = $("yearNumber");
  const yearSubtitle = $("yearSubtitle");
  const yearText = $("yearText");
-  const previousYearTitle = $("previousYearTitle");
-  const previousYearIntro = $("previousYearIntro");
-  const previousYearPeriod = $("previousYearPeriod");
-  const previousYearText = $("previousYearText");
 
  const guideInput = $("guideInput");
  const guideAnswer = $("guideAnswer");
@@ -369,30 +365,7 @@
  setText(yearNumber, forecast.yearEnergy);
  setText(yearSubtitle, `Osobní číslo roku ${forecast.yearEnergy}`);
  setText(yearText, yearly);
-
-    const previousYearExplanationReady = true;
-    try {
-      const currentCalendarYear = new Date().getFullYear();
-      const previousCalendarYear = currentCalendarYear - 1;
-      const birthdayThisYear = getBirthdayDate(profile, currentCalendarYear);
-      const previousYearEnergy = calcYearEnergyFromProfile(profile, previousCalendarYear);
-      const previousYearly = getYearlyText(previousYearEnergy);
-
-      setText(previousYearTitle, `Předchozí osobní rok ${previousCalendarYear}, číslo ${previousYearEnergy}`);
-      setText(previousYearIntro,
-        `Tato energie je důležitá proto, že nepřestává působit hned 1. ledna. Do vašich narozenin v roce ${currentCalendarYear} stále dobíhá energie předchozího osobního roku, proto může ovlivňovat vaše vnitřní nastavení, události i témata, která se ještě uzavírají.`
-      );
-      setText(previousYearPeriod, `Vliv této energie trvá do vašich narozenin, tedy do ${formatCzechDate(birthdayThisYear)}.`);
-      setText(previousYearText, previousYearly || "Výklad předchozího roku bude doplněn.");
-    } catch (e) {
-      console.warn("Previous year render failed", e);
-      setText(previousYearTitle, "Předchozí osobní rok");
-      setText(previousYearIntro, "Tato energie dobíhá do vašich narozenin v aktuálním roce a ukazuje témata, která se ještě mohou uzavírat.");
-      setText(previousYearPeriod, "");
-      setText(previousYearText, "Výklad předchozího roku se nepodařilo načíst.");
-    }
-
-}
+ }
 
  function isValidDate(day, month, year) {
  const d = Number(day);
