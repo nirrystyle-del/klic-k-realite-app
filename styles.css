@@ -42,3 +42,9 @@
 .admin-test{
   opacity:.72;
 }
+
+.price-note{
+  color:var(--muted);
+  font-size:15px;
+  margin-top:-2px;
+}
