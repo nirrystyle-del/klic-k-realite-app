@@ -1,12 +1,12 @@
-# Klíč k realitě, Mini App starter v22 year format fix
+# Klíč k realitě, Mini App starter v23 year periods
 
-Oprava v22:
-- roční výklad už není jeden slévací odstavec
-- odstraněn duplicitní nadpis VAŠE ČÍSLO ROKU, protože číslo je už nahoře v kruhu
-- body a DŮLEŽITÉ se zobrazují s normálními odřádkováními
-- dlouhé pomlčky zůstávají vyčištěné
-- měsíční a denní výklady zůstávají
-- cache busting změněný na ?v=22
+Nové ve v23:
+- záložka Rok ukazuje aktuální osobní rok i předchozí osobní rok
+- přidáno vysvětlení, že energie nového roku začíná od 1. ledna, ale naplno vstupuje v den narozenin
+- předchozí rok dobíhá do narozenin v aktuálním roce
+- výklad aktuálního i předchozího roku se bere z hotových ročních textů
+- denní a měsíční výklady zůstávají
+- cache busting změněný na ?v=23
 
 Файлы для загрузки в GitHub:
 - index.html

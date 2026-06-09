@@ -362,9 +362,34 @@
  setVisible(monthHealth, !!monthly.health);
  setText(monthHealth, monthly.health || "");
 
- setText(yearNumber, forecast.yearEnergy);
- setText(yearSubtitle, `Osobní číslo roku ${forecast.yearEnergy}`);
- setText(yearText, yearly);
+ const now = new Date();
+    const currentCalendarYear = now.getFullYear();
+    const previousCalendarYear = currentCalendarYear - 1;
+    const birthdayThisYear = getBirthdayDate(profile, currentCalendarYear);
+    const birthdayNextYear = getBirthdayDate(profile, currentCalendarYear + 1);
+    const currentYearEnergy = calcYearEnergyFromProfile(profile, currentCalendarYear);
+    const previousYearEnergy = calcYearEnergyFromProfile(profile, previousCalendarYear);
+    const previousYearly = getYearlyText(previousYearEnergy);
+    const currentYearly = getYearlyText(currentYearEnergy);
+
+    setText(yearNumber, currentYearEnergy);
+    setText(yearSubtitle, `Osobní číslo roku ${currentYearEnergy}`);
+
+    setText(yearPeriodInfo,
+      `Energie roku ${currentCalendarYear} začíná působit od 1. ledna ${currentCalendarYear}, ale naplno vstupuje v den vašich narozenin. Do vašich narozenin v roce ${currentCalendarYear} zároveň stále dobíhá energie předchozího roku.`
+    );
+
+    setText(currentYearTitle, `Osobní rok ${currentCalendarYear}, číslo ${currentYearEnergy}`);
+    setText(currentYearPeriod,
+      `Začíná působit od 1. ledna ${currentCalendarYear}. Naplno vstupuje v den vašich narozenin, ${formatCzechDate(birthdayThisYear)}, a působí do dalších narozenin, ${formatCzechDate(birthdayNextYear)}.`
+    );
+    setText(yearText, currentYearly);
+
+    setText(previousYearTitle, `Předchozí osobní rok ${previousCalendarYear}, číslo ${previousYearEnergy}`);
+    setText(previousYearPeriod,
+      `Tato energie dobíhá do vašich narozenin v roce ${currentCalendarYear}, tedy do ${formatCzechDate(birthdayThisYear)}.`
+    );
+    setText(previousYearText, previousYearly);
  }
 
  function isValidDate(day, month, year) {
