@@ -1,12 +1,11 @@
-# Klíč k realitě, Mini App starter v28 previous year addon
+# Klíč k realitě, Mini App starter v29 previous year db fix
 
-Nové ve v28:
-- základ zůstává stabilní v24
-- přidaný samostatný soubor previousYear.js
-- předchozí osobní rok se doplňuje jako bezpečný doplněk nad funkční aplikací
-- přidано объяснение, proč předchozí energie ještě působí
-- přidана расшифровка прошлого года
-- cache busting změněný na ?v=28
+Oprava v29:
+- previousYear.js už nečte jen emergency localStorage
+- nejdřív se snaží načíst profil přes KLIC_DATABASE.getProfile
+- potom zkouší několik lokálních uložišť
+- pokud profil nenajde, blok už nevypisuje třikrát Nejdříve vyplňte profil
+- cache busting změněný na ?v=29
 
 Файлы для загрузки в GitHub:
 - index.html
