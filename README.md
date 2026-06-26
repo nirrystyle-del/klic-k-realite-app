@@ -1,23 +1,27 @@
-# Klíč k realitě, Mini App starter v33 month calendar
+# Klíč k realitě, Mini App starter v34 Stripe subscriptions
 
-Nové ve v33:
-- na záložce Dnes je nahoře přidaný kalendář aktuálního měsíce
-- kalendář ukazuje energii měsíce
-- každý den ukazuje číslo dne, energii a symbol
-- dnešní den je zvýrazněný
-- pod kalendářem zůstává výklad dne
-- přidaný soubor monthlyCalendar.js
-- cache busting změněný na ?v=33
+Nové ve v34:
+- přidaná karta předplatného a tlačítko Zaplatit kartou
+- přidané Stripe Checkout předplatné
+- přidané Vercel API funkce:
+  - /api/create-checkout-session
+  - /api/stripe-webhook
+  - /api/check-access
+- přidaný stripeClient.js
+- přidaný package.json se závislostmi stripe a supabase
+- přidaný soubor supabase-stripe-migration.sql
+- cache busting změněný na ?v=34
 
-Файлы для загрузки в GitHub:
-- index.html
-- styles.css
-- app.js
-- database.js
-- forecastTexts.js
-- previousYear.js
-- planetYear.js
-- yearAccordion.js
-- sectionAccordion.js
-- monthlyCalendar.js
-- README.md
+Nutné Vercel Environment Variables:
+- STRIPE_SECRET_KEY
+- STRIPE_PRICE_ID
+- SUPABASE_URL
+- SUPABASE_SERVICE_ROLE_KEY
+- APP_URL
+
+Další krok po uploadu:
+1. Upload všech souborů do GitHubu.
+2. Počkat na deploy ve Vercelu.
+3. V Supabase spustit SQL ze souboru supabase-stripe-migration.sql.
+4. Ve Stripe přidat webhook:
+   https://klic-k-realite-app.vercel.app/api/stripe-webhook

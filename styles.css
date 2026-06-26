@@ -456,3 +456,57 @@
     display:none;
   }
 }
+
+.stripe-payment-box{
+  margin:18px 0;
+  padding:18px;
+  border-radius:22px;
+  border:1px solid var(--line);
+  background:linear-gradient(180deg, rgba(255,255,255,.62), rgba(255,255,255,.34));
+  box-shadow:0 18px 35px rgba(104,45,62,.08);
+}
+
+.stripe-payment-box h3{
+  margin:0 0 8px;
+  color:var(--accent);
+  text-transform:uppercase;
+  letter-spacing:.06em;
+  font-size:18px;
+}
+
+.stripe-payment-box p{
+  margin:0 0 12px;
+  color:var(--muted);
+  line-height:1.45;
+}
+
+.stripe-price{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  margin:4px 0 14px;
+  padding:10px 14px;
+  border-radius:999px;
+  background:rgba(160,30,54,.10);
+  color:var(--accent);
+  font-weight:900;
+}
+
+.stripe-pay-btn{
+  width:100%;
+  margin-top:4px;
+}
+
+.stripe-status{
+  min-height:20px;
+  margin-top:10px !important;
+  font-weight:700;
+}
+
+.stripe-status.error{
+  color:#a51f33;
+}
+
+.stripe-status.success{
+  color:#2f6b45;
+}
