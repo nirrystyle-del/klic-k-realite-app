@@ -16,16 +16,50 @@
     if (type) el.classList.add(type);
   }
 
-  async function startCheckout() {
-    const button = document.getElementById("stripeCheckoutButton");
-    if (!button) return;
+  function looksLikePaymentButton(el) {
+    if (!el) return false;
 
+    const text = (el.textContent || "").trim().toLowerCase();
+    const id = (el.id || "").toLowerCase();
+    const cls = (el.className || "").toString().toLowerCase();
+
+    return (
+      id.includes("stripecheckout") ||
+      id.includes("pay") ||
+      id.includes("payment") ||
+      id.includes("subscribe") ||
+      cls.includes("stripe-pay") ||
+      text.includes("zaplatit") ||
+      text.includes("aktivovat přístup") ||
+      text.includes("aktivovat pristup") ||
+      text.includes("předplatné") ||
+      text.includes("predplatne") ||
+      text.includes("240")
+    );
+  }
+
+  function getPaymentButtons() {
+    const buttons = Array.from(document.querySelectorAll("button, .primary-btn, [role='button']"));
+    return buttons.filter(looksLikePaymentButton);
+  }
+
+  async function startCheckout(event) {
+    if (event) {
+      event.preventDefault();
+      event.stopPropagation();
+      event.stopImmediatePropagation();
+    }
+
+    const button = event?.currentTarget || document.getElementById("stripeCheckoutButton");
     const telegramUser = getTelegramUser();
     const telegramId = getTelegramId();
 
-    button.disabled = true;
-    const oldText = button.textContent;
-    button.textContent = "Připravuji platbu...";
+    if (button) {
+      button.disabled = true;
+      button.dataset.oldText = button.textContent || "";
+      button.textContent = "Připravuji platbu...";
+    }
+
     setStatus("", "");
 
     try {
@@ -50,9 +84,38 @@
     } catch (error) {
       console.error(error);
       setStatus("Platbu se nepodařilo otevřít. Zkuste to prosím znovu.", "error");
-      button.disabled = false;
-      button.textContent = oldText;
+
+      if (button) {
+        button.disabled = false;
+        button.textContent = button.dataset.oldText || "Zaplatit kartou";
+      }
+
+      if (window.Telegram?.WebApp?.showAlert) {
+        window.Telegram.WebApp.showAlert("Platbu se nepodařilo otevřít. Zkuste to prosím znovu.");
+      }
     }
+  }
+
+  function attachPaymentHandlers() {
+    const buttons = getPaymentButtons();
+
+    buttons.forEach((button) => {
+      if (button.dataset.stripeHandlerReady === "1") return;
+
+      button.dataset.stripeHandlerReady = "1";
+
+      const text = (button.textContent || "").trim().toLowerCase();
+      if (
+        text.includes("platba bude") ||
+        text.includes("aktivovat") ||
+        text.includes("240") ||
+        button.id === "stripeCheckoutButton"
+      ) {
+        button.textContent = "Zaplatit kartou";
+      }
+
+      button.addEventListener("click", startCheckout, true);
+    });
   }
 
   function checkPaymentReturn() {
@@ -71,8 +134,16 @@
   }
 
   document.addEventListener("DOMContentLoaded", () => {
-    const button = document.getElementById("stripeCheckoutButton");
-    if (button) button.addEventListener("click", startCheckout);
     checkPaymentReturn();
+    setTimeout(attachPaymentHandlers, 300);
+    setTimeout(attachPaymentHandlers, 1000);
+    setTimeout(attachPaymentHandlers, 2500);
   });
+
+  document.addEventListener("click", (event) => {
+    const target = event.target.closest("button, .primary-btn, [role='button']");
+    if (looksLikePaymentButton(target)) {
+      startCheckout(event);
+    }
+  }, true);
 })();

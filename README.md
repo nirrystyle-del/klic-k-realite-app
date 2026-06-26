@@ -25,3 +25,10 @@ Další krok po uploadu:
 3. V Supabase spustit SQL ze souboru supabase-stripe-migration.sql.
 4. Ve Stripe přidat webhook:
    https://klic-k-realite-app.vercel.app/api/stripe-webhook
+
+
+v35 fix:
+- stripeClient.js is loaded last
+- old payment button alert is overridden
+- buttons like Aktivovat přístup / Zaplatit kartou now open Stripe Checkout
+- cache busting changed to ?v=35
