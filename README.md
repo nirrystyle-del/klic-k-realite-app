@@ -1,13 +1,15 @@
-# Klíč k realitě, Mini App starter v38 full correct api
+# Klíč k realitě, Mini App starter v33 month calendar
 
-Tato verze je kompletní balík pro znovunahrání všech souborů.
+Nové ve v33:
+- na záložce Dnes je nahoře přidaný kalendář aktuálního měsíce
+- kalendář ukazuje energii měsíce
+- každý den ukazuje číslo dne, energii a symbol
+- dnešní den je zvýrazněný
+- pod kalendářem zůstává výklad dne
+- přidaný soubor monthlyCalendar.js
+- cache busting změněný na ?v=33
 
-DŮLEŽITÉ:
-- složka musí být přesně api, malými písmeny
-- nesmí být API velkými písmeny
-- uvnitř api musí být checkout.js
-
-Správná struktura v GitHubu:
+Файлы для загрузки в GitHub:
 - index.html
 - styles.css
 - app.js
@@ -18,16 +20,4 @@ Správná struktura v GitHubu:
 - yearAccordion.js
 - sectionAccordion.js
 - monthlyCalendar.js
-- stripeClient.js
-- package.json
-- supabase-stripe-migration.sql
-- api/
-  - checkout.js
-  - check-access.js
-  - create-checkout-session.js
-  - stripe-webhook.js
-
-Po nahrání:
-1. Commit changes
-2. Počkat na Vercel deploy
-3. Otevřít https://klic-k-realite-app.vercel.app/api/checkout
+- README.md
