@@ -1,34 +1,33 @@
-# Klíč k realitě, Mini App starter v34 Stripe subscriptions
+# Klíč k realitě, Mini App starter v38 full correct api
 
-Nové ve v34:
-- přidaná karta předplatného a tlačítko Zaplatit kartou
-- přidané Stripe Checkout předplatné
-- přidané Vercel API funkce:
-  - /api/create-checkout-session
-  - /api/stripe-webhook
-  - /api/check-access
-- přidaný stripeClient.js
-- přidaný package.json se závislostmi stripe a supabase
-- přidaný soubor supabase-stripe-migration.sql
-- cache busting změněný na ?v=34
+Tato verze je kompletní balík pro znovunahrání všech souborů.
 
-Nutné Vercel Environment Variables:
-- STRIPE_SECRET_KEY
-- STRIPE_PRICE_ID
-- SUPABASE_URL
-- SUPABASE_SERVICE_ROLE_KEY
-- APP_URL
+DŮLEŽITÉ:
+- složka musí být přesně api, malými písmeny
+- nesmí být API velkými písmeny
+- uvnitř api musí být checkout.js
 
-Další krok po uploadu:
-1. Upload všech souborů do GitHubu.
-2. Počkat na deploy ve Vercelu.
-3. V Supabase spustit SQL ze souboru supabase-stripe-migration.sql.
-4. Ve Stripe přidat webhook:
-   https://klic-k-realite-app.vercel.app/api/stripe-webhook
+Správná struktura v GitHubu:
+- index.html
+- styles.css
+- app.js
+- database.js
+- forecastTexts.js
+- previousYear.js
+- planetYear.js
+- yearAccordion.js
+- sectionAccordion.js
+- monthlyCalendar.js
+- stripeClient.js
+- package.json
+- supabase-stripe-migration.sql
+- api/
+  - checkout.js
+  - check-access.js
+  - create-checkout-session.js
+  - stripe-webhook.js
 
-
-v35 fix:
-- stripeClient.js is loaded last
-- old payment button alert is overridden
-- buttons like Aktivovat přístup / Zaplatit kartou now open Stripe Checkout
-- cache busting changed to ?v=35
+Po nahrání:
+1. Commit changes
+2. Počkat na Vercel deploy
+3. Otevřít https://klic-k-realite-app.vercel.app/api/checkout

@@ -458,6 +458,8 @@
 }
 
 .stripe-payment-box{
+  position:relative;
+  z-index:10;
   margin:18px 0;
   padding:18px;
   border-radius:22px;
@@ -495,6 +497,9 @@
 .stripe-pay-btn{
   width:100%;
   margin-top:4px;
+  position:relative;
+  z-index:20;
+  pointer-events:auto;
 }
 
 .stripe-status{
@@ -509,4 +514,20 @@
 
 .stripe-status.success{
   color:#2f6b45;
+}
+
+.stripe-direct-link{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-decoration:none;
+  cursor:pointer;
+  min-height:48px;
+  position:relative;
+  z-index:9999;
+  pointer-events:auto;
+}
+
+.stripe-direct-link:visited{
+  color:inherit;
 }
