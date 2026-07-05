@@ -576,7 +576,9 @@
  }
 
  function openStripeCheckout() {
- window.location.href = "/api/checkout";
+ const tgUser = window.Telegram?.WebApp?.initDataUnsafe?.user;
+ const telegramId = tgUser?.id || "6253582162";
+ window.location.href = `/api/checkout?telegram_id=${telegramId}`;
  }
 
  const futurePaymentBtn = $("futurePaymentBtn");

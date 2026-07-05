@@ -3,6 +3,7 @@ module.exports = async function handler(req, res) {
     const secretKey = process.env.STRIPE_SECRET_KEY;
     const priceId = process.env.STRIPE_PRICE_ID;
     const appUrl = process.env.APP_URL || "https://klic-k-realite-app.vercel.app";
+    const telegramId = req.query.telegram_id || "unknown";
 
     if (!secretKey) {
       return res.status(500).send("Missing STRIPE_SECRET_KEY");
@@ -18,6 +19,8 @@ module.exports = async function handler(req, res) {
     params.append("line_items[0][quantity]", "1");
     params.append("success_url", `${appUrl}?payment=success`);
     params.append("cancel_url", `${appUrl}?payment=cancel`);
+    params.append("metadata[telegram_id]", String(telegramId));
+    params.append("subscription_data[metadata][telegram_id]", String(telegramId));
 
     const response = await fetch("https://api.stripe.com/v1/checkout/sessions", {
       method: "POST",
