@@ -31,44 +31,73 @@ module.exports = async function handler(req, res) {
       return data;
     }
 
-    async function saveSubscription(subscription, statusOverride) {
-      const telegramId = subscription.metadata?.telegram_id || "unknown";
-      const status = statusOverride || subscription.status || "unknown";
+    async function saveAccess(subscription, statusOverride) {
+      const telegramId = subscription.metadata?.telegram_id;
+
+      if (!telegramId || telegramId === "unknown") {
+        throw new Error("Missing telegram_id in Stripe subscription metadata");
+      }
+
+      const stripeStatus = statusOverride || subscription.status || "unknown";
+      const accessStatus = stripeStatus === "active" || stripeStatus === "trialing"
+        ? "active"
+        : stripeStatus;
+
       const periodEnd = subscription.current_period_end
         ? new Date(subscription.current_period_end * 1000).toISOString()
         : null;
 
       const payload = {
         telegram_id: String(telegramId),
-
-        // Старые поля, которые уже использует приложение
-        status: status === "active" || status === "trialing" ? "active" : status,
+        status: accessStatus,
         provider: "stripe",
         expires_at: periodEnd,
-
-        // Новые Stripe-поля для диагностики и будущей логики
         payment_provider: "stripe",
         stripe_customer_id: String(subscription.customer || ""),
         stripe_subscription_id: String(subscription.id || ""),
-        subscription_status: status,
+        subscription_status: stripeStatus,
         subscription_until: periodEnd,
         updated_at: new Date().toISOString()
       };
 
-      const response = await fetch(`${supabaseUrl}/rest/v1/subscriptions`, {
+      const updateUrl = `${supabaseUrl}/rest/v1/subscriptions?telegram_id=eq.${encodeURIComponent(String(telegramId))}`;
+
+      const updateResponse = await fetch(updateUrl, {
+        method: "PATCH",
+        headers: {
+          "apikey": supabaseServiceRoleKey,
+          "Authorization": `Bearer ${supabaseServiceRoleKey}`,
+          "Content-Type": "application/json",
+          "Prefer": "return=representation"
+        },
+        body: JSON.stringify(payload)
+      });
+
+      if (!updateResponse.ok) {
+        const text = await updateResponse.text();
+        throw new Error("Supabase update failed: " + text);
+      }
+
+      const updatedRows = await updateResponse.json();
+
+      if (Array.isArray(updatedRows) && updatedRows.length > 0) {
+        return;
+      }
+
+      const insertResponse = await fetch(`${supabaseUrl}/rest/v1/subscriptions`, {
         method: "POST",
         headers: {
           "apikey": supabaseServiceRoleKey,
           "Authorization": `Bearer ${supabaseServiceRoleKey}`,
           "Content-Type": "application/json",
-          "Prefer": "resolution=merge-duplicates"
+          "Prefer": "return=representation"
         },
         body: JSON.stringify(payload)
       });
 
-      if (!response.ok) {
-        const text = await response.text();
-        throw new Error("Supabase save failed: " + text);
+      if (!insertResponse.ok) {
+        const text = await insertResponse.text();
+        throw new Error("Supabase insert failed: " + text);
       }
     }
 
@@ -77,7 +106,7 @@ module.exports = async function handler(req, res) {
 
       if (session.subscription) {
         const subscription = await getSubscription(session.subscription);
-        await saveSubscription(subscription);
+        await saveAccess(subscription);
       }
     }
 
@@ -86,7 +115,7 @@ module.exports = async function handler(req, res) {
 
       if (invoice.subscription) {
         const subscription = await getSubscription(invoice.subscription);
-        await saveSubscription(subscription);
+        await saveAccess(subscription);
       }
     }
 
@@ -95,7 +124,7 @@ module.exports = async function handler(req, res) {
 
       if (invoice.subscription) {
         const subscription = await getSubscription(invoice.subscription);
-        await saveSubscription(subscription, "payment_failed");
+        await saveAccess(subscription, "payment_failed");
       }
     }
 
@@ -104,7 +133,7 @@ module.exports = async function handler(req, res) {
       event.type === "customer.subscription.deleted"
     ) {
       const subscription = event.data.object;
-      await saveSubscription(subscription);
+      await saveAccess(subscription);
     }
 
     return res.status(200).json({ received: true });
