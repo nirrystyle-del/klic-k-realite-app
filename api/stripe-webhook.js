@@ -40,6 +40,13 @@ module.exports = async function handler(req, res) {
 
       const payload = {
         telegram_id: String(telegramId),
+
+        // Старые поля, которые уже использует приложение
+        status: status === "active" || status === "trialing" ? "active" : status,
+        provider: "stripe",
+        expires_at: periodEnd,
+
+        // Новые Stripe-поля для диагностики и будущей логики
         payment_provider: "stripe",
         stripe_customer_id: String(subscription.customer || ""),
         stripe_subscription_id: String(subscription.id || ""),
