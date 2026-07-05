@@ -575,18 +575,18 @@
  });
  }
 
+ function openStripeCheckout() {
+ window.location.href = "/api/checkout";
+ }
+
  const futurePaymentBtn = $("futurePaymentBtn");
  if (futurePaymentBtn) {
- futurePaymentBtn.addEventListener("click", () => {
- alert("Platba bude spuštěna v další fázi. Zatím je aplikace v přípravě.");
- });
+ futurePaymentBtn.addEventListener("click", openStripeCheckout);
  }
 
  const futurePaymentFromSubscriptionBtn = $("futurePaymentFromSubscriptionBtn");
  if (futurePaymentFromSubscriptionBtn) {
- futurePaymentFromSubscriptionBtn.addEventListener("click", () => {
- alert("Platba bude spuštěna v další fázi. Zatím je aplikace v přípravě.");
- });
+ futurePaymentFromSubscriptionBtn.addEventListener("click", openStripeCheckout);
  }
 
  const guideBtn = $("guideBtn");
