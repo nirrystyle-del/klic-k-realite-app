@@ -594,7 +594,7 @@
 
  const guideBtn = $("guideBtn");
  if (guideBtn) {
- guideBtn.addEventListener("click", () => {
+ guideBtn.addEventListener("click", async () => {
  const text = guideInput?.value?.trim() || "";
 
  if (!currentProfile) {
@@ -613,8 +613,38 @@
  }
 
  const forecast = calculateForecast(currentProfile);
- guideAnswer.textContent =
- `Dnes pracujeme s energií ${forecast.todayEnergy}. Zaměřte se na to, kde dnes potřebujete více jasnosti, klidu a vědomého rozhodnutí.`;
+
+ guideAnswer.textContent = "Připravuji výklad...";
+
+ try {
+ const response = await fetch("/api/guide", {
+ method: "POST",
+ headers: {
+ "Content-Type": "application/json"
+ },
+ body: JSON.stringify({
+ name: currentProfile.name || "",
+ day: currentProfile.day || "",
+ month: currentProfile.month || "",
+ year: currentProfile.year || "",
+ question: text,
+ todayEnergy: forecast.todayEnergy,
+ monthEnergy: forecast.monthEnergy,
+ yearEnergy: forecast.yearEnergy
+ })
+ });
+
+ const data = await response.json();
+
+ if (!response.ok) {
+ throw new Error(data.error || "Průvodce se nepodařilo načíst.");
+ }
+
+ guideAnswer.textContent = data.answer || "Průvodce zatím nevrátil odpověď.";
+ } catch (error) {
+ console.error("Guide request failed", error);
+ guideAnswer.textContent = "Výklad se teď nepodařilo připravit. Zkuste to prosím znovu za chvíli.";
+ }
  });
  }
  }
