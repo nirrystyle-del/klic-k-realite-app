@@ -145,20 +145,18 @@
  }
 
  async function refreshAccess() {
- const emergency = readEmergencyAccess();
-
  if (!db || !telegramUser) {
- currentAccess = emergency;
+ currentAccess = false;
  return currentAccess;
  }
 
  try {
  const remote = await db.hasActiveAccess(userKey);
- currentAccess = !!remote || emergency;
+ currentAccess = !!remote;
  return currentAccess;
  } catch (e) {
- console.warn("Access read failed, using emergency access", e);
- currentAccess = emergency;
+ console.warn("Access read failed, access denied", e);
+ currentAccess = false;
  return currentAccess;
  }
  }
@@ -643,11 +641,11 @@
  init().catch((error) => {
  console.error("Init failed", error);
  currentProfile = readEmergencyProfile();
- currentAccess = readEmergencyAccess();
+ currentAccess = false;
  fillProfileForm();
  renderBirthdateLock();
  renderForecast();
  renderSubscription();
- showScreen(currentProfile ? "today" : "profile");
+ showScreen(currentProfile ? "access" : "profile");
  });
 })();
