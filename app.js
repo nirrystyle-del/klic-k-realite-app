@@ -527,8 +527,11 @@
  renderBirthdateLock();
  renderForecast();
 
- if (!currentAccess) await setActiveAccess(true);
+ if (currentAccess) {
  showScreen("today");
+ } else {
+ showScreen("access");
+ }
  });
  }
 
@@ -551,18 +554,12 @@
 
  const activateTestBtn = $("activateTestBtn");
  if (activateTestBtn) {
- activateTestBtn.addEventListener("click", async () => {
- await setActiveAccess(true);
- showScreen("today");
- });
+ activateTestBtn.style.display = "none";
  }
 
  const activateFromSubscriptionBtn = $("activateFromSubscriptionBtn");
  if (activateFromSubscriptionBtn) {
- activateFromSubscriptionBtn.addEventListener("click", async () => {
- await setActiveAccess(true);
- showScreen("today");
- });
+ activateFromSubscriptionBtn.style.display = "none";
  }
 
  const resetAccessBtn = $("resetAccessBtn");
