@@ -576,6 +576,17 @@
  window.location.href = `/api/checkout?telegram_id=${telegramId}`;
  }
 
+ function openCustomerPortal() {
+ const tgUser = window.Telegram?.WebApp?.initDataUnsafe?.user;
+ const telegramId = tgUser?.id || "6253582162";
+ window.location.href = `/api/customer-portal?telegram_id=${telegramId}`;
+ }
+
+ const manageSubscriptionBtn = $("manageSubscriptionBtn");
+ if (manageSubscriptionBtn) {
+ manageSubscriptionBtn.addEventListener("click", openCustomerPortal);
+ }
+
  const futurePaymentBtn = $("futurePaymentBtn");
  if (futurePaymentBtn) {
  futurePaymentBtn.addEventListener("click", openStripeCheckout);
