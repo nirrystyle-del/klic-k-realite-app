@@ -457,7 +457,7 @@
  month: ["Téma měsíce", "Měsíční směr, doporučení a úkoly."],
  year: ["Číslo roku", "Osobní roční energie podle výpočtu."],
  guide: ["Průvodce", "Prostor pro osobní rozbor dne a vašeho stavu."],
- subscription: ["Přístup", "Zde bude později skutečná správa přístupu a plateb."]
+ subscription: ["Přístup", "Správa přístupu, platby a předplatného."]
  };
 
  if (title) title.textContent = labels[tab]?.[0] || "";
@@ -552,12 +552,7 @@
  });
  }
 
- const activateTestBtn = $("activateTestBtn");
- if (activateTestBtn) {
- activateTestBtn.style.display = "none";
- }
-
- const activateFromSubscriptionBtn = $("activateFromSubscriptionBtn");
+  const activateFromSubscriptionBtn = $("activateFromSubscriptionBtn");
  if (activateFromSubscriptionBtn) {
  activateFromSubscriptionBtn.style.display = "none";
  }
@@ -619,7 +614,7 @@
 
  const forecast = calculateForecast(currentProfile);
  guideAnswer.textContent =
- `Testovací odpověď průvodce:\n\nDnes pracujeme s energií ${forecast.todayEnergy}. V další verzi zde bude hlubší osobní rozbor podle systému Klíč k realitě.`;
+ `Dnes pracujeme s energií ${forecast.todayEnergy}. Zaměřte se na to, kde dnes potřebujete více jasnosti, klidu a vědomého rozhodnutí.`;
  });
  }
  }
